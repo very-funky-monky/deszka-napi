@@ -151,25 +151,37 @@ def _extract_category(
 
     category_names: list[str] = []
 
+    # DIAGNOSZTIKA: minden beágyazott taxonómiát és termet kiírunk,
+    # hogy lássuk, melyik taxonómiában van ténylegesen a rovat.
+    all_terms_debug: list[str] = []
+
     for term_group in terms:
         for term in term_group:
             taxonomy = term.get(
                 "taxonomy"
             )
 
-            if taxonomy == "category":
-                name = _clean_text(
-                    term.get("name")
-                )
+            name = _clean_text(
+                term.get("name")
+            )
 
+            slug = term.get("slug")
+
+            all_terms_debug.append(
+                f"{taxonomy}:{name}({slug})"
+            )
+
+            if taxonomy == "category":
                 if name:
                     category_names.append(
                         name
                     )
 
-    log.debug(
-        "Cikkhez tartozó rovatok (nyers lista): %s",
-        category_names,
+    log.info(
+        "TERMEK (%s) | link: %s",
+        ", ".join(all_terms_debug)
+        or "nincs term",
+        post.get("link"),
     )
 
     if not category_names:
