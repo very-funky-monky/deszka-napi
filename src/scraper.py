@@ -3,12 +3,8 @@ Cikkek lekérése a deszkavizio.hu oldalról egy adott naptári napra
 (alapértelmezetten "tegnapra", Europe/Budapest időzóna szerint).
 
 Elsődleges út: WordPress REST API (/wp-json/wp/v2/posts?_embed=1)
-   - ez adja vissza egy híváson belül a címet, szerzőt, kiemelt képet és
-     a kategóriákat is.
 
-Ha ez bármiért nem elérhető (pl. le van tiltva a REST API), HTML-fallback:
-   - végigmegyünk a rovat-oldalakon (Színház, Mozgókép, stb.) és onnan
-     szedjük ki a cikkeket.
+Ha ez bármiért nem elérhető, HTML-fallback indul.
 
 A visszaadott formátum minden cikkre:
 {
@@ -39,6 +35,8 @@ HEADERS = {"User-Agent": "Deszkavizio-Digest/1.0 (+daily digest bot)"}
 REQUEST_TIMEOUT = 20
 
 log = logging.getLogger(__name__)
+
+_AUTHOR_CACHE: dict[int, str] = {}
 
 
 @dataclass
@@ -145,7 +143,11 @@ def _fetch_via_rest_api(
 
 def _parse_wp_date(date_str: str) -> datetime:
     dt = datetime.fromisoformat(date_str)
-    return dt.replace(tzinfo=LOCAL_TZ)
+
+    if dt.tzinfo is None:
+        return dt.replace(tzinfo=LOCAL_TZ)
+
+    return dt.astimezone(LOCAL_TZ)
 
 
 def _article_from_wp_post(post: dict) -> Article | None:
@@ -160,12 +162,7 @@ def _article_from_wp_post(post: dict) -> Article | None:
 
     embedded = post.get("_embedded", {})
 
-    author = "Deszkavízió"
-
-    authors = embedded.get("author") or []
-
-    if authors:
-        author = authors[0].get("name", author)
+    author = _get_author_from_post(post, embedded)
 
     category = "Deszkavízió"
 
@@ -205,6 +202,63 @@ def _article_from_wp_post(post: dict) -> Article | None:
             post["date"]
         ).date(),
     )
+
+
+def _get_author_from_post(post: dict, embedded: dict) -> str:
+    authors = embedded.get("author") or []
+
+    if authors:
+        name = authors[0].get("name")
+
+        if name:
+            return name.strip()
+
+    author_id = post.get("author")
+
+    if author_id:
+        try:
+            author_id = int(author_id)
+        except (TypeError, ValueError):
+            author_id = None
+
+    if author_id:
+        cached_name = _AUTHOR_CACHE.get(author_id)
+
+        if cached_name:
+            return cached_name
+
+        try:
+            url = f"{SITE_BASE_URL}/wp-json/wp/v2/users/{author_id}"
+
+            resp = requests.get(
+                url,
+                headers=HEADERS,
+                timeout=REQUEST_TIMEOUT,
+            )
+            resp.raise_for_status()
+
+            data = json.loads(
+                resp.content.decode("utf-8-sig")
+            )
+
+            name = (
+                data.get("name")
+                or data.get("slug")
+                or ""
+            ).strip()
+
+            if name:
+                _AUTHOR_CACHE[author_id] = name
+                return name
+
+        except Exception as exc:
+            log.warning(
+                "Nem sikerült lekérni a WordPress szerzőt (ID %s): %s",
+                author_id,
+                exc,
+            )
+
+    return "Deszkavízió"
 
 
 def _strip_html(text: str) -> str:
