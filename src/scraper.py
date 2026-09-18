@@ -10,15 +10,20 @@ from zoneinfo import ZoneInfo
 import requests
 from bs4 import BeautifulSoup
 
-from config import (
-    LOCAL_TZ,
-    HEADERS,
-    REQUEST_TIMEOUT,
-)
-
 log = logging.getLogger(__name__)
 
 SITE_BASE_URL = "https://deszkavizio.hu"
+LOCAL_TZ = ZoneInfo("Europe/Budapest")
+
+HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/131.0 Safari/537.36"
+    )
+}
+
+REQUEST_TIMEOUT = 20
 
 _AUTHOR_CACHE: dict[int, str] = {}
 _URL_AUTHOR_CACHE: dict[str, str] = {}
@@ -35,17 +40,18 @@ class Article:
 
 
 def get_target_date() -> date:
-    """Alapértelmezésben a tegnapi nap."""
     now = datetime.now(LOCAL_TZ)
     return (now - timedelta(days=1)).date()
 
 
 def fetch_articles_for_date(target_date: date) -> list[Article]:
-    """Cikkek lekérése REST API-ról, szükség esetén HTML fallbackkel."""
     articles = _fetch_via_rest_api(target_date)
 
     if articles:
-        log.info("REST API-n keresztül %d cikk", len(articles))
+        log.info(
+            "REST API-n keresztül %d cikk",
+            len(articles),
+        )
         return articles
 
     log.warning(
@@ -53,17 +59,24 @@ def fetch_articles_for_date(target_date: date) -> list[Article]:
     )
 
     articles = _fetch_via_html(target_date)
-    log.info("HTML-fallbacken keresztül %d cikk", len(articles))
+
+    log.info(
+        "HTML-fallbacken keresztül %d cikk",
+        len(articles),
+    )
+
     return articles
 
 
 def _fetch_via_rest_api(target_date: date) -> list[Article]:
-    """WordPress REST API használata."""
     url = f"{SITE_BASE_URL}/wp-json/wp/v2/posts"
 
     params = {
         "after": f"{target_date.isoformat()}T00:00:00",
-        "before": f"{(target_date + timedelta(days=1)).isoformat()}T00:00:00",
+        "before": (
+            f"{(target_date + timedelta(days=1)).isoformat()}"
+            "T00:00:00"
+        ),
         "per_page": 100,
         "orderby": "date",
         "order": "asc",
@@ -79,13 +92,15 @@ def _fetch_via_rest_api(target_date: date) -> list[Article]:
         )
         resp.raise_for_status()
 
-        # A Deszkavízió REST API válaszában előfordul UTF-8 BOM.
+        # UTF-8 BOM kezelése
         posts = json.loads(
             resp.content.decode("utf-8-sig")
         )
 
         if not isinstance(posts, list):
-            log.warning("A REST API válasza nem lista.")
+            log.warning(
+                "A REST API válasza nem lista."
+            )
             return []
 
         articles: list[Article] = []
@@ -106,14 +121,14 @@ def _fetch_via_rest_api(target_date: date) -> list[Article]:
 
     except Exception as exc:
         log.warning(
-            "REST API lekérés sikertelen (%s), HTML-fallback indul.",
+            "REST API lekérés sikertelen (%s), "
+            "HTML-fallback indul.",
             exc,
         )
         return []
 
 
 def _parse_wp_date(value: str | None) -> datetime:
-    """WordPress dátum ISO formátumból."""
     if not value:
         return datetime.now(LOCAL_TZ)
 
@@ -131,14 +146,17 @@ def _parse_wp_date(value: str | None) -> datetime:
         return datetime.now(LOCAL_TZ)
 
 
-def _article_from_wp_post(post: dict) -> Article | None:
-    """Egy WordPress REST API postból Article készítése."""
+def _article_from_wp_post(
+    post: dict,
+) -> Article | None:
+
     embedded = post.get("_embedded", {}) or {}
 
     title_data = post.get("title", {}) or {}
-    title_html = title_data.get("rendered", "")
 
-    title = _strip_html(title_html).strip()
+    title = _strip_html(
+        title_data.get("rendered", "")
+    ).strip()
 
     url = (
         post.get("link")
@@ -172,7 +190,8 @@ def _article_from_wp_post(post: dict) -> Article | None:
     )
 
     log.info(
-        "DEBUG SZERZŐ: post.author=%r | embedded.author=%r | végső=%r",
+        "DEBUG SZERZŐ: post.author=%r | "
+        "embedded.author=%r | végső=%r",
         post.get("author"),
         embedded.get("author"),
         author,
@@ -193,15 +212,6 @@ def _get_author_from_post(
     embedded: dict,
     article_url: str,
 ) -> str:
-    """
-    Szerző keresése.
-
-    Prioritás:
-    1. _embedded.author
-    2. WordPress users endpoint include=ID
-    3. a cikk HTML-oldala
-    4. Deszkavízió fallback
-    """
 
     # ---------------------------------------------------------
     # 1. _embedded.author
@@ -211,11 +221,10 @@ def _get_author_from_post(
 
     if isinstance(authors, list):
         for author_data in authors:
+
             if not isinstance(author_data, dict):
                 continue
 
-            # Ha az API hibaobjektumot adott vissza,
-            # ezt nem tekintjük szerzőnek.
             if author_data.get("code"):
                 continue
 
@@ -244,7 +253,9 @@ def _get_author_from_post(
             return _AUTHOR_CACHE[author_id]
 
         try:
-            url = f"{SITE_BASE_URL}/wp-json/wp/v2/users"
+            url = (
+                f"{SITE_BASE_URL}/wp-json/wp/v2/users"
+            )
 
             resp = requests.get(
                 url,
@@ -263,6 +274,7 @@ def _get_author_from_post(
             )
 
             if resp.ok:
+
                 data = json.loads(
                     resp.content.decode("utf-8-sig")
                 )
@@ -274,6 +286,7 @@ def _get_author_from_post(
                 )
 
                 if isinstance(data, list) and data:
+
                     name = (
                         data[0].get("name")
                         or data[0].get("slug")
@@ -281,12 +294,17 @@ def _get_author_from_post(
                     ).strip()
 
                     if _looks_like_real_author(name):
-                        _AUTHOR_CACHE[author_id] = name
+
+                        _AUTHOR_CACHE[
+                            author_id
+                        ] = name
+
                         return name
 
         except Exception as exc:
             log.warning(
-                "Szerzőlista lekérése sikertelen (ID %s): %s",
+                "Szerzőlista lekérése sikertelen "
+                "(ID %s): %s",
                 author_id,
                 exc,
             )
@@ -303,10 +321,15 @@ def _get_author_from_post(
     )
 
     if html_author:
-        _URL_AUTHOR_CACHE[article_url] = html_author
+
+        _URL_AUTHOR_CACHE[
+            article_url
+        ] = html_author
 
         if author_id:
-            _AUTHOR_CACHE[author_id] = html_author
+            _AUTHOR_CACHE[
+                author_id
+            ] = html_author
 
         return html_author
 
@@ -320,14 +343,15 @@ def _get_author_from_post(
 def _get_author_from_article_html(
     article_url: str,
 ) -> str | None:
-    """Szerző keresése közvetlenül a cikk HTML-oldalán."""
 
     try:
+
         resp = requests.get(
             article_url,
             headers=HEADERS,
             timeout=REQUEST_TIMEOUT,
         )
+
         resp.raise_for_status()
 
         soup = BeautifulSoup(
@@ -346,21 +370,25 @@ def _get_author_from_article_html(
         ]
 
         for selector in meta_selectors:
+
             tag = soup.select_one(selector)
 
             if tag:
+
                 value = (
                     tag.get("content")
                     or ""
                 ).strip()
 
-                value = _clean_author_text(value)
+                value = _clean_author_text(
+                    value
+                )
 
                 if _looks_like_real_author(value):
                     return value
 
         # -----------------------------------------------------
-        # Gyakori HTML classok
+        # HTML classok
         # -----------------------------------------------------
 
         selectors = [
@@ -376,28 +404,34 @@ def _get_author_from_article_html(
         ]
 
         for selector in selectors:
+
             try:
-                elements = soup.select(selector)
+                elements = soup.select(
+                    selector
+                )
             except Exception:
                 continue
 
             for element in elements:
 
-                # Először nézzük meg, van-e kifejezetten
-                # linkként megadott szerző.
                 link = element.select_one(
                     'a[href*="/author/"]'
                 )
 
                 if link:
+
                     value = link.get_text(
                         " ",
                         strip=True,
                     )
 
-                    value = _clean_author_text(value)
+                    value = _clean_author_text(
+                        value
+                    )
 
-                    if _looks_like_real_author(value):
+                    if _looks_like_real_author(
+                        value
+                    ):
                         return value
 
                 value = element.get_text(
@@ -405,9 +439,13 @@ def _get_author_from_article_html(
                     strip=True,
                 )
 
-                value = _clean_author_text(value)
+                value = _clean_author_text(
+                    value
+                )
 
-                if _looks_like_real_author(value):
+                if _looks_like_real_author(
+                    value
+                ):
                     return value
 
         # -----------------------------------------------------
@@ -418,7 +456,11 @@ def _get_author_from_article_html(
             "script",
             type="application/ld+json",
         ):
-            raw = script.string or script.get_text()
+
+            raw = (
+                script.string
+                or script.get_text()
+            )
 
             if not raw:
                 continue
@@ -428,7 +470,9 @@ def _get_author_from_article_html(
             except Exception:
                 continue
 
-            author = _find_author_in_jsonld(data)
+            author = _find_author_in_jsonld(
+                data
+            )
 
             if author:
                 return author
@@ -450,6 +494,7 @@ def _get_author_from_article_html(
         ]
 
         for pattern in patterns:
+
             match = re.search(
                 pattern,
                 text,
@@ -457,21 +502,27 @@ def _get_author_from_article_html(
             )
 
             if match:
+
                 value = _clean_author_text(
                     match.group(1)
                 )
 
-                if _looks_like_real_author(value):
+                if _looks_like_real_author(
+                    value
+                ):
                     return value
 
         log.warning(
-            "A cikk HTML-oldalán sem találtam szerzőt: %s",
+            "A cikk HTML-oldalán sem találtam "
+            "szerzőt: %s",
             article_url,
         )
 
     except Exception as exc:
+
         log.warning(
-            "Szerző keresése HTML-ből sikertelen (%s): %s",
+            "Szerző keresése HTML-ből sikertelen "
+            "(%s): %s",
             article_url,
             exc,
         )
@@ -479,12 +530,17 @@ def _get_author_from_article_html(
     return None
 
 
-def _find_author_in_jsonld(data) -> str | None:
-    """Szerző keresése JSON-LD struktúrában."""
+def _find_author_in_jsonld(
+    data,
+) -> str | None:
 
     if isinstance(data, list):
+
         for item in data:
-            result = _find_author_in_jsonld(item)
+
+            result = _find_author_in_jsonld(
+                item
+            )
 
             if result:
                 return result
@@ -497,9 +553,11 @@ def _find_author_in_jsonld(data) -> str | None:
     author = data.get("author")
 
     if isinstance(author, dict):
+
         name = author.get("name")
 
         if name:
+
             name = _clean_author_text(
                 str(name)
             )
@@ -508,35 +566,51 @@ def _find_author_in_jsonld(data) -> str | None:
                 return name
 
     elif isinstance(author, list):
+
         for item in author:
+
             if isinstance(item, dict):
+
                 name = item.get("name")
 
                 if name:
+
                     name = _clean_author_text(
                         str(name)
                     )
 
-                    if _looks_like_real_author(name):
+                    if _looks_like_real_author(
+                        name
+                    ):
                         return name
 
             elif isinstance(item, str):
-                name = _clean_author_text(item)
 
-                if _looks_like_real_author(name):
+                name = _clean_author_text(
+                    item
+                )
+
+                if _looks_like_real_author(
+                    name
+                ):
                     return name
 
     elif isinstance(author, str):
-        name = _clean_author_text(author)
+
+        name = _clean_author_text(
+            author
+        )
 
         if _looks_like_real_author(name):
             return name
 
-    # Néha nested @graph alatt van.
     graph = data.get("@graph")
 
     if graph:
-        result = _find_author_in_jsonld(graph)
+
+        result = _find_author_in_jsonld(
+            graph
+        )
 
         if result:
             return result
@@ -544,8 +618,9 @@ def _find_author_in_jsonld(data) -> str | None:
     return None
 
 
-def _clean_author_text(value: str) -> str:
-    """Szerzőnév tisztítása."""
+def _clean_author_text(
+    value: str,
+) -> str:
 
     value = re.sub(
         r"\s+",
@@ -564,23 +639,22 @@ def _clean_author_text(value: str) -> str:
     ]
 
     for prefix in prefixes:
+
         if value.lower().startswith(
             prefix.lower()
         ):
-            value = value[len(prefix):].strip()
+            value = value[
+                len(prefix):
+            ].strip()
 
-    value = value.strip(
+    return value.strip(
         " \t\r\n:|-•"
     )
 
-    return value
 
-
-def _looks_like_real_author(value: str | None) -> bool:
-    """
-    Megpróbáljuk kiszűrni az olyan értékeket,
-    amelyek nem valódi szerzőnevek.
-    """
+def _looks_like_real_author(
+    value: str | None,
+) -> bool:
 
     if not value:
         return False
@@ -618,22 +692,32 @@ def _get_category_from_post(
     post: dict,
     embedded: dict,
 ) -> str:
-    """Kategória meghatározása."""
 
-    categories = embedded.get("wp:term") or []
+    categories = embedded.get(
+        "wp:term"
+    ) or []
 
     if isinstance(categories, list):
+
         for taxonomy_group in categories:
-            if not isinstance(taxonomy_group, list):
+
+            if not isinstance(
+                taxonomy_group,
+                list,
+            ):
                 continue
 
             for term in taxonomy_group:
-                if not isinstance(term, dict):
+
+                if not isinstance(
+                    term,
+                    dict,
+                ):
                     continue
 
-                taxonomy = term.get("taxonomy")
-
-                if taxonomy != "category":
+                if term.get(
+                    "taxonomy"
+                ) != "category":
                     continue
 
                 name = (
@@ -651,16 +735,23 @@ def _get_image_from_post(
     post: dict,
     embedded: dict,
 ) -> str | None:
-    """Kiemelt kép URL keresése."""
 
-    # Elsőként az embedded featured media.
-    media = embedded.get("wp:featuredmedia") or []
+    media = embedded.get(
+        "wp:featuredmedia"
+    ) or []
 
     if media:
+
         first = media[0]
 
-        if isinstance(first, dict):
-            source_url = first.get("source_url")
+        if isinstance(
+            first,
+            dict,
+        ):
+
+            source_url = first.get(
+                "source_url"
+            )
 
             if source_url:
                 return source_url
@@ -679,9 +770,16 @@ def _get_image_from_post(
                 "medium",
                 "full",
             ):
-                size_data = sizes.get(size_name)
 
-                if isinstance(size_data, dict):
+                size_data = sizes.get(
+                    size_name
+                )
+
+                if isinstance(
+                    size_data,
+                    dict,
+                ):
+
                     source_url = size_data.get(
                         "source_url"
                     )
@@ -689,12 +787,14 @@ def _get_image_from_post(
                     if source_url:
                         return source_url
 
-    # Ha az embedded nem adta vissza,
-    # nézzük meg a post featured_media ID-jét.
-    media_id = post.get("featured_media")
+    media_id = post.get(
+        "featured_media"
+    )
 
     if media_id:
+
         try:
+
             url = (
                 f"{SITE_BASE_URL}/wp-json/wp/v2/media/"
                 f"{int(media_id)}"
@@ -707,8 +807,11 @@ def _get_image_from_post(
             )
 
             if resp.ok:
+
                 data = json.loads(
-                    resp.content.decode("utf-8-sig")
+                    resp.content.decode(
+                        "utf-8-sig"
+                    )
                 )
 
                 source_url = data.get(
@@ -724,8 +827,10 @@ def _get_image_from_post(
     return None
 
 
-def _strip_html(value: str) -> str:
-    """HTML tagek eltávolítása."""
+def _strip_html(
+    value: str,
+) -> str:
+
     soup = BeautifulSoup(
         value or "",
         "html.parser",
@@ -740,46 +845,54 @@ def _strip_html(value: str) -> str:
 def _passes_category_filter(
     category: str,
 ) -> bool:
-    """
-    Kategóriaszűrés.
 
-    Ha a config.py-ban nincs külön kategóriafilter,
-    minden kategóriát engedünk.
-    """
-
-    # A jelenlegi projektben a rovatok a WordPress
-    # kategórianeveiből készülnek, ezért alapból mindent
-    # továbbengedünk.
     return True
 
 
 CATEGORY_PAGES = [
-    ("szinhaz", "https://deszkavizio.hu/category/szinhaz/"),
-    ("zene", "https://deszkavizio.hu/category/zene/"),
-    ("film", "https://deszkavizio.hu/category/film/"),
-    ("konyv", "https://deszkavizio.hu/category/konyv/"),
-    ("kepzomuveszet", "https://deszkavizio.hu/category/kepzomuveszet/"),
-    ("tanc", "https://deszkavizio.hu/category/tanc/"),
+    (
+        "szinhaz",
+        "https://deszkavizio.hu/category/szinhaz/",
+    ),
+    (
+        "zene",
+        "https://deszkavizio.hu/category/zene/",
+    ),
+    (
+        "film",
+        "https://deszkavizio.hu/category/film/",
+    ),
+    (
+        "konyv",
+        "https://deszkavizio.hu/category/konyv/",
+    ),
+    (
+        "kepzomuveszet",
+        "https://deszkavizio.hu/category/kepzomuveszet/",
+    ),
+    (
+        "tanc",
+        "https://deszkavizio.hu/category/tanc/",
+    ),
 ]
 
 
-def _fetch_via_html(target_date: date) -> list[Article]:
-    """
-    HTML fallback.
-
-    A kategóriaoldalakat végignézi, és megpróbálja
-    összegyűjteni a célnapon megjelent cikkeket.
-    """
+def _fetch_via_html(
+    target_date: date,
+) -> list[Article]:
 
     found: dict[str, Article] = {}
 
     for category, url in CATEGORY_PAGES:
+
         try:
+
             resp = requests.get(
                 url,
                 headers=HEADERS,
                 timeout=REQUEST_TIMEOUT,
             )
+
             resp.raise_for_status()
 
             soup = BeautifulSoup(
@@ -787,9 +900,13 @@ def _fetch_via_html(target_date: date) -> list[Article]:
                 "html.parser",
             )
 
-            links = soup.find_all("a", href=True)
+            links = soup.find_all(
+                "a",
+                href=True,
+            )
 
             for link in links:
+
                 href = link.get("href")
 
                 if not href:
@@ -821,9 +938,12 @@ def _fetch_via_html(target_date: date) -> list[Article]:
                 if not title:
                     continue
 
-                author = _get_author_from_article_html(
-                    href
-                ) or "Deszkavízió"
+                author = (
+                    _get_author_from_article_html(
+                        href
+                    )
+                    or "Deszkavízió"
+                )
 
                 found[href] = Article(
                     title=title,
@@ -839,8 +959,10 @@ def _fetch_via_html(target_date: date) -> list[Article]:
                 )
 
         except Exception as exc:
+
             log.warning(
-                "HTML kategóriaoldal sikertelen (%s): %s",
+                "HTML kategóriaoldal sikertelen "
+                "(%s): %s",
                 url,
                 exc,
             )
@@ -851,44 +973,52 @@ def _fetch_via_html(target_date: date) -> list[Article]:
 def _parse_html_date(
     element,
 ) -> date | None:
-    """
-    Dátum kinyerése egy HTML elem környezetéből.
-    """
 
-    # 1. datetime attribútumok
     parent = element
 
     for _ in range(4):
+
         if parent is None:
             break
 
         for tag in parent.find_all(
             attrs={"datetime": True}
         ):
-            value = tag.get("datetime")
+
+            value = tag.get(
+                "datetime"
+            )
 
             if not value:
                 continue
 
             try:
+
                 return datetime.fromisoformat(
-                    value.replace("Z", "+00:00")
+                    value.replace(
+                        "Z",
+                        "+00:00",
+                    )
                 ).date()
+
             except Exception:
                 pass
 
         parent = parent.parent
 
-    # 2. time elem
     parent = element
 
     for _ in range(4):
+
         if parent is None:
             break
 
-        time_tag = parent.find("time")
+        time_tag = parent.find(
+            "time"
+        )
 
         if time_tag:
+
             value = (
                 time_tag.get("datetime")
                 or time_tag.get_text(
@@ -898,10 +1028,16 @@ def _parse_html_date(
             )
 
             if value:
+
                 try:
+
                     return datetime.fromisoformat(
-                        value.replace("Z", "+00:00")
+                        value.replace(
+                            "Z",
+                            "+00:00",
+                        )
                     ).date()
+
                 except Exception:
                     pass
 
