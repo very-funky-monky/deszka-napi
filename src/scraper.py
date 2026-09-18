@@ -55,12 +55,22 @@ CATEGORY_PAGES = [
 ]
 
 
-# A weboldal alapértelmezett/elsődleges rovata. Sok cikk ezt a
-# kategóriát a valódi rovat MELLETT is megkapja (pl. mert ez volt
-# az oldal eredeti, egyetlen kategóriája, vagy ez az alapértelmezett
-# WordPress-kategória) - ezért ezt csak akkor vesszük figyelembe,
-# ha a cikken nincs más, konkrétabb rovat is megjelölve.
-DEFAULT_FALLBACK_CATEGORY = "Színház"
+# A 7 valódi rovat, amihez ténylegesen van sablonunk
+# (lásd config.py CATEGORY_TEMPLATE_FILES). Minden cikk emellett
+# szinte mindig kap egy vagy több tartalom-típus szerinti
+# kategóriát is (pl. "Hírek", "Főoldali fókusz cikk", "Ajánló",
+# "Kritika", "Interjú") - ezeknek NINCS saját sablonjuk, ezért
+# a rovat-kiválasztásnál figyelmen kívül kell hagyni őket, és
+# az alábbi listával kell egyezést keresni.
+VALID_ROVAT_CATEGORIES = {
+    "Színház",
+    "Mozgókép",
+    "Tánc",
+    "Opera",
+    "Zene",
+    "Képzőművészet",
+    "Könyv",
+}
 
 
 log = logging.getLogger(__name__)
@@ -151,66 +161,43 @@ def _extract_category(
 
     category_names: list[str] = []
 
-    # DIAGNOSZTIKA: minden beágyazott taxonómiát és termet kiírunk,
-    # hogy lássuk, melyik taxonómiában van ténylegesen a rovat.
-    all_terms_debug: list[str] = []
-
     for term_group in terms:
         for term in term_group:
             taxonomy = term.get(
                 "taxonomy"
             )
 
-            name = _clean_text(
-                term.get("name")
-            )
-
-            slug = term.get("slug")
-
-            all_terms_debug.append(
-                f"{taxonomy}:{name}({slug})"
-            )
-
             if taxonomy == "category":
+                name = _clean_text(
+                    term.get("name")
+                )
+
                 if name:
                     category_names.append(
                         name
                     )
 
-    log.info(
-        "TERMEK (%s) | link: %s",
-        ", ".join(all_terms_debug)
-        or "nincs term",
-        post.get("link"),
+    log.debug(
+        "Cikkhez tartozó kategóriák (nyers lista): %s",
+        category_names,
     )
 
     if not category_names:
-        categories = post.get(
-            "categories",
-            [],
-        )
-
-        if categories:
-            return "Deszkavízió"
-
         return "Deszkavízió"
 
-    # Ha egy cikken TÖBB rovat is szerepel, és az egyik közülük
-    # az oldal alapértelmezett/elsődleges rovata (DEFAULT_FALLBACK_CATEGORY),
-    # akkor azt csak abban az esetben vesszük figyelembe, ha nincs
-    # más, konkrétabb rovat is a cikken. Enélkül a WordPress
-    # term-sorrendje (jellemzően term_id szerint) miatt szinte
-    # mindig ez az alapértelmezett kategória nyerne, függetlenül
-    # attól, mi a cikk tényleges rovata.
-    specific_categories = [
-        name
-        for name in category_names
-        if name != DEFAULT_FALLBACK_CATEGORY
-    ]
+    # Egy cikk szinte mindig több kategóriát is kap: a valódi
+    # rovatot (Színház, Mozgókép, Tánc, Opera, Zene, Képzőművészet,
+    # Könyv) ÉS egy vagy több tartalom-típus szerinti kategóriát
+    # (pl. "Hírek", "Főoldali fókusz cikk", "Ajánló", "Kritika").
+    # Ezért nem az elsőt vesszük, hanem azt, amelyik ténylegesen
+    # egy ismert, sablonnal rendelkező rovat nevével egyezik.
+    for name in category_names:
+        if name in VALID_ROVAT_CATEGORIES:
+            return name
 
-    if specific_categories:
-        return specific_categories[0]
-
+    # Ha semelyik kategória sem egyezik egy ismert rovattal,
+    # visszaesünk az első talált kategóriára (jobb híján), hogy
+    # legalább valamilyen értelmes érték kerüljön a cikkhez.
     return category_names[0]
 
 
