@@ -55,6 +55,14 @@ CATEGORY_PAGES = [
 ]
 
 
+# A weboldal alapértelmezett/elsődleges rovata. Sok cikk ezt a
+# kategóriát a valódi rovat MELLETT is megkapja (pl. mert ez volt
+# az oldal eredeti, egyetlen kategóriája, vagy ez az alapértelmezett
+# WordPress-kategória) - ezért ezt csak akkor vesszük figyelembe,
+# ha a cikken nincs más, konkrétabb rovat is megjelölve.
+DEFAULT_FALLBACK_CATEGORY = "Színház"
+
+
 log = logging.getLogger(__name__)
 
 
@@ -141,6 +149,8 @@ def _extract_category(
         [],
     )
 
+    category_names: list[str] = []
+
     for term_group in terms:
         for term in term_group:
             taxonomy = term.get(
@@ -153,17 +163,43 @@ def _extract_category(
                 )
 
                 if name:
-                    return name
+                    category_names.append(
+                        name
+                    )
 
-    categories = post.get(
-        "categories",
-        []
+    log.debug(
+        "Cikkhez tartozó rovatok (nyers lista): %s",
+        category_names,
     )
 
-    if categories:
+    if not category_names:
+        categories = post.get(
+            "categories",
+            [],
+        )
+
+        if categories:
+            return "Deszkavízió"
+
         return "Deszkavízió"
 
-    return "Deszkavízió"
+    # Ha egy cikken TÖBB rovat is szerepel, és az egyik közülük
+    # az oldal alapértelmezett/elsődleges rovata (DEFAULT_FALLBACK_CATEGORY),
+    # akkor azt csak abban az esetben vesszük figyelembe, ha nincs
+    # más, konkrétabb rovat is a cikken. Enélkül a WordPress
+    # term-sorrendje (jellemzően term_id szerint) miatt szinte
+    # mindig ez az alapértelmezett kategória nyerne, függetlenül
+    # attól, mi a cikk tényleges rovata.
+    specific_categories = [
+        name
+        for name in category_names
+        if name != DEFAULT_FALLBACK_CATEGORY
+    ]
+
+    if specific_categories:
+        return specific_categories[0]
+
+    return category_names[0]
 
 
 def _extract_image(
@@ -282,6 +318,12 @@ def _article_from_wp_post(
 
     category = _extract_category(
         post
+    )
+
+    log.info(
+        "ROVAT: %s → %s",
+        title,
+        category,
     )
 
     image_url = _extract_image(
