@@ -1,4 +1,3 @@
-```python
 """
 Cikkek lekérése a deszkavizio.hu oldalról egy adott naptári napra
 (alapértelmezetten "tegnapra", Europe/Budapest időzóna szerint).
@@ -16,7 +15,7 @@ A visszaadott formátum minden cikkre:
     "title": str,
     "url": str,
     "author": str,
-    "category": str,           # elsődleges rovat neve, pl. "Színház"
+    "category": str,
     "image_url": str | None,
     "published_local_date": date,
 }
@@ -63,6 +62,7 @@ def fetch_articles_for_date(target_date: date) -> list[Article]:
     """Megpróbálja a WP REST API-t, ha nem megy, HTML-fallback-re vált."""
     try:
         articles = _fetch_via_rest_api(target_date)
+
         if articles:
             log.info(
                 "REST API-n keresztül %d cikk (dátum: %s)",
@@ -76,7 +76,7 @@ def fetch_articles_for_date(target_date: date) -> list[Article]:
             target_date,
         )
 
-    except Exception as exc:  # noqa: BLE001 - szándékosan széles: robusztus fallback kell
+    except Exception as exc:
         log.warning(
             "REST API lekérés sikertelen (%s), HTML-fallback indul.",
             exc,
@@ -84,10 +84,6 @@ def fetch_articles_for_date(target_date: date) -> list[Article]:
 
     return _fetch_via_html(target_date)
 
-
-# ---------------------------------------------------------------------------
-# WordPress REST API
-# ---------------------------------------------------------------------------
 
 def _fetch_via_rest_api(
     target_date: date,
@@ -111,14 +107,10 @@ def _fetch_via_rest_api(
         )
 
         if resp.status_code == 400:
-            # Elfogytak az oldalak.
             break
 
         resp.raise_for_status()
 
-        # A WordPress válasz elején UTF-8 BOM lehet.
-        # A resp.json() ezt bizonyos esetekben nem kezeli megfelelően,
-        # ezért explicit utf-8-sig dekódolást használunk.
         posts = json.loads(
             resp.content.decode("utf-8-sig")
         )
@@ -132,8 +124,6 @@ def _fetch_via_rest_api(
             post_local_date = _parse_wp_date(post["date"]).date()
 
             if post_local_date < target_date:
-                # A lista dátum szerint csökkenő sorrendben jön, tehát ha
-                # már a célnapnál korábbi cikkhez értünk, nincs több dolgunk.
                 stop = True
                 continue
 
@@ -154,7 +144,6 @@ def _fetch_via_rest_api(
 
 
 def _parse_wp_date(date_str: str) -> datetime:
-    # A WP API "date" mezője a site helyi idejét adja vissza, tzinfo nélkül.
     dt = datetime.fromisoformat(date_str)
     return dt.replace(tzinfo=LOCAL_TZ)
 
@@ -232,10 +221,6 @@ def _passes_category_filter(category: str) -> bool:
     return category in CATEGORY_FILTER
 
 
-# ---------------------------------------------------------------------------
-# HTML fallback (ha a REST API nem elérhető)
-# ---------------------------------------------------------------------------
-
 CATEGORY_PAGES = [
     "hirek",
     "kritikak",
@@ -267,7 +252,7 @@ def _fetch_via_html(target_date: date) -> list[Article]:
             )
             resp.raise_for_status()
 
-        except Exception as exc:  # noqa: BLE001
+        except Exception as exc:
             log.warning(
                 "HTML fallback: %s nem elérhető (%s)",
                 url,
@@ -337,36 +322,12 @@ def _fetch_via_html(target_date: date) -> list[Article]:
 
 
 def _parse_html_date(time_tag) -> date | None:
-    datetime_attr = (
-        time_tag.get("datetime")
-        if time_tag
-        else None
-    )
+    datetime_attr = time_tag.get("datetime") if time_tag else None
 
     if not datetime_attr:
         return None
 
     try:
-        return datetime.fromisoformat(
-            datetime_attr
-        ).date()
-
+        return datetime.fromisoformat(datetime_attr).date()
     except ValueError:
         return None
-```
-
-**Most csak ezt az egy fájlt cseréld le**, commit + push, majd GitHubon indítsd el kézzel a workflow-t a `2026-09-17` dátummal.
-
-Ha működik, a logban már nem ezt kell látnunk:
-
-```text
-REST API lekérés sikertelen (Unexpected UTF-8 BOM...)
-```
-
-hanem például:
-
-```text
-REST API-n keresztül 5 cikk (dátum: 2026-09-17)
-```
-
-Utána pedig jöhet a **Resendre átállítás**, mert a workflow-dban még jelenleg Brevo szerepel.
