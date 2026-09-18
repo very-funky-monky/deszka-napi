@@ -1,3 +1,4 @@
+```python
 """
 Cikkek lekérése a deszkavizio.hu oldalról egy adott naptári napra
 (alapértelmezetten "tegnapra", Europe/Budapest időzóna szerint).
@@ -23,6 +24,7 @@ A visszaadott formátum minden cikkre:
 
 from __future__ import annotations
 
+import json
 import logging
 from dataclasses import dataclass
 from datetime import date, datetime, timedelta
@@ -62,11 +64,23 @@ def fetch_articles_for_date(target_date: date) -> list[Article]:
     try:
         articles = _fetch_via_rest_api(target_date)
         if articles:
-            log.info("REST API-n keresztül %d cikk (dátum: %s)", len(articles), target_date)
+            log.info(
+                "REST API-n keresztül %d cikk (dátum: %s)",
+                len(articles),
+                target_date,
+            )
             return articles
-        log.warning("REST API elérhető volt, de nem adott vissza cikket erre a napra: %s", target_date)
+
+        log.warning(
+            "REST API elérhető volt, de nem adott vissza cikket erre a napra: %s",
+            target_date,
+        )
+
     except Exception as exc:  # noqa: BLE001 - szándékosan széles: robusztus fallback kell
-        log.warning("REST API lekérés sikertelen (%s), HTML-fallback indul.", exc)
+        log.warning(
+            "REST API lekérés sikertelen (%s), HTML-fallback indul.",
+            exc,
+        )
 
     return _fetch_via_html(target_date)
 
@@ -75,7 +89,10 @@ def fetch_articles_for_date(target_date: date) -> list[Article]:
 # WordPress REST API
 # ---------------------------------------------------------------------------
 
-def _fetch_via_rest_api(target_date: date, max_pages: int = 3) -> list[Article]:
+def _fetch_via_rest_api(
+    target_date: date,
+    max_pages: int = 3,
+) -> list[Article]:
     articles: list[Article] = []
     page = 1
 
@@ -92,60 +109,79 @@ def _fetch_via_rest_api(target_date: date, max_pages: int = 3) -> list[Article]:
             headers=HEADERS,
             timeout=REQUEST_TIMEOUT,
         )
+
         if resp.status_code == 400:
-            # elfogytak az oldalak
+            # Elfogytak az oldalak.
             break
+
         resp.raise_for_status()
-       
-       posts = resp.content.decode("utf-8-sig")
-       posts = __import__("json").loads(posts)
-        
-       if not posts:
+
+        # A WordPress válasz elején UTF-8 BOM lehet.
+        # A resp.json() ezt bizonyos esetekben nem kezeli megfelelően,
+        # ezért explicit utf-8-sig dekódolást használunk.
+        posts = json.loads(
+            resp.content.decode("utf-8-sig")
+        )
+
+        if not posts:
             break
 
         stop = False
+
         for post in posts:
             post_local_date = _parse_wp_date(post["date"]).date()
+
             if post_local_date < target_date:
-                # a lista dátum szerint csökkenő sorrendben jön, tehát ha
-                # már a célnapnál korábbi cikkhez értünk, nincs több dolgunk
+                # A lista dátum szerint csökkenő sorrendben jön, tehát ha
+                # már a célnapnál korábbi cikkhez értünk, nincs több dolgunk.
                 stop = True
                 continue
+
             if post_local_date != target_date:
                 continue
 
             article = _article_from_wp_post(post)
+
             if article and _passes_category_filter(article.category):
                 articles.append(article)
 
         if stop:
             break
+
         page += 1
 
     return articles
 
 
 def _parse_wp_date(date_str: str) -> datetime:
-    # a WP API "date" mezője a site helyi idejét adja vissza, tzinfo nélkül
+    # A WP API "date" mezője a site helyi idejét adja vissza, tzinfo nélkül.
     dt = datetime.fromisoformat(date_str)
     return dt.replace(tzinfo=LOCAL_TZ)
 
 
 def _article_from_wp_post(post: dict) -> Article | None:
-    title = _strip_html(post.get("title", {}).get("rendered", "")).strip()
+    title = _strip_html(
+        post.get("title", {}).get("rendered", "")
+    ).strip()
+
     url = post.get("link", "")
+
     if not title or not url:
         return None
 
     embedded = post.get("_embedded", {})
 
     author = "Deszkavízió"
+
     authors = embedded.get("author") or []
+
     if authors:
         author = authors[0].get("name", author)
 
     category = "Deszkavízió"
+
     terms = embedded.get("wp:term") or []
+
     for term_group in terms:
         for term in term_group:
             if term.get("taxonomy") == "category" and term.get("name"):
@@ -153,12 +189,16 @@ def _article_from_wp_post(post: dict) -> Article | None:
                 break
         else:
             continue
+
         break
 
     image_url = None
+
     media = embedded.get("wp:featuredmedia") or []
+
     if media:
         media0 = media[0]
+
         image_url = (
             media0.get("media_details", {})
             .get("sizes", {})
@@ -172,17 +212,23 @@ def _article_from_wp_post(post: dict) -> Article | None:
         author=author,
         category=category,
         image_url=image_url,
-        published_local_date=_parse_wp_date(post["date"]).date(),
+        published_local_date=_parse_wp_date(
+            post["date"]
+        ).date(),
     )
 
 
 def _strip_html(text: str) -> str:
-    return BeautifulSoup(text, "html.parser").get_text()
+    return BeautifulSoup(
+        text,
+        "html.parser"
+    ).get_text()
 
 
 def _passes_category_filter(category: str) -> bool:
     if not CATEGORY_FILTER:
         return True
+
     return category in CATEGORY_FILTER
 
 
@@ -191,9 +237,18 @@ def _passes_category_filter(category: str) -> bool:
 # ---------------------------------------------------------------------------
 
 CATEGORY_PAGES = [
-    "hirek", "kritikak", "ajanlok", "interjuk", "valogatasok",
-    "szinhazoldal", "mozgokep", "tanc", "opera", "zene",
-    "kepzomuveszet", "konyv",
+    "hirek",
+    "kritikak",
+    "ajanlok",
+    "interjuk",
+    "valogatasok",
+    "szinhazoldal",
+    "mozgokep",
+    "tanc",
+    "opera",
+    "zene",
+    "kepzomuveszet",
+    "konyv",
 ]
 
 
@@ -203,34 +258,70 @@ def _fetch_via_html(target_date: date) -> list[Article]:
 
     for slug in CATEGORY_PAGES:
         url = f"{SITE_BASE_URL}/{slug}/"
+
         try:
-            resp = requests.get(url, headers=HEADERS, timeout=REQUEST_TIMEOUT)
+            resp = requests.get(
+                url,
+                headers=HEADERS,
+                timeout=REQUEST_TIMEOUT,
+            )
             resp.raise_for_status()
+
         except Exception as exc:  # noqa: BLE001
-            log.warning("HTML fallback: %s nem elérhető (%s)", url, exc)
+            log.warning(
+                "HTML fallback: %s nem elérhető (%s)",
+                url,
+                exc,
+            )
             continue
 
-        soup = BeautifulSoup(resp.text, "html.parser")
+        soup = BeautifulSoup(
+            resp.text,
+            "html.parser",
+        )
+
         for card in soup.select("article"):
             link_tag = card.select_one("h2 a, h3 a")
+
             if not link_tag or not link_tag.get("href"):
                 continue
+
             article_url = link_tag["href"]
+
             if article_url in seen_urls:
                 continue
 
             time_tag = card.select_one("time")
-            post_date = _parse_html_date(time_tag) if time_tag else None
+
+            post_date = (
+                _parse_html_date(time_tag)
+                if time_tag
+                else None
+            )
+
             if post_date != target_date:
                 continue
 
             img_tag = card.select_one("img")
-            image_url = img_tag.get("src") if img_tag else None
 
-            author_tag = card.select_one(".author, .byline, .posted-by")
-            author = author_tag.get_text(strip=True) if author_tag else "Deszkavízió"
+            image_url = (
+                img_tag.get("src")
+                if img_tag
+                else None
+            )
+
+            author_tag = card.select_one(
+                ".author, .byline, .posted-by"
+            )
+
+            author = (
+                author_tag.get_text(strip=True)
+                if author_tag
+                else "Deszkavízió"
+            )
 
             seen_urls.add(article_url)
+
             articles.append(
                 Article(
                     title=link_tag.get_text(strip=True),
@@ -246,10 +337,36 @@ def _fetch_via_html(target_date: date) -> list[Article]:
 
 
 def _parse_html_date(time_tag) -> date | None:
-    datetime_attr = time_tag.get("datetime") if time_tag else None
+    datetime_attr = (
+        time_tag.get("datetime")
+        if time_tag
+        else None
+    )
+
     if not datetime_attr:
         return None
+
     try:
-        return datetime.fromisoformat(datetime_attr).date()
+        return datetime.fromisoformat(
+            datetime_attr
+        ).date()
+
     except ValueError:
         return None
+```
+
+**Most csak ezt az egy fájlt cseréld le**, commit + push, majd GitHubon indítsd el kézzel a workflow-t a `2026-09-17` dátummal.
+
+Ha működik, a logban már nem ezt kell látnunk:
+
+```text
+REST API lekérés sikertelen (Unexpected UTF-8 BOM...)
+```
+
+hanem például:
+
+```text
+REST API-n keresztül 5 cikk (dátum: 2026-09-17)
+```
+
+Utána pedig jöhet a **Resendre átállítás**, mert a workflow-dban még jelenleg Brevo szerepel.
