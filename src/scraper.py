@@ -162,6 +162,12 @@ def _article_from_wp_post(post: dict) -> Article | None:
 
     embedded = post.get("_embedded", {})
 
+    log.info(
+        "DEBUG SZERZŐ: post.author=%r | embedded.author=%r",
+        post.get("author"),
+        embedded.get("author"),
+    )
+
     author = _get_author_from_post(post, embedded)
 
     category = "Deszkavízió"
@@ -239,6 +245,12 @@ def _get_author_from_post(post: dict, embedded: dict) -> str:
 
             data = json.loads(
                 resp.content.decode("utf-8-sig")
+            )
+
+            log.info(
+                "DEBUG USER %s: %r",
+                author_id,
+                data,
             )
 
             name = (
