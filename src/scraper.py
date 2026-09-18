@@ -4,7 +4,7 @@ import json
 import logging
 import re
 from dataclasses import dataclass
-from datetime import date, datetime, timezone
+from datetime import date, datetime, timezone, timedelta
 from typing import Any
 from urllib.parse import urljoin
 
@@ -72,23 +72,33 @@ def _clean_text(value: str | None) -> str:
     if not value:
         return ""
 
-    value = BeautifulSoup(value, "html.parser").get_text(" ", strip=True)
+    value = BeautifulSoup(
+        value,
+        "html.parser",
+    ).get_text(" ", strip=True)
+
     value = re.sub(r"\s+", " ", value)
 
     return value.strip()
 
 
-def _parse_datetime(value: str | None) -> datetime | None:
+def _parse_datetime(
+    value: str | None,
+) -> datetime | None:
     if not value:
         return None
 
     value = value.strip()
 
     try:
-        dt = datetime.fromisoformat(value.replace("Z", "+00:00"))
+        dt = datetime.fromisoformat(
+            value.replace("Z", "+00:00")
+        )
 
         if dt.tzinfo is None:
-            dt = dt.replace(tzinfo=timezone.utc)
+            dt = dt.replace(
+                tzinfo=timezone.utc
+            )
 
         return dt.astimezone(LOCAL_TZ)
 
@@ -103,30 +113,52 @@ def _parse_datetime(value: str | None) -> datetime | None:
 
     for fmt in formats:
         try:
-            dt = datetime.strptime(value, fmt)
-            return dt.replace(tzinfo=LOCAL_TZ)
+            dt = datetime.strptime(
+                value,
+                fmt,
+            )
+
+            return dt.replace(
+                tzinfo=LOCAL_TZ
+            )
+
         except ValueError:
             continue
 
     return None
 
 
-def _extract_category(post: dict[str, Any]) -> str:
-    embedded = post.get("_embedded", {})
+def _extract_category(
+    post: dict[str, Any],
+) -> str:
+    embedded = post.get(
+        "_embedded",
+        {},
+    )
 
-    terms = embedded.get("wp:term", [])
+    terms = embedded.get(
+        "wp:term",
+        [],
+    )
 
     for term_group in terms:
         for term in term_group:
-            taxonomy = term.get("taxonomy")
+            taxonomy = term.get(
+                "taxonomy"
+            )
 
             if taxonomy == "category":
-                name = _clean_text(term.get("name"))
+                name = _clean_text(
+                    term.get("name")
+                )
 
                 if name:
                     return name
 
-    categories = post.get("categories", [])
+    categories = post.get(
+        "categories",
+        []
+    )
 
     if categories:
         return "Deszkavízió"
@@ -134,21 +166,38 @@ def _extract_category(post: dict[str, Any]) -> str:
     return "Deszkavízió"
 
 
-def _extract_image(post: dict[str, Any]) -> str | None:
-    embedded = post.get("_embedded", {})
+def _extract_image(
+    post: dict[str, Any],
+) -> str | None:
+    embedded = post.get(
+        "_embedded",
+        {}
+    )
 
-    media = embedded.get("wp:featuredmedia", [])
+    media = embedded.get(
+        "wp:featuredmedia",
+        []
+    )
 
     if media:
         image = media[0]
 
-        source_url = image.get("source_url")
+        source_url = image.get(
+            "source_url"
+        )
 
         if source_url:
             return source_url
 
-        media_details = image.get("media_details", {})
-        sizes = media_details.get("sizes", {})
+        media_details = image.get(
+            "media_details",
+            {}
+        )
+
+        sizes = media_details.get(
+            "sizes",
+            {}
+        )
 
         for size_name in (
             "large",
@@ -156,12 +205,21 @@ def _extract_image(post: dict[str, Any]) -> str | None:
             "medium",
             "full",
         ):
-            size = sizes.get(size_name)
+            size = sizes.get(
+                size_name
+            )
 
-            if size and size.get("source_url"):
-                return size["source_url"]
+            if (
+                size
+                and size.get("source_url")
+            ):
+                return size[
+                    "source_url"
+                ]
 
-    featured_media = post.get("featured_media")
+    featured_media = post.get(
+        "featured_media"
+    )
 
     if featured_media:
         log.debug(
@@ -172,9 +230,16 @@ def _extract_image(post: dict[str, Any]) -> str | None:
     return None
 
 
-def _article_from_wp_post(post: dict[str, Any]) -> Article | None:
+def _article_from_wp_post(
+    post: dict[str, Any],
+) -> Article | None:
     title = _clean_text(
-        post.get("title", {}).get("rendered")
+        post.get(
+            "title",
+            {}
+        ).get(
+            "rendered"
+        )
     )
 
     link = post.get("link")
@@ -190,11 +255,18 @@ def _article_from_wp_post(post: dict[str, Any]) -> Article | None:
     if published_at is None:
         return None
 
-    author_id = post.get("author")
+    author_id = post.get(
+        "author"
+    )
 
     try:
-        author_id = int(author_id)
-    except (TypeError, ValueError):
+        author_id = int(
+            author_id
+        )
+    except (
+        TypeError,
+        ValueError,
+    ):
         author_id = None
 
     author = AUTHOR_NAMES.get(
@@ -208,8 +280,13 @@ def _article_from_wp_post(post: dict[str, Any]) -> Article | None:
         author,
     )
 
-    category = _extract_category(post)
-    image_url = _extract_image(post)
+    category = _extract_category(
+        post
+    )
+
+    image_url = _extract_image(
+        post
+    )
 
     return Article(
         title=title,
@@ -245,8 +322,16 @@ def _fetch_wp_posts_for_date(
     )
 
     params = {
-        "after": start.astimezone(timezone.utc).isoformat(),
-        "before": end.astimezone(timezone.utc).isoformat(),
+        "after": (
+            start
+            .astimezone(timezone.utc)
+            .isoformat()
+        ),
+        "before": (
+            end
+            .astimezone(timezone.utc)
+            .isoformat()
+        ),
         "per_page": 100,
         "_embed": "1",
         "orderby": "date",
@@ -267,11 +352,13 @@ def _fetch_wp_posts_for_date(
             headers=HEADERS,
             timeout=REQUEST_TIMEOUT,
         )
+
     except requests.RequestException as exc:
         log.error(
             "REST API hiba: %s",
             exc,
         )
+
         return []
 
     log.info(
@@ -284,33 +371,50 @@ def _fetch_wp_posts_for_date(
             "REST API válasz: %s",
             response.text[:1000],
         )
+
         return []
 
     try:
-        # A Deszkavízió API-válasza időnként UTF-8 BOM-mal érkezik.
+        # A Deszkavízió API-válasza időnként
+        # UTF-8 BOM-mal érkezik.
         posts = json.loads(
-            response.content.decode("utf-8-sig")
+            response.content.decode(
+                "utf-8-sig"
+            )
         )
-    except (UnicodeDecodeError, json.JSONDecodeError) as exc:
+
+    except (
+        UnicodeDecodeError,
+        json.JSONDecodeError,
+    ) as exc:
         log.error(
             "REST API JSON feldolgozási hiba: %s",
             exc,
         )
+
         return []
 
-    if not isinstance(posts, list):
+    if not isinstance(
+        posts,
+        list,
+    ):
         log.error(
             "A REST API válasza nem lista."
         )
+
         return []
 
     articles: list[Article] = []
 
     for post in posts:
-        article = _article_from_wp_post(post)
+        article = _article_from_wp_post(
+            post
+        )
 
         if article is not None:
-            articles.append(article)
+            articles.append(
+                article
+            )
 
     return articles
 
@@ -329,10 +433,17 @@ def _extract_author_from_html(
     ]
 
     for selector in selectors:
-        elements = soup.select(selector)
+        elements = soup.select(
+            selector
+        )
 
         for element in elements:
-            text = _clean_text(element.get_text(" ", strip=True))
+            text = _clean_text(
+                element.get_text(
+                    " ",
+                    strip=True,
+                )
+            )
 
             if not text:
                 continue
@@ -363,11 +474,13 @@ def _fetch_article_html(
             headers=HEADERS,
             timeout=REQUEST_TIMEOUT,
         )
+
     except requests.RequestException as exc:
         log.debug(
             "HTML lekérés sikertelen: %s",
             exc,
         )
+
         return None, None
 
     if response.status_code != 200:
@@ -376,6 +489,7 @@ def _fetch_article_html(
             response.status_code,
             url,
         )
+
         return None, None
 
     soup = BeautifulSoup(
@@ -383,7 +497,9 @@ def _fetch_article_html(
         "html.parser",
     )
 
-    author = _extract_author_from_html(soup)
+    author = _extract_author_from_html(
+        soup
+    )
 
     image_url = None
 
@@ -393,7 +509,9 @@ def _fetch_article_html(
     )
 
     if og_image:
-        image_url = og_image.get("content")
+        image_url = og_image.get(
+            "content"
+        )
 
     if not image_url:
         image = soup.find("img")
@@ -410,17 +528,25 @@ def _fetch_article_html(
 def _fill_missing_article_data(
     article: Article,
 ) -> Article:
-    if article.image_url and article.author != "Deszkavízió":
+    if (
+        article.image_url
+        and article.author != "Deszkavízió"
+    ):
         return article
 
-    html_author, html_image = _fetch_article_html(
-        article.url
+    html_author, html_image = (
+        _fetch_article_html(
+            article.url
+        )
     )
 
     author = article.author
     image_url = article.image_url
 
-    if author == "Deszkavízió" and html_author:
+    if (
+        author == "Deszkavízió"
+        and html_author
+    ):
         author = html_author
 
         log.info(
@@ -428,7 +554,10 @@ def _fill_missing_article_data(
             author,
         )
 
-    if not image_url and html_image:
+    if (
+        not image_url
+        and html_image
+    ):
         image_url = urljoin(
             SITE_BASE_URL,
             html_image,
@@ -468,10 +597,13 @@ def fetch_articles_for_date(
             article
         )
 
-        completed.append(article)
+        completed.append(
+            article
+        )
 
     completed.sort(
-        key=lambda article: article.published_at
+        key=lambda article:
+            article.published_at
     )
 
     log.info(
@@ -496,22 +628,32 @@ def fetch_articles_for_date(
 def get_target_date(
     value: str | None = None,
 ) -> date:
+    # Ha a workflow konkrét dátumot ad meg,
+    # azt használjuk.
     if value:
         return datetime.strptime(
             value,
             "%Y-%m-%d",
         ).date()
 
-    now = datetime.now(LOCAL_TZ)
+    # Automatikus futásnál mindig a tegnapi
+    # magyarországi dátumot használjuk.
+    now = datetime.now(
+        LOCAL_TZ
+    )
 
-    return now.date()
+    return now.date() - timedelta(
+        days=1
+    )
 
 
 if __name__ == "__main__":
     logging.basicConfig(
         level=logging.INFO,
         format=(
-            "%(asctime)s [%(levelname)s] %(message)s"
+            "%(asctime)s "
+            "[%(levelname)s] "
+            "%(message)s"
         ),
     )
 
