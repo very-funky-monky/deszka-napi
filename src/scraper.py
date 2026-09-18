@@ -96,8 +96,11 @@ def _fetch_via_rest_api(target_date: date, max_pages: int = 3) -> list[Article]:
             # elfogytak az oldalak
             break
         resp.raise_for_status()
-        posts = resp.json()
-        if not posts:
+       
+       posts = resp.content.decode("utf-8-sig")
+       posts = __import__("json").loads(posts)
+        
+       if not posts:
             break
 
         stop = False
