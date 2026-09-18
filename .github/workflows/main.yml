@@ -1,0 +1,65 @@
+name: Napi Deszkavízió digest
+
+on:
+  schedule:
+    # 05:00 UTC ≈ 07:00 CEST (nyár, márc. vége - okt. vége) / 06:00 CET (tél).
+    # A GitHub cron mindig UTC-ben fut, ezért a nyár/tél váltás körül kb.
+    # 1 órát csúszik a helyi indulási idő - ez a workflow-fájlok egy ismert
+    # korlátja, GitHub-on belül nem küszöbölhető ki auto-DST-vel.
+    - cron: "0 5 * * *"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Konkrét nap (YYYY-MM-DD), üresen hagyva = tegnap"
+        required: false
+        default: ""
+
+permissions:
+  contents: write  # kell a képek commitolásához/pusholásához
+
+jobs:
+  send-digest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repó checkout
+        uses: actions/checkout@v4
+
+      - name: Python telepítése
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Függőségek telepítése
+        run: pip install -r requirements.txt
+
+      - name: Urbanist betűtípus letöltése
+        run: python fonts/fetch_fonts.py || echo "Font letöltés sikertelen, DejaVu lesz a fallback."
+
+      - name: Képek renderelése
+        working-directory: src
+        run: |
+          if [ -n "${{ github.event.inputs.date }}" ]; then
+            python main.py render --date "${{ github.event.inputs.date }}"
+          else
+            python main.py render
+          fi
+
+      - name: Képek commitolása és pusholása
+        run: |
+          git config user.name "deszka-digest-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add images/latest
+          if git diff --cached --quiet; then
+            echo "Nincs változás a képekben, commit kihagyva."
+          else
+            git commit -m "Napi digest képek frissítése"
+            git push
+          fi
+
+      - name: E-mail küldése (Brevo)
+        working-directory: src
+        env:
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          DIGEST_EMAIL_TO: ${{ secrets.DIGEST_EMAIL_TO }}
+          DIGEST_EMAIL_FROM: ${{ secrets.DIGEST_EMAIL_FROM }}
+        run: python main.py send
