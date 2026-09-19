@@ -1,68 +1,54 @@
 {
-  "target_date": "2026. 09. 17.",
+  "target_date": "2026. 09. 18.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "Magyar–üzbég koprodukcióban forgat Szabó Kimmel Tamás",
-      "author": "Molnár Dóra",
-      "category": "Mozgókép",
-      "url": "https://deszkavizio.hu/magyar-uzbeg-koprodukcioban-kapott-foszerepet-szabo-kimmel-tamas/"
+      "title": "A kalóz két év után visszatér az Operaház színpadára",
+      "author": "Bánfi Benedek",
+      "category": "Tánc",
+      "url": "https://deszkavizio.hu/a-kaloz-ket-ev-utan-visszater-az-operahaz-szinpadara/"
     },
     {
       "filename": "1.jpg",
-      "title": "Cseh Tamás és Másik János dalaival költözik be a Komp Kollektíva a Konnektorba",
+      "title": "Berecz András és Berecz Mihály a Budapesti Vonósokkal lép színpadra",
       "author": "Bánfi Benedek",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/cseh-tamas-es-masik-janos-dalaival-koltozik-be-a-komp-kollektiva-a-konnektorba/"
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/berecz-andras-es-berecz-mihaly-a-budapesti-vonosokkal-lep-szinpadra/"
     },
     {
       "filename": "2.jpg",
-      "title": "Meghalt Deák Bill Gyula",
-      "author": "Flaisz János",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/meghalt-deak-bill-gyula/"
+      "title": "Antoni Tàpies grafikai műveiből nyílt kiállítás a Magyar Nemzeti Galériában",
+      "author": "Bánfi Benedek",
+      "category": "Képzőművészet",
+      "url": "https://deszkavizio.hu/antoni-tapies-grafikai-muveibol-nyilt-kiallitas-a-magyar-nemzeti-galeriaban/"
     },
     {
       "filename": "3.jpg",
-      "title": "A digitális térből lép elő Háry János az Opera legújabb előadásában",
-      "author": "Szabó Száva Anna",
-      "category": "Opera",
-      "url": "https://deszkavizio.hu/a-digitalis-terbol-lep-elo-hary-janos-az-opera-legujabb-eloadasaban/"
+      "title": "Friss magyar filmekkel és különleges programokkal várja a közönséget a 26. Filmtettfeszt",
+      "author": "Molnár Dóra",
+      "category": "Mozgókép",
+      "url": "https://deszkavizio.hu/friss-magyar-filmekkel-es-kulonleges-programokkal-varja-a-kozonseget-a-26-filmtettfeszt/"
     },
     {
       "filename": "4.jpg",
-      "title": "Pénteken indul a Kerekdomb Fesztivál",
-      "author": "Szabó Száva Anna",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/penteken-indul-a-kerekdomb-fesztival/"
+      "title": "Egyedülálló színdarabbal ünnepli ezeréves fennállását a Váci Egyházmegye",
+      "author": "Steindl Gabriella",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/egyedulallo-szindarabbal-unnepli-ezereves-fennallasat-a-vaci-egyhazmegye/"
     },
     {
       "filename": "5.jpg",
-      "title": "Világhírű musical bemutatására készül a Csokonai Nemzeti Színház",
+      "title": "Sütiskönyv és útmutató a roxforti világhoz – Újabb kötetek bővítik a Harry Potter-univerzumot",
       "author": "Flaisz János",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/vilaghiru-musical-bemutatasara-keszul-a-csokonai-nemzeti-szinhaz/"
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/sutiskonyv-es-utmutato-a-roxforti-vilaghoz-ujabb-kotetek-bovitik-a-harry-potter-univerzumot/"
     },
     {
       "filename": "6.jpg",
-      "title": "Már látogatható a 44. Magyar Sajtófotó Kiállítás a Capa Központban",
-      "author": "Malik Andrea",
-      "category": "Képzőművészet",
-      "url": "https://deszkavizio.hu/mar-latogathato-a-44-magyar-sajtofoto-kiallitas-a-capa-kozpontban/"
-    },
-    {
-      "filename": "7.jpg",
-      "title": "Meghirdette 2027-es Dóm téri előadásait a Szegedi Szabadtéri",
+      "title": "“A darab iszonyatos szépen mesél az elfogadásról, a különbözőségekről, a szeretetről” – Interjú Zayzon Zsolttal",
       "author": "Flaisz János",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/meghirdette-2027-es-dom-teri-eloadasait-a-szegedi-szabadteri/"
-    },
-    {
-      "filename": "8.jpg",
-      "title": "Bartha Boróka kapta az idei Kaszás Attila-díjat",
-      "author": "Malik Andrea",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/bartha-boroka-kapta-az-idei-kaszas-attila-dijat/"
+      "url": "https://deszkavizio.hu/a-darab-iszonyatosan-szepen-mesel-az-elfogadasrol-a-kulonbozosegekrol-a-szeretetrol-interju-zayzon-zsolttal/"
     }
   ]
 }
