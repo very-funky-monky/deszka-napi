@@ -2,11 +2,8 @@ name: Napi Deszkavízió digest
 
 on:
   schedule:
-    # 05:00 UTC ≈ 07:00 CEST (nyár, márc. vége - okt. vége) / 06:00 CET (tél).
-    # A GitHub cron mindig UTC-ben fut, ezért a nyár/tél váltás körül kb.
-    # 1 órát csúszik a helyi indulási idő - ez a workflow-fájlok egy ismert
-    # korlátja, GitHub-on belül nem küszöbölhető ki auto-DST-vel.
-    - cron: "15 4 * * *"
+    - cron: "15 1 * * *"
+      timezone: "Europe/Budapest"
   workflow_dispatch:
     inputs:
       date:
