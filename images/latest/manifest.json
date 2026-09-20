@@ -1,54 +1,47 @@
 {
-  "target_date": "2026. 09. 18.",
+  "target_date": "2026. 09. 19.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "A kalóz két év után visszatér az Operaház színpadára",
-      "author": "Bánfi Benedek",
-      "category": "Tánc",
-      "url": "https://deszkavizio.hu/a-kaloz-ket-ev-utan-visszater-az-operahaz-szinpadara/"
+      "title": "Karafiáth Orsolya 50 éves",
+      "author": "Flaisz János",
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/karafiath-orsolya-50-eves/"
     },
     {
       "filename": "1.jpg",
-      "title": "Berecz András és Berecz Mihály a Budapesti Vonósokkal lép színpadra",
-      "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/berecz-andras-es-berecz-mihaly-a-budapesti-vonosokkal-lep-szinpadra/"
+      "title": "Újra indul a Mai Manó Ház művészetpedagógiai műhelye",
+      "author": "Flaisz János",
+      "category": "Képzőművészet",
+      "url": "https://deszkavizio.hu/ujra-indul-a-mai-mano-haz-muveszetpedagogiai-muhelye/"
     },
     {
       "filename": "2.jpg",
-      "title": "Antoni Tàpies grafikai műveiből nyílt kiállítás a Magyar Nemzeti Galériában",
+      "title": "Hét bemutatóval és az Interferenciák Fesztivállal vág neki 234. évadának a Kolozsvári Állami Magyar Színház",
       "author": "Bánfi Benedek",
-      "category": "Képzőművészet",
-      "url": "https://deszkavizio.hu/antoni-tapies-grafikai-muveibol-nyilt-kiallitas-a-magyar-nemzeti-galeriaban/"
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/het-bemutatoval-es-az-interferenciak-fesztivallal-vag-neki-234-evadanak-a-kolozsvari-allami-magyar-szinhaz/"
     },
     {
       "filename": "3.jpg",
-      "title": "Friss magyar filmekkel és különleges programokkal várja a közönséget a 26. Filmtettfeszt",
+      "title": "Hétvégi Filmklub: Denis Villeneuve – Felperzselt föld (2010)",
       "author": "Molnár Dóra",
       "category": "Mozgókép",
-      "url": "https://deszkavizio.hu/friss-magyar-filmekkel-es-kulonleges-programokkal-varja-a-kozonseget-a-26-filmtettfeszt/"
+      "url": "https://deszkavizio.hu/hetvegi-filmklub-denis-villeneuve-felperzselt-fold-2010/"
     },
     {
       "filename": "4.jpg",
-      "title": "Egyedülálló színdarabbal ünnepli ezeréves fennállását a Váci Egyházmegye",
-      "author": "Steindl Gabriella",
+      "title": "A Cirque du Soleil visszatér Budapestre",
+      "author": "Bánfi Benedek",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/egyedulallo-szindarabbal-unnepli-ezereves-fennallasat-a-vaci-egyhazmegye/"
+      "url": "https://deszkavizio.hu/a-cirque-du-soleil-visszater-budapestre/"
     },
     {
       "filename": "5.jpg",
-      "title": "Sütiskönyv és útmutató a roxforti világhoz – Újabb kötetek bővítik a Harry Potter-univerzumot",
+      "title": "Ennél humorosabb thrillert biztosan nem olvasol idén – Magyarul is megjelent M. K. Oliver regénye",
       "author": "Flaisz János",
       "category": "Könyv",
-      "url": "https://deszkavizio.hu/sutiskonyv-es-utmutato-a-roxforti-vilaghoz-ujabb-kotetek-bovitik-a-harry-potter-univerzumot/"
-    },
-    {
-      "filename": "6.jpg",
-      "title": "“A darab iszonyatos szépen mesél az elfogadásról, a különbözőségekről, a szeretetről” – Interjú Zayzon Zsolttal",
-      "author": "Flaisz János",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/a-darab-iszonyatosan-szepen-mesel-az-elfogadasrol-a-kulonbozosegekrol-a-szeretetrol-interju-zayzon-zsolttal/"
+      "url": "https://deszkavizio.hu/ennel-humorosabb-thrillert-biztosan-nem-olvasol-iden-magyarul-is-megjelent-m-k-oliver-regenye/"
     }
   ]
 }
