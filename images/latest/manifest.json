@@ -1,47 +1,47 @@
 {
-  "target_date": "2026. 09. 19.",
+  "target_date": "2026. 09. 20.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "Karafiáth Orsolya 50 éves",
-      "author": "Flaisz János",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/karafiath-orsolya-50-eves/"
+      "title": "Droidok, birodalmi űrhajó és fél évszázadnyi Star Wars Pécsett",
+      "author": "Molnár Dóra",
+      "category": "Mozgókép",
+      "url": "https://deszkavizio.hu/droidok-birodalmi-urhajo-es-fel-evszazadnyi-star-wars-pecsett/"
     },
     {
       "filename": "1.jpg",
-      "title": "Újra indul a Mai Manó Ház művészetpedagógiai műhelye",
-      "author": "Flaisz János",
+      "title": "Jubileumi eseménysorozatot szervez a Szegedi Papucsért Alapítvány",
+      "author": "Malik Andrea",
       "category": "Képzőművészet",
-      "url": "https://deszkavizio.hu/ujra-indul-a-mai-mano-haz-muveszetpedagogiai-muhelye/"
+      "url": "https://deszkavizio.hu/jubileumi-esemenysorozatot-szervez-a-szegedi-papucsert-alapitvany/"
     },
     {
       "filename": "2.jpg",
-      "title": "Hét bemutatóval és az Interferenciák Fesztivállal vág neki 234. évadának a Kolozsvári Állami Magyar Színház",
-      "author": "Bánfi Benedek",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/het-bemutatoval-es-az-interferenciak-fesztivallal-vag-neki-234-evadanak-a-kolozsvari-allami-magyar-szinhaz/"
+      "title": "Megjelent Patkós Ferenc első novelláskötete",
+      "author": "Flaisz János",
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/megjelent-patkos-ferenc-elso-novellaskotete/"
     },
     {
       "filename": "3.jpg",
-      "title": "Hétvégi Filmklub: Denis Villeneuve – Felperzselt föld (2010)",
-      "author": "Molnár Dóra",
-      "category": "Mozgókép",
-      "url": "https://deszkavizio.hu/hetvegi-filmklub-denis-villeneuve-felperzselt-fold-2010/"
+      "title": "Idén ősszel Kőbányára költözik a Kráter Fesztivál",
+      "author": "Bánfi Benedek",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/iden-osszel-kobanyara-koltozik-a-krater-fesztival/"
     },
     {
       "filename": "4.jpg",
-      "title": "A Cirque du Soleil visszatér Budapestre",
-      "author": "Bánfi Benedek",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/a-cirque-du-soleil-visszater-budapestre/"
+      "title": "Gauguin-kiállítás nyílik a Szépművészetiben",
+      "author": "Malik Andrea",
+      "category": "Képzőművészet",
+      "url": "https://deszkavizio.hu/gauguin-kiallitas-nyilik-a-szepmuveszetiben/"
     },
     {
       "filename": "5.jpg",
-      "title": "Ennél humorosabb thrillert biztosan nem olvasol idén – Magyarul is megjelent M. K. Oliver regénye",
-      "author": "Flaisz János",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/ennel-humorosabb-thrillert-biztosan-nem-olvasol-iden-magyarul-is-megjelent-m-k-oliver-regenye/"
+      "title": "Csodaország stílust vált – kritika a Wonderland musicalről",
+      "author": "Ráth Orsolya",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/csodaorszag-stilust-valt-kritika-a-wonderland-musicalrol/"
     }
   ]
 }
