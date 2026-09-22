@@ -1,47 +1,54 @@
 {
-  "target_date": "2026. 09. 20.",
+  "target_date": "2026. 09. 21.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "Droidok, birodalmi űrhajó és fél évszázadnyi Star Wars Pécsett",
-      "author": "Molnár Dóra",
-      "category": "Mozgókép",
-      "url": "https://deszkavizio.hu/droidok-birodalmi-urhajo-es-fel-evszazadnyi-star-wars-pecsett/"
+      "title": "Olt Tamás 45 éves",
+      "author": "Deszkavízió",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/olt-tamas-45-eves/"
     },
     {
       "filename": "1.jpg",
-      "title": "Jubileumi eseménysorozatot szervez a Szegedi Papucsért Alapítvány",
+      "title": "Megnyílt Sáros László György kiállítása a Műcsarnokban",
       "author": "Malik Andrea",
       "category": "Képzőművészet",
-      "url": "https://deszkavizio.hu/jubileumi-esemenysorozatot-szervez-a-szegedi-papucsert-alapitvany/"
+      "url": "https://deszkavizio.hu/megnyilt-saros-laszlo-gyorgy-kiallitasa-a-mucsarnokban/"
     },
     {
       "filename": "2.jpg",
-      "title": "Megjelent Patkós Ferenc első novelláskötete",
+      "title": "Hét színház összefogásában indul új közösségépítő ifjúsági program",
       "author": "Flaisz János",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/megjelent-patkos-ferenc-elso-novellaskotete/"
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/het-szinhaz-osszefogasaban-indul-uj-kozossegepito-ifjusagi-program/"
     },
     {
       "filename": "3.jpg",
-      "title": "Idén ősszel Kőbányára költözik a Kráter Fesztivál",
-      "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/iden-osszel-kobanyara-koltozik-a-krater-fesztival/"
+      "title": "Új bemutatókkal indul az ősz a FÜGE Produkciónál",
+      "author": "Molnár Dóra",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/uj-bemutatokkal-indul-az-osz-a-fuge-produkcional/"
     },
     {
       "filename": "4.jpg",
-      "title": "Gauguin-kiállítás nyílik a Szépművészetiben",
+      "title": "Új mesedarabot mutat be a Zenthe Ferenc Színház",
       "author": "Malik Andrea",
-      "category": "Képzőművészet",
-      "url": "https://deszkavizio.hu/gauguin-kiallitas-nyilik-a-szepmuveszetiben/"
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/uj-mesedarabot-mutat-be-a-zenthe-ferenc-szinhaz/"
     },
     {
       "filename": "5.jpg",
-      "title": "Csodaország stílust vált – kritika a Wonderland musicalről",
-      "author": "Ráth Orsolya",
+      "title": "Tegnap átadták a Színikritikusok díját",
+      "author": "Malik Andrea",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/csodaorszag-stilust-valt-kritika-a-wonderland-musicalrol/"
+      "url": "https://deszkavizio.hu/tegnap-atadtak-a-szinikritikusok-dijat-3/"
+    },
+    {
+      "filename": "6.jpg",
+      "title": "Ismét a jazz határait feszegeti az Újbuda Jazz Fesztivál",
+      "author": "Bánfi Benedek",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/ismet-a-jazz-hatarait-feszegeti-az-ujbuda-jazz-fesztival/"
     }
   ]
 }
