@@ -1,54 +1,54 @@
 {
-  "target_date": "2026. 09. 21.",
+  "target_date": "2026. 09. 22.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "Olt Tamás 45 éves",
-      "author": "Deszkavízió",
+      "title": "Új játéktérrel és három bemutatóval kezdik az évadot Békéscsabán",
+      "author": "Flaisz János",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/olt-tamas-45-eves/"
+      "url": "https://deszkavizio.hu/uj-jatekterrel-es-harom-bemutatoval-kezdik-az-evadot-bekescsaban/"
     },
     {
       "filename": "1.jpg",
-      "title": "Megnyílt Sáros László György kiállítása a Műcsarnokban",
+      "title": "Forrai Ferenc-kiállítás nyílik az Artus Galériában",
       "author": "Malik Andrea",
       "category": "Képzőművészet",
-      "url": "https://deszkavizio.hu/megnyilt-saros-laszlo-gyorgy-kiallitasa-a-mucsarnokban/"
+      "url": "https://deszkavizio.hu/forrai-ferenc-kiallitas-nyilik-az-artus-galeriaban/"
     },
     {
       "filename": "2.jpg",
-      "title": "Hét színház összefogásában indul új közösségépítő ifjúsági program",
-      "author": "Flaisz János",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/het-szinhaz-osszefogasaban-indul-uj-kozossegepito-ifjusagi-program/"
+      "title": "Különleges program a Concerto Budapest Magyar Kincsek Ünnepe című sorozatában",
+      "author": "Malik Andrea",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/kulonleges-program-a-concerto-budapest-magyar-kincsek-unnepe-cimu-sorozataban/"
     },
     {
       "filename": "3.jpg",
-      "title": "Új bemutatókkal indul az ősz a FÜGE Produkciónál",
+      "title": "Ismét megrendezik a Latin-Amerikai Filmnapokat az Urániában",
       "author": "Molnár Dóra",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/uj-bemutatokkal-indul-az-osz-a-fuge-produkcional/"
+      "category": "Mozgókép",
+      "url": "https://deszkavizio.hu/ismet-megrendezik-a-latin-amerikai-filmnapokat-az-uraniaban/"
     },
     {
       "filename": "4.jpg",
-      "title": "Új mesedarabot mutat be a Zenthe Ferenc Színház",
-      "author": "Malik Andrea",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/uj-mesedarabot-mutat-be-a-zenthe-ferenc-szinhaz/"
+      "title": "Apponyi-memoár és az első magyar Drakula: milliókért keltek el könyvritkaságok",
+      "author": "Szabó Száva Anna",
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/apponyi-memoar-es-az-elso-magyar-drakula-milliokert-keltek-el-konyvritkasagok/"
     },
     {
       "filename": "5.jpg",
-      "title": "Tegnap átadták a Színikritikusok díját",
-      "author": "Malik Andrea",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/tegnap-atadtak-a-szinikritikusok-dijat-3/"
+      "title": "A hétvégén ismét zenészek levetett ruháit lehet megvásárolni a Budapest Parkban",
+      "author": "Bánfi Benedek",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/a-hetvegen-ismet-zeneszek-levetett-ruhait-lehet-megvasarolni-a-budapest-parkban/"
     },
     {
       "filename": "6.jpg",
-      "title": "Ismét a jazz határait feszegeti az Újbuda Jazz Fesztivál",
-      "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/ismet-a-jazz-hatarait-feszegeti-az-ujbuda-jazz-fesztival/"
+      "title": "Két Perón a hatalom trónján – kritika az Evita musicalről",
+      "author": "Ráth Orsolya",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/ket-peron-a-hatalom-tronjan-kritika-az-evita-musicalrol/"
     }
   ]
 }
