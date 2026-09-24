@@ -1,54 +1,54 @@
 {
-  "target_date": "2026. 09. 22.",
+  "target_date": "2026. 09. 23.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "Új játéktérrel és három bemutatóval kezdik az évadot Békéscsabán",
-      "author": "Flaisz János",
+      "title": "Cseke Katinka 55 éves",
+      "author": "Bánfi Benedek",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/uj-jatekterrel-es-harom-bemutatoval-kezdik-az-evadot-bekescsaban/"
+      "url": "https://deszkavizio.hu/cseke-katinka-55-eves/"
     },
     {
       "filename": "1.jpg",
-      "title": "Forrai Ferenc-kiállítás nyílik az Artus Galériában",
+      "title": "Új összművészeti sorozatot indít a Feledi Project",
       "author": "Malik Andrea",
-      "category": "Képzőművészet",
-      "url": "https://deszkavizio.hu/forrai-ferenc-kiallitas-nyilik-az-artus-galeriaban/"
+      "category": "Tánc",
+      "url": "https://deszkavizio.hu/uj-osszmuveszeti-sorozatot-indit-a-feledi-project/"
     },
     {
       "filename": "2.jpg",
-      "title": "Különleges program a Concerto Budapest Magyar Kincsek Ünnepe című sorozatában",
+      "title": "Három előadás érkezik a Centrál kisszínpadára októberben",
       "author": "Malik Andrea",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/kulonleges-program-a-concerto-budapest-magyar-kincsek-unnepe-cimu-sorozataban/"
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/harom-eloadas-erkezik-a-central-kisszinpadara-oktoberben/"
     },
     {
       "filename": "3.jpg",
-      "title": "Ismét megrendezik a Latin-Amerikai Filmnapokat az Urániában",
-      "author": "Molnár Dóra",
-      "category": "Mozgókép",
-      "url": "https://deszkavizio.hu/ismet-megrendezik-a-latin-amerikai-filmnapokat-az-uraniaban/"
+      "title": "POPZAJLÁS Spotlight: The Roving Chess Club – Rowing Home",
+      "author": "Bánfi Benedek",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/popzajlas-spotlight-the-roving-chess-club-rowing-home/"
     },
     {
       "filename": "4.jpg",
-      "title": "Apponyi-memoár és az első magyar Drakula: milliókért keltek el könyvritkaságok",
-      "author": "Szabó Száva Anna",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/apponyi-memoar-es-az-elso-magyar-drakula-milliokert-keltek-el-konyvritkasagok/"
+      "title": "Sándor Zoltán a 24. Vajdasági Magyar Drámaíró Verseny győztese",
+      "author": "Flaisz János",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/sandor-zoltan-a-24-vajdasagi-magyar-dramairo-verseny-gyoztese/"
     },
     {
       "filename": "5.jpg",
-      "title": "A hétvégén ismét zenészek levetett ruháit lehet megvásárolni a Budapest Parkban",
+      "title": "Ők kapták idén Junior Prima díjakat",
       "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/a-hetvegen-ismet-zeneszek-levetett-ruhait-lehet-megvasarolni-a-budapest-parkban/"
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/ok-kaptak-iden-junior-prima-dijakat/"
     },
     {
       "filename": "6.jpg",
-      "title": "Két Perón a hatalom trónján – kritika az Evita musicalről",
-      "author": "Ráth Orsolya",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/ket-peron-a-hatalom-tronjan-kritika-az-evita-musicalrol/"
+      "title": "A hét könyve – Benedek Szabolcs: Tényleg szeretem a jalapeñót",
+      "author": "Flaisz János",
+      "category": "Hírek",
+      "url": "https://deszkavizio.hu/a-het-konyve-benedek-szabolcs-tenyleg-szeretem-a-jalapenot/"
     }
   ]
 }
