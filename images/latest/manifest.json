@@ -1,54 +1,54 @@
 {
-  "target_date": "2026. 09. 23.",
+  "target_date": "2026. 09. 24.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "Cseke Katinka 55 éves",
-      "author": "Bánfi Benedek",
+      "title": "Pásztor Erzsi 90 éves",
+      "author": "Flaisz János",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/cseke-katinka-55-eves/"
+      "url": "https://deszkavizio.hu/pasztor-erzsi-90-eves/"
     },
     {
       "filename": "1.jpg",
-      "title": "Új összművészeti sorozatot indít a Feledi Project",
+      "title": "Megnyílt az Árendás-kiállítás a Műcsarnokban",
       "author": "Malik Andrea",
-      "category": "Tánc",
-      "url": "https://deszkavizio.hu/uj-osszmuveszeti-sorozatot-indit-a-feledi-project/"
+      "category": "Képzőművészet",
+      "url": "https://deszkavizio.hu/megnyilt-az-arendas-kiallitas-a-mucsarnokban/"
     },
     {
       "filename": "2.jpg",
-      "title": "Három előadás érkezik a Centrál kisszínpadára októberben",
+      "title": "Októberben kezdetét veszi a Cziffra Fesztivál idei évada",
       "author": "Malik Andrea",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/harom-eloadas-erkezik-a-central-kisszinpadara-oktoberben/"
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/oktoberben-kezdetet-veszi-a-cziffra-fesztival-idei-evada/"
     },
     {
       "filename": "3.jpg",
-      "title": "POPZAJLÁS Spotlight: The Roving Chess Club – Rowing Home",
+      "title": "Új önálló és páros estekkel indul a Dumaszínház idei évada",
       "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/popzajlas-spotlight-the-roving-chess-club-rowing-home/"
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/uj-onallo-es-paros-estekkel-indul-a-dumaszinhaz-idei-evada/"
     },
     {
       "filename": "4.jpg",
-      "title": "Sándor Zoltán a 24. Vajdasági Magyar Drámaíró Verseny győztese",
-      "author": "Flaisz János",
+      "title": "Közgyűlést tartott a Vidéki Független Színházak Szövetsége",
+      "author": "Malik Andrea",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/sandor-zoltan-a-24-vajdasagi-magyar-dramairo-verseny-gyoztese/"
+      "url": "https://deszkavizio.hu/kozgyulest-tartott-a-videki-fuggetlen-szinhazak-szovetsege/"
     },
     {
       "filename": "5.jpg",
-      "title": "Ők kapták idén Junior Prima díjakat",
-      "author": "Bánfi Benedek",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/ok-kaptak-iden-junior-prima-dijakat/"
+      "title": "Szentgyörgyi Bálint EGYKE című filmje is bekerült a Sitges-i Filmfesztivál hivatalos programjába",
+      "author": "Molnár Dóra",
+      "category": "Mozgókép",
+      "url": "https://deszkavizio.hu/szentgyorgyi-balint-egyke-cimu-filmje-is-bekerult-a-sitges-i-filmfesztival-hivatalos-programjaba/"
     },
     {
       "filename": "6.jpg",
-      "title": "A hét könyve – Benedek Szabolcs: Tényleg szeretem a jalapeñót",
-      "author": "Flaisz János",
-      "category": "Hírek",
-      "url": "https://deszkavizio.hu/a-het-konyve-benedek-szabolcs-tenyleg-szeretem-a-jalapenot/"
+      "title": "Meghirdette 2026/27-es évadát a Nemzeti Színház",
+      "author": "Malik Andrea",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/meghirdette-2026-27-es-evadat-a-nemzeti-szinhaz/"
     }
   ]
 }
