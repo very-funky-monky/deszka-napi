@@ -1,54 +1,61 @@
 {
-  "target_date": "2026. 09. 24.",
+  "target_date": "2026. 09. 25.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "Pásztor Erzsi 90 éves",
+      "title": "Nagy Ervin 50 éves",
       "author": "Flaisz János",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/pasztor-erzsi-90-eves/"
+      "url": "https://deszkavizio.hu/nagy-ervin-50-eves/"
     },
     {
       "filename": "1.jpg",
-      "title": "Megnyílt az Árendás-kiállítás a Műcsarnokban",
-      "author": "Malik Andrea",
-      "category": "Képzőművészet",
-      "url": "https://deszkavizio.hu/megnyilt-az-arendas-kiallitas-a-mucsarnokban/"
+      "title": "Elindul a SHE SAID Filmklub",
+      "author": "Molnár Dóra",
+      "category": "Mozgókép",
+      "url": "https://deszkavizio.hu/elindul-a-she-said-filmklub/"
     },
     {
       "filename": "2.jpg",
-      "title": "Októberben kezdetét veszi a Cziffra Fesztivál idei évada",
-      "author": "Malik Andrea",
+      "title": "A Glencz ugyanúgy forgatott klipet, ahogyan számaikat is írják",
+      "author": "Bánfi Benedek",
       "category": "Zene",
-      "url": "https://deszkavizio.hu/oktoberben-kezdetet-veszi-a-cziffra-fesztival-idei-evada/"
+      "url": "https://deszkavizio.hu/a-glencz-ugyanugy-forgatott-klipet-ahogyan-szamaikat-is-irjak/"
     },
     {
       "filename": "3.jpg",
-      "title": "Új önálló és páros estekkel indul a Dumaszínház idei évada",
-      "author": "Bánfi Benedek",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/uj-onallo-es-paros-estekkel-indul-a-dumaszinhaz-idei-evada/"
+      "title": "Ismét meghirdették a TETT mesepályázatot",
+      "author": "Flaisz János",
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/ismet-meghirdettek-a-tett-mesepalyazatot/"
     },
     {
       "filename": "4.jpg",
-      "title": "Közgyűlést tartott a Vidéki Független Színházak Szövetsége",
-      "author": "Malik Andrea",
+      "title": "Bejelentették a Prima Primissima díj idei jelöltjeit",
+      "author": "Bánfi Benedek",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/kozgyulest-tartott-a-videki-fuggetlen-szinhazak-szovetsege/"
+      "url": "https://deszkavizio.hu/bejelentettek-a-prima-primissima-dij-idei-jeloltjeit/"
     },
     {
       "filename": "5.jpg",
-      "title": "Szentgyörgyi Bálint EGYKE című filmje is bekerült a Sitges-i Filmfesztivál hivatalos programjába",
-      "author": "Molnár Dóra",
-      "category": "Mozgókép",
-      "url": "https://deszkavizio.hu/szentgyorgyi-balint-egyke-cimu-filmje-is-bekerult-a-sitges-i-filmfesztival-hivatalos-programjaba/"
+      "title": "Lázár Ervin meséjével indul a Ciróka Bábszínház új évada",
+      "author": "Flaisz János",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/lazar-ervin-mesejevel-indul-a-ciroka-babszinhaz-uj-evada/"
     },
     {
       "filename": "6.jpg",
-      "title": "Meghirdette 2026/27-es évadát a Nemzeti Színház",
-      "author": "Malik Andrea",
+      "title": "Thaiföldön nyomozhatunk Pálmai-Lantos Éva új krimijében",
+      "author": "Flaisz János",
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/thaifoldon-nyomozhatunk-palmai-lantos-eva-uj-krimijeben/"
+    },
+    {
+      "filename": "7.jpg",
+      "title": "„A színész sosem hazudik, mindig saját magából építkezik” – interjú Vida Péterrel",
+      "author": "Steindl Gabriella",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/meghirdette-2026-27-es-evadat-a-nemzeti-szinhaz/"
+      "url": "https://deszkavizio.hu/a-szinesz-sosem-hazudik-mindig-sajat-magabol-epitkezik-interju-vida-peterrel/"
     }
   ]
 }
