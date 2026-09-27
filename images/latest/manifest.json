@@ -1,61 +1,61 @@
 {
-  "target_date": "2026. 09. 25.",
+  "target_date": "2026. 09. 26.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "Nagy Ervin 50 éves",
+      "title": "Bartha Bendegúz 30 éves",
       "author": "Flaisz János",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/nagy-ervin-50-eves/"
+      "url": "https://deszkavizio.hu/bartha-bendeguz-30-eves/"
     },
     {
       "filename": "1.jpg",
-      "title": "Elindul a SHE SAID Filmklub",
-      "author": "Molnár Dóra",
-      "category": "Mozgókép",
-      "url": "https://deszkavizio.hu/elindul-a-she-said-filmklub/"
+      "title": "Az addikciók állnak a Magyar Színház szakmai találkozójának fókuszában",
+      "author": "Flaisz János",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/az-addikciok-allnak-a-magyar-szinhaz-szakmai-talalkozojanak-fokuszaban/"
     },
     {
       "filename": "2.jpg",
-      "title": "A Glencz ugyanúgy forgatott klipet, ahogyan számaikat is írják",
+      "title": "Budapestre költözik a Music Hungary Konferencia, ahol a zeneipar túlélése és továbblépése lesz a téma",
       "author": "Bánfi Benedek",
       "category": "Zene",
-      "url": "https://deszkavizio.hu/a-glencz-ugyanugy-forgatott-klipet-ahogyan-szamaikat-is-irjak/"
+      "url": "https://deszkavizio.hu/budapestre-koltozik-a-music-hungary-konferencia-ahol-a-zeneipar-tulelese-es-tovabblepese-lesz-a-tema/"
     },
     {
       "filename": "3.jpg",
-      "title": "Ismét meghirdették a TETT mesepályázatot",
-      "author": "Flaisz János",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/ismet-meghirdettek-a-tett-mesepalyazatot/"
+      "title": "Czigány György-szalont avat a zene világnapján az Óbudai Társaskör",
+      "author": "Bánfi Benedek",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/czigany-gyorgy-szalont-avat-a-zene-vilagnapjan-az-obudai-tarsaskor/"
     },
     {
       "filename": "4.jpg",
-      "title": "Bejelentették a Prima Primissima díj idei jelöltjeit",
-      "author": "Bánfi Benedek",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/bejelentettek-a-prima-primissima-dij-idei-jeloltjeit/"
+      "title": "Hétvégi Filmklub: Curry Barker – Megszállottság (2026)",
+      "author": "Molnár Dóra",
+      "category": "Mozgókép",
+      "url": "https://deszkavizio.hu/hetvegi-filmklub-curry-barker-megszallottsag-2026/"
     },
     {
       "filename": "5.jpg",
-      "title": "Lázár Ervin meséjével indul a Ciróka Bábszínház új évada",
-      "author": "Flaisz János",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/lazar-ervin-mesejevel-indul-a-ciroka-babszinhaz-uj-evada/"
+      "title": "Grafikai kamarakiállítás a HAB-ban",
+      "author": "Malik Andrea",
+      "category": "Képzőművészet",
+      "url": "https://deszkavizio.hu/grafikai-kamarakiallitas-a-hab-ban/"
     },
     {
       "filename": "6.jpg",
-      "title": "Thaiföldön nyomozhatunk Pálmai-Lantos Éva új krimijében",
+      "title": "Hogyan születnek a hősök? – Rendhagyó előadásra készül a Harlekin Bábszínház",
       "author": "Flaisz János",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/thaifoldon-nyomozhatunk-palmai-lantos-eva-uj-krimijeben/"
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/hogyan-szuletnek-a-hosok-rendhagyo-eloadasra-keszul-a-harlekin-babszinhaz/"
     },
     {
       "filename": "7.jpg",
-      "title": "„A színész sosem hazudik, mindig saját magából építkezik” – interjú Vida Péterrel",
+      "title": "„Szeretném, ha szabadon lehetne alkotni minden területen” – interjú Tarr Zoltánnal",
       "author": "Steindl Gabriella",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/a-szinesz-sosem-hazudik-mindig-sajat-magabol-epitkezik-interju-vida-peterrel/"
+      "url": "https://deszkavizio.hu/szeretnem-ha-szabadon-lehetne-alkotni-minden-teruleten-interju-tarr-zoltannal/"
     }
   ]
 }
