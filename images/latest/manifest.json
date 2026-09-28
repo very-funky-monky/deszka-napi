@@ -1,61 +1,54 @@
 {
-  "target_date": "2026. 09. 26.",
+  "target_date": "2026. 09. 27.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "Bartha Bendegúz 30 éves",
-      "author": "Flaisz János",
+      "title": "Ráckevei Anna és Rakovszky Zsuzsa kapja idén a Szabó Magda-díjat",
+      "author": "Malik Andrea",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/bartha-bendeguz-30-eves/"
+      "url": "https://deszkavizio.hu/rackevei-anna-es-rakovszky-zsuzsa-kapja-iden-a-szabo-magda-dijat/"
     },
     {
       "filename": "1.jpg",
-      "title": "Az addikciók állnak a Magyar Színház szakmai találkozójának fókuszában",
-      "author": "Flaisz János",
+      "title": "Holnap újra Egyetemi Nap lesz a Müpában",
+      "author": "Malik Andrea",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/az-addikciok-allnak-a-magyar-szinhaz-szakmai-talalkozojanak-fokuszaban/"
+      "url": "https://deszkavizio.hu/holnap-ujra-egyetemi-nap-lesz-a-mupaban/"
     },
     {
       "filename": "2.jpg",
-      "title": "Budapestre költözik a Music Hungary Konferencia, ahol a zeneipar túlélése és továbblépése lesz a téma",
-      "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/budapestre-koltozik-a-music-hungary-konferencia-ahol-a-zeneipar-tulelese-es-tovabblepese-lesz-a-tema/"
+      "title": "Szegeden elevenedik meg a Jó estét nyár, jó estét szerelem",
+      "author": "Szabó Száva Anna",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/szegeden-elevenedik-meg-a-jo-estet-nyar-jo-estet-szerelem/"
     },
     {
       "filename": "3.jpg",
-      "title": "Czigány György-szalont avat a zene világnapján az Óbudai Társaskör",
-      "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/czigany-gyorgy-szalont-avat-a-zene-vilagnapjan-az-obudai-tarsaskor/"
+      "title": "Háromnapos nemzetközi szimpózium a MOME-n",
+      "author": "Malik Andrea",
+      "category": "Képzőművészet",
+      "url": "https://deszkavizio.hu/haromnapos-nemzetkozi-szimpozium-a-mome-n/"
     },
     {
       "filename": "4.jpg",
-      "title": "Hétvégi Filmklub: Curry Barker – Megszállottság (2026)",
+      "title": "Három év után visszatér az Észt Hét Budapestre",
       "author": "Molnár Dóra",
-      "category": "Mozgókép",
-      "url": "https://deszkavizio.hu/hetvegi-filmklub-curry-barker-megszallottsag-2026/"
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/harom-ev-utan-visszater-az-eszt-het-budapestre/"
     },
     {
       "filename": "5.jpg",
-      "title": "Grafikai kamarakiállítás a HAB-ban",
-      "author": "Malik Andrea",
-      "category": "Képzőművészet",
-      "url": "https://deszkavizio.hu/grafikai-kamarakiallitas-a-hab-ban/"
+      "title": "Melankolikus magány – Elolvastuk Martina Hefter Német Könyvdíjas regényét",
+      "author": "Flaisz János",
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/melankolikus-magany/"
     },
     {
       "filename": "6.jpg",
-      "title": "Hogyan születnek a hősök? – Rendhagyó előadásra készül a Harlekin Bábszínház",
+      "title": "“Casanova ugyanazokkal a problémákkal küzd, mint a ma embere” – Interjú Dóra Bélával",
       "author": "Flaisz János",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/hogyan-szuletnek-a-hosok-rendhagyo-eloadasra-keszul-a-harlekin-babszinhaz/"
-    },
-    {
-      "filename": "7.jpg",
-      "title": "„Szeretném, ha szabadon lehetne alkotni minden területen” – interjú Tarr Zoltánnal",
-      "author": "Steindl Gabriella",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/szeretnem-ha-szabadon-lehetne-alkotni-minden-teruleten-interju-tarr-zoltannal/"
+      "url": "https://deszkavizio.hu/casanova-ugyanazokkal-a-problemakkal-kuzd-mint-a-ma-embere-interju-dora-belaval/"
     }
   ]
 }
