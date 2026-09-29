@@ -1,54 +1,54 @@
 {
-  "target_date": "2026. 09. 27.",
+  "target_date": "2026. 09. 28.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "Ráckevei Anna és Rakovszky Zsuzsa kapja idén a Szabó Magda-díjat",
-      "author": "Malik Andrea",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/rackevei-anna-es-rakovszky-zsuzsa-kapja-iden-a-szabo-magda-dijat/"
+      "title": "Harding, Muti, Herreweghe és Christie is újra a Müpa vendége 2027-ben",
+      "author": "Szabó Száva Anna",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/harding-muti-herreweghe-es-christie-is-ujra-a-mupa-vendege-2027-ben/"
     },
     {
       "filename": "1.jpg",
-      "title": "Holnap újra Egyetemi Nap lesz a Müpában",
+      "title": "Koreai tipográfiai kiállítás nyílt Budapesten",
       "author": "Malik Andrea",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/holnap-ujra-egyetemi-nap-lesz-a-mupaban/"
+      "category": "Képzőművészet",
+      "url": "https://deszkavizio.hu/koreai-tipografiai-kiallitas-nyilt-budapesten/"
     },
     {
       "filename": "2.jpg",
-      "title": "Szegeden elevenedik meg a Jó estét nyár, jó estét szerelem",
-      "author": "Szabó Száva Anna",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/szegeden-elevenedik-meg-a-jo-estet-nyar-jo-estet-szerelem/"
+      "title": "A deepfake-ek korában keresi a választ az 23. Verzió Nemzetközi Emberi Jogi Dokumentumfilm Fesztivál",
+      "author": "Molnár Dóra",
+      "category": "Mozgókép",
+      "url": "https://deszkavizio.hu/a-deepfake-ek-koraban-keresi-a-valaszt-az-23-verzio-nemzetkozi-emberi-jogi-dokumentumfilm-fesztival/"
     },
     {
       "filename": "3.jpg",
-      "title": "Háromnapos nemzetközi szimpózium a MOME-n",
-      "author": "Malik Andrea",
-      "category": "Képzőművészet",
-      "url": "https://deszkavizio.hu/haromnapos-nemzetkozi-szimpozium-a-mome-n/"
+      "title": "Megvannak a VI. eSzínház Fesztivál díjazottjai",
+      "author": "Flaisz János",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/megvannak-a-vi-eszinhaz-fesztival-dijazottjai/"
     },
     {
       "filename": "4.jpg",
-      "title": "Három év után visszatér az Észt Hét Budapestre",
-      "author": "Molnár Dóra",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/harom-ev-utan-visszater-az-eszt-het-budapestre/"
+      "title": "Izgalmas koncertek a Budapest Fesztiválzenekar őszi programnaptárában",
+      "author": "Malik Andrea",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/izgalmas-koncertek-a-budapest-fesztivalzenekar-oszi-programnaptaraban/"
     },
     {
       "filename": "5.jpg",
-      "title": "Melankolikus magány – Elolvastuk Martina Hefter Német Könyvdíjas regényét",
+      "title": "12 nemzetközi szerző, akikkel találkozhatsz a Könyvfesztiválon",
       "author": "Flaisz János",
       "category": "Könyv",
-      "url": "https://deszkavizio.hu/melankolikus-magany/"
+      "url": "https://deszkavizio.hu/12-nemzetkozi-szerzo-akikkel-talalkozhatsz-a-konyvfesztivalon/"
     },
     {
       "filename": "6.jpg",
-      "title": "“Casanova ugyanazokkal a problémákkal küzd, mint a ma embere” – Interjú Dóra Bélával",
+      "title": "Görög László one man show-ja – Megérkezett a Tháliába az ember, akit Ovénak hívnak",
       "author": "Flaisz János",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/casanova-ugyanazokkal-a-problemakkal-kuzd-mint-a-ma-embere-interju-dora-belaval/"
+      "url": "https://deszkavizio.hu/gorog-laszlo-one-man-show-ja-megerkezett-a-thaliaba-az-ember-akit-ovenak-hivnak/"
     }
   ]
 }
