@@ -1,54 +1,54 @@
 {
-  "target_date": "2026. 09. 28.",
+  "target_date": "2026. 09. 29.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "Harding, Muti, Herreweghe és Christie is újra a Müpa vendége 2027-ben",
-      "author": "Szabó Száva Anna",
+      "title": "A Moha Emlékalapítvány 18 év alatti tehetséges zenekarokat keres",
+      "author": "Bánfi Benedek",
       "category": "Zene",
-      "url": "https://deszkavizio.hu/harding-muti-herreweghe-es-christie-is-ujra-a-mupa-vendege-2027-ben/"
+      "url": "https://deszkavizio.hu/a-moha-emlekalapitvany-18-ev-alatti-tehetseges-zenekarokat-keres/"
     },
     {
       "filename": "1.jpg",
-      "title": "Koreai tipográfiai kiállítás nyílt Budapesten",
+      "title": "José Simon-kiállítás a Bäse-ben",
       "author": "Malik Andrea",
       "category": "Képzőművészet",
-      "url": "https://deszkavizio.hu/koreai-tipografiai-kiallitas-nyilt-budapesten/"
+      "url": "https://deszkavizio.hu/jose-simon-kiallitas-a-base-ben/"
     },
     {
       "filename": "2.jpg",
-      "title": "A deepfake-ek korában keresi a választ az 23. Verzió Nemzetközi Emberi Jogi Dokumentumfilm Fesztivál",
+      "title": "Los Angelesben állítják ki az ikonikus horrorjelezeket",
       "author": "Molnár Dóra",
       "category": "Mozgókép",
-      "url": "https://deszkavizio.hu/a-deepfake-ek-koraban-keresi-a-valaszt-az-23-verzio-nemzetkozi-emberi-jogi-dokumentumfilm-fesztival/"
+      "url": "https://deszkavizio.hu/los-angelesben-allitjak-ki-az-ikonikus-horrorjelezeket/"
     },
     {
       "filename": "3.jpg",
-      "title": "Megvannak a VI. eSzínház Fesztivál díjazottjai",
-      "author": "Flaisz János",
+      "title": "Az Emberi Jogok Egyetemes Nyilatkozata rockkoncertként szólal meg a Vörös Neonban",
+      "author": "Bánfi Benedek",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/megvannak-a-vi-eszinhaz-fesztival-dijazottjai/"
+      "url": "https://deszkavizio.hu/az-emberi-jogok-egyetemes-nyilatkozata-rockkoncertkent-szolal-meg-a-voros-neonban/"
     },
     {
       "filename": "4.jpg",
-      "title": "Izgalmas koncertek a Budapest Fesztiválzenekar őszi programnaptárában",
-      "author": "Malik Andrea",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/izgalmas-koncertek-a-budapest-fesztivalzenekar-oszi-programnaptaraban/"
+      "title": "Új bemutatóra készül Pintér Béla és Társulata",
+      "author": "Flaisz János",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/uj-bemutatora-keszul-pinter-bela-es-tarsulata/"
     },
     {
       "filename": "5.jpg",
-      "title": "12 nemzetközi szerző, akikkel találkozhatsz a Könyvfesztiválon",
+      "title": "Értelem kontra érzelem – Ősbemutató a Jászai Mari Színházban",
       "author": "Flaisz János",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/12-nemzetkozi-szerzo-akikkel-talalkozhatsz-a-konyvfesztivalon/"
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/ertelem-kontra-erzelem-osbemutato-a-jaszai-mari-szinhazban/"
     },
     {
       "filename": "6.jpg",
-      "title": "Görög László one man show-ja – Megérkezett a Tháliába az ember, akit Ovénak hívnak",
+      "title": "“Ha valakit csak a hatalom iránti imádat motivál, az egyszer bele fog roppani” – Interjú Barsi Mártonnal",
       "author": "Flaisz János",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/gorog-laszlo-one-man-show-ja-megerkezett-a-thaliaba-az-ember-akit-ovenak-hivnak/"
+      "url": "https://deszkavizio.hu/ha-valakit-csak-a-hatalom-iranti-imadat-motival-az-egyszer-bele-fog-roppani-interju-barsi-martonnal/"
     }
   ]
 }
