@@ -1,54 +1,54 @@
 {
-  "target_date": "2026. 09. 29.",
+  "target_date": "2026. 09. 30.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "A Moha Emlékalapítvány 18 év alatti tehetséges zenekarokat keres",
+      "title": "Zsuráfszky Zoltán 70 éves",
       "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/a-moha-emlekalapitvany-18-ev-alatti-tehetseges-zenekarokat-keres/"
+      "category": "Tánc",
+      "url": "https://deszkavizio.hu/zsurafszky-zoltan-70-eves/"
     },
     {
       "filename": "1.jpg",
-      "title": "José Simon-kiállítás a Bäse-ben",
+      "title": "Hamarosan indul a jumpSTART 2026 programsorozata",
       "author": "Malik Andrea",
       "category": "Képzőművészet",
-      "url": "https://deszkavizio.hu/jose-simon-kiallitas-a-base-ben/"
+      "url": "https://deszkavizio.hu/hamarosan-indul-a-jumpstart-2026-programsorozata/"
     },
     {
       "filename": "2.jpg",
-      "title": "Los Angelesben állítják ki az ikonikus horrorjelezeket",
+      "title": "Ősszel ismét jön a Cinemira",
       "author": "Molnár Dóra",
       "category": "Mozgókép",
-      "url": "https://deszkavizio.hu/los-angelesben-allitjak-ki-az-ikonikus-horrorjelezeket/"
+      "url": "https://deszkavizio.hu/osszel-ismet-jon-a-cinemira/"
     },
     {
       "filename": "3.jpg",
-      "title": "Az Emberi Jogok Egyetemes Nyilatkozata rockkoncertként szólal meg a Vörös Neonban",
+      "title": "POPZAJLÁS Spotlight: Cabrio Cat – Weak Society",
       "author": "Bánfi Benedek",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/az-emberi-jogok-egyetemes-nyilatkozata-rockkoncertkent-szolal-meg-a-voros-neonban/"
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/popzajlas-spotlight-cabrio-cat-weak-society/"
     },
     {
       "filename": "4.jpg",
-      "title": "Új bemutatóra készül Pintér Béla és Társulata",
-      "author": "Flaisz János",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/uj-bemutatora-keszul-pinter-bela-es-tarsulata/"
+      "title": "Béres Attila az OPERÁ-ban rendez",
+      "author": "Malik Andrea",
+      "category": "Opera",
+      "url": "https://deszkavizio.hu/beres-attila-az-opera-ban-rendez/"
     },
     {
       "filename": "5.jpg",
-      "title": "Értelem kontra érzelem – Ősbemutató a Jászai Mari Színházban",
-      "author": "Flaisz János",
+      "title": "A hónap legjobbja – szeptember",
+      "author": "Deszkavízió",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/ertelem-kontra-erzelem-osbemutato-a-jaszai-mari-szinhazban/"
+      "url": "https://deszkavizio.hu/a-honap-legjobbja-szeptember-6/"
     },
     {
       "filename": "6.jpg",
-      "title": "“Ha valakit csak a hatalom iránti imádat motivál, az egyszer bele fog roppani” – Interjú Barsi Mártonnal",
+      "title": "A hét könyve – Han Kang: A fehér könyv",
       "author": "Flaisz János",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/ha-valakit-csak-a-hatalom-iranti-imadat-motival-az-egyszer-bele-fog-roppani-interju-barsi-martonnal/"
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/a-het-konyve-han-kang-a-feher-konyv/"
     }
   ]
 }
