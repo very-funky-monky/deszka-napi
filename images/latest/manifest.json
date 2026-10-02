@@ -1,54 +1,61 @@
 {
-  "target_date": "2026. 09. 30.",
+  "target_date": "2026. 10. 01.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "Zsuráfszky Zoltán 70 éves",
+      "title": "Marics Peti 30 éves",
       "author": "Bánfi Benedek",
-      "category": "Tánc",
-      "url": "https://deszkavizio.hu/zsurafszky-zoltan-70-eves/"
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/marics-peti-30-eves/"
     },
     {
       "filename": "1.jpg",
-      "title": "Hamarosan indul a jumpSTART 2026 programsorozata",
-      "author": "Malik Andrea",
-      "category": "Képzőművészet",
-      "url": "https://deszkavizio.hu/hamarosan-indul-a-jumpstart-2026-programsorozata/"
+      "title": "Molnár Piroska 81 éves",
+      "author": "Flaisz János",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/molnar-piroska-81-eves/"
     },
     {
       "filename": "2.jpg",
-      "title": "Ősszel ismét jön a Cinemira",
-      "author": "Molnár Dóra",
-      "category": "Mozgókép",
-      "url": "https://deszkavizio.hu/osszel-ismet-jon-a-cinemira/"
+      "title": "Posztumusz jelenik meg Nádas Péter verseskötete",
+      "author": "Flaisz János",
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/posztumusz-jelenik-meg-nadas-peter-verseskotete/"
     },
     {
       "filename": "3.jpg",
-      "title": "POPZAJLÁS Spotlight: Cabrio Cat – Weak Society",
+      "title": "Tárgy-Fotó és Fotó-Tárgy tematikával nyílik a Kiscelli Múzeum rendezvénysorozata",
       "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/popzajlas-spotlight-cabrio-cat-weak-society/"
+      "category": "Képzőművészet",
+      "url": "https://deszkavizio.hu/targy-foto-es-foto-targy-tematikaval-nyilik-a-kiscelli-muzeum-rendezvenysorozata/"
     },
     {
       "filename": "4.jpg",
-      "title": "Béres Attila az OPERÁ-ban rendez",
-      "author": "Malik Andrea",
-      "category": "Opera",
-      "url": "https://deszkavizio.hu/beres-attila-az-opera-ban-rendez/"
+      "title": "Magyar filmdömping jön a mozikba októberben",
+      "author": "Molnár Dóra",
+      "category": "Mozgókép",
+      "url": "https://deszkavizio.hu/magyar-filmdomping-jon-a-mozikba-oktoberben/"
     },
     {
       "filename": "5.jpg",
-      "title": "A hónap legjobbja – szeptember",
-      "author": "Deszkavízió",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/a-honap-legjobbja-szeptember-6/"
+      "title": "Izgalmas programokat kínál a Magyar Zene Háza idén is",
+      "author": "Malik Andrea",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/izgalmas-programokat-kinal-a-magyar-zene-haza-iden-is/"
     },
     {
       "filename": "6.jpg",
-      "title": "A hét könyve – Han Kang: A fehér könyv",
-      "author": "Flaisz János",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/a-het-konyve-han-kang-a-feher-konyv/"
+      "title": "Átadták a Magyar Művészeti Akadémia tagozati díjait",
+      "author": "Malik Andrea",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/atadtak-a-magyar-muveszeti-akademia-tagozati-dijait-2/"
+    },
+    {
+      "filename": "7.jpg",
+      "title": "„A zene is egy nyelv, így az előadás több nyelven szólal meg” – interjú Jámbor Nándorral",
+      "author": "Bánfi Benedek",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/a-zene-is-egy-nyelv-igy-az-eloadas-tobb-nyelven-szolal-meg-interju-jambor-nandorral/"
     }
   ]
 }
