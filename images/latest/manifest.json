@@ -1,61 +1,54 @@
 {
-  "target_date": "2026. 10. 01.",
+  "target_date": "2026. 10. 02.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "Marics Peti 30 éves",
+      "title": "Már csak ez kellett, meg egy esküvő Gyálon – új dallal jelentkezik a Corneus",
       "author": "Bánfi Benedek",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/marics-peti-30-eves/"
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/mar-csak-ez-kellett-meg-egy-eskuvo-gyalon-uj-dallal-jelentkezik-a-corneus/"
     },
     {
       "filename": "1.jpg",
-      "title": "Molnár Piroska 81 éves",
-      "author": "Flaisz János",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/molnar-piroska-81-eves/"
+      "title": "Elveszettnek hitt magyar remekművek kerültek elő",
+      "author": "Malik Andrea",
+      "category": "Képzőművészet",
+      "url": "https://deszkavizio.hu/elveszettnek-hitt-magyar-remekmuvek-kerultek-elo/"
     },
     {
       "filename": "2.jpg",
-      "title": "Posztumusz jelenik meg Nádas Péter verseskötete",
+      "title": "Fikciós dokumentumdrámát mutat be a KVTársulat",
       "author": "Flaisz János",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/posztumusz-jelenik-meg-nadas-peter-verseskotete/"
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/fikcios-dokumentumdramat-mutat-be-a-kvtarsulat/"
     },
     {
       "filename": "3.jpg",
-      "title": "Tárgy-Fotó és Fotó-Tárgy tematikával nyílik a Kiscelli Múzeum rendezvénysorozata",
+      "title": "1 dal 24 órán át – jótékonysági dalmaraton a superaros gyerekek zeneoktatásáért",
       "author": "Bánfi Benedek",
-      "category": "Képzőművészet",
-      "url": "https://deszkavizio.hu/targy-foto-es-foto-targy-tematikaval-nyilik-a-kiscelli-muzeum-rendezvenysorozata/"
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/1-dal-24-oran-at-jotekonysagi-dalmaraton-a-superaros-gyerekek-zeneoktatasaert/"
     },
     {
       "filename": "4.jpg",
-      "title": "Magyar filmdömping jön a mozikba októberben",
-      "author": "Molnár Dóra",
-      "category": "Mozgókép",
-      "url": "https://deszkavizio.hu/magyar-filmdomping-jon-a-mozikba-oktoberben/"
+      "title": "Közel 40 000 e-könyv válik év végéig ingyenesen elérhetővé látássérülteknek",
+      "author": "Flaisz János",
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/kozel-40-000-e-konyv-valik-ev-vegeig-ingyenesen-elerhetove-latasserulteknek/"
     },
     {
       "filename": "5.jpg",
-      "title": "Izgalmas programokat kínál a Magyar Zene Háza idén is",
-      "author": "Malik Andrea",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/izgalmas-programokat-kinal-a-magyar-zene-haza-iden-is/"
+      "title": "Mi történt augusztus 29-én? – Visszatérés a Négy Majom Gyilkos világába",
+      "author": "Flaisz János",
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/mi-tortent-augusztus-29-en-visszateres-a-negy-majom-gyilkos-vilagaba/"
     },
     {
       "filename": "6.jpg",
-      "title": "Átadták a Magyar Művészeti Akadémia tagozati díjait",
-      "author": "Malik Andrea",
+      "title": "„Néha komfortosabb a színpadon lenni, mint az életben” – interjú Sipos Verával",
+      "author": "Steindl Gabriella",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/atadtak-a-magyar-muveszeti-akademia-tagozati-dijait-2/"
-    },
-    {
-      "filename": "7.jpg",
-      "title": "„A zene is egy nyelv, így az előadás több nyelven szólal meg” – interjú Jámbor Nándorral",
-      "author": "Bánfi Benedek",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/a-zene-is-egy-nyelv-igy-az-eloadas-tobb-nyelven-szolal-meg-interju-jambor-nandorral/"
+      "url": "https://deszkavizio.hu/neha-komfortosabb-a-szinpadon-lenni-mint-az-eletben-interju-sipos-veraval/"
     }
   ]
 }
