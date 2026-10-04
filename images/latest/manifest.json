@@ -1,54 +1,54 @@
 {
-  "target_date": "2026. 10. 02.",
+  "target_date": "2026. 10. 03.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "Már csak ez kellett, meg egy esküvő Gyálon – új dallal jelentkezik a Corneus",
-      "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/mar-csak-ez-kellett-meg-egy-eskuvo-gyalon-uj-dallal-jelentkezik-a-corneus/"
+      "title": "Podlovics Laura 30 éves",
+      "author": "Flaisz János",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/podlovics-laura-30-eves/"
     },
     {
       "filename": "1.jpg",
-      "title": "Elveszettnek hitt magyar remekművek kerültek elő",
-      "author": "Malik Andrea",
-      "category": "Képzőművészet",
-      "url": "https://deszkavizio.hu/elveszettnek-hitt-magyar-remekmuvek-kerultek-elo/"
+      "title": "Újabb kalandok Twisted Wonderlandben",
+      "author": "Flaisz János",
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/ujabb-kalandok-twisted-wonderlandben/"
     },
     {
       "filename": "2.jpg",
-      "title": "Fikciós dokumentumdrámát mutat be a KVTársulat",
-      "author": "Flaisz János",
+      "title": "Az otthoni egyenlőségre hívta fel a figyelmet a Persil és a Loupe",
+      "author": "Bánfi Benedek",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/fikcios-dokumentumdramat-mutat-be-a-kvtarsulat/"
+      "url": "https://deszkavizio.hu/az-otthoni-egyenlosegre-hivta-fel-a-figyelmet-a-persil-es-a-loupe/"
     },
     {
       "filename": "3.jpg",
-      "title": "1 dal 24 órán át – jótékonysági dalmaraton a superaros gyerekek zeneoktatásáért",
-      "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/1-dal-24-oran-at-jotekonysagi-dalmaraton-a-superaros-gyerekek-zeneoktatasaert/"
+      "title": "Hétvégi Filmklub: Jay Roach – Rózsák háborúja (2025)",
+      "author": "Molnár Dóra",
+      "category": "Mozgókép",
+      "url": "https://deszkavizio.hu/hetvegi-filmklub-jay-roach-rozsak-haboruja-2025/"
     },
     {
       "filename": "4.jpg",
-      "title": "Közel 40 000 e-könyv válik év végéig ingyenesen elérhetővé látássérülteknek",
-      "author": "Flaisz János",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/kozel-40-000-e-konyv-valik-ev-vegeig-ingyenesen-elerhetove-latasserulteknek/"
+      "title": "Hamarosan megnyílik a MOME INTRO: A gondoskodás rétegei című kiállítás",
+      "author": "Malik Andrea",
+      "category": "Képzőművészet",
+      "url": "https://deszkavizio.hu/hamarosan-megnyilik-a-mome-intro-a-gondoskodas-retegei-cimu-kiallitas/"
     },
     {
       "filename": "5.jpg",
-      "title": "Mi történt augusztus 29-én? – Visszatérés a Négy Majom Gyilkos világába",
-      "author": "Flaisz János",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/mi-tortent-augusztus-29-en-visszateres-a-negy-majom-gyilkos-vilagaba/"
+      "title": "Hárman párban – kritika a Szerelem, ó!, című musicalről",
+      "author": "Ráth Orsolya",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/harman-parban-kritika-a-szerelem-o-cimu-musicalrol/"
     },
     {
       "filename": "6.jpg",
-      "title": "„Néha komfortosabb a színpadon lenni, mint az életben” – interjú Sipos Verával",
-      "author": "Steindl Gabriella",
+      "title": "“Nem szabad elfáradnom, mert akkor elveszik az izgalom” – Interjú Görög Lászlóval",
+      "author": "Flaisz János",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/neha-komfortosabb-a-szinpadon-lenni-mint-az-eletben-interju-sipos-veraval/"
+      "url": "https://deszkavizio.hu/nem-szabad-elfaradnom-mert-akkor-elveszik-az-izgalom-interju-gorog-laszloval/"
     }
   ]
 }
