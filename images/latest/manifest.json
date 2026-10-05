@@ -1,54 +1,54 @@
 {
-  "target_date": "2026. 10. 03.",
+  "target_date": "2026. 10. 04.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "Podlovics Laura 30 éves",
-      "author": "Flaisz János",
+      "title": "Patkós Márton 35 éves",
+      "author": "Molnár Dóra",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/podlovics-laura-30-eves/"
+      "url": "https://deszkavizio.hu/patkos-marton-35-eves/"
     },
     {
       "filename": "1.jpg",
-      "title": "Újabb kalandok Twisted Wonderlandben",
-      "author": "Flaisz János",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/ujabb-kalandok-twisted-wonderlandben/"
+      "title": "Visszatér a Szöktetés a szerájból az Operaház műsorára",
+      "author": "Szabó Száva Anna",
+      "category": "Opera",
+      "url": "https://deszkavizio.hu/visszater-a-szoktetes-a-szerajbol-az-operahaz-musorara/"
     },
     {
       "filename": "2.jpg",
-      "title": "Az otthoni egyenlőségre hívta fel a figyelmet a Persil és a Loupe",
-      "author": "Bánfi Benedek",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/az-otthoni-egyenlosegre-hivta-fel-a-figyelmet-a-persil-es-a-loupe/"
+      "title": "Sopotnik Zoltán kapja idén a Csáth Géza-díjat",
+      "author": "Flaisz János",
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/sopotnik-zoltan-kapja-iden-a-csath-geza-dijat/"
     },
     {
       "filename": "3.jpg",
-      "title": "Hétvégi Filmklub: Jay Roach – Rózsák háborúja (2025)",
-      "author": "Molnár Dóra",
-      "category": "Mozgókép",
-      "url": "https://deszkavizio.hu/hetvegi-filmklub-jay-roach-rozsak-haboruja-2025/"
+      "title": "Visszatérés az Álomvilágba – Új kiadásban jelent meg a Gergő és az álomfogók",
+      "author": "Flaisz János",
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/visszateres-az-alomvilagba-uj-kiadasban-jelent-meg-a-gergo-es-az-alomfogok/"
     },
     {
       "filename": "4.jpg",
-      "title": "Hamarosan megnyílik a MOME INTRO: A gondoskodás rétegei című kiállítás",
+      "title": "Adománygyűjtő kampányt indított a Baltazár Színház",
       "author": "Malik Andrea",
-      "category": "Képzőművészet",
-      "url": "https://deszkavizio.hu/hamarosan-megnyilik-a-mome-intro-a-gondoskodas-retegei-cimu-kiallitas/"
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/adomanygyujto-kampanyt-inditott-a-baltazar-szinhaz/"
     },
     {
       "filename": "5.jpg",
-      "title": "Hárman párban – kritika a Szerelem, ó!, című musicalről",
-      "author": "Ráth Orsolya",
+      "title": "Vajon tényleg a pokolba tartunk? – Kritika A nő, aki saját magát kereste című előadásról",
+      "author": "Molnár Dóra",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/harman-parban-kritika-a-szerelem-o-cimu-musicalrol/"
+      "url": "https://deszkavizio.hu/vajon-tenyleg-a-pokolba-tartunk-kritika-a-noaki-sajat-magat-kereste-cimu-eloadasrol/"
     },
     {
       "filename": "6.jpg",
-      "title": "“Nem szabad elfáradnom, mert akkor elveszik az izgalom” – Interjú Görög Lászlóval",
-      "author": "Flaisz János",
+      "title": "„Azt kerestük az előadásban, mit jelent ma Casanovának lenni” – interjú Fekete Patríciával",
+      "author": "Steindl Gabriella",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/nem-szabad-elfaradnom-mert-akkor-elveszik-az-izgalom-interju-gorog-laszloval/"
+      "url": "https://deszkavizio.hu/azt-kerestuk-az-eloadasban-mit-jelent-ma-casanovanak-lenni-interju-fekete-patriciaval/"
     }
   ]
 }
