@@ -1,54 +1,54 @@
 {
-  "target_date": "2026. 10. 04.",
+  "target_date": "2026. 10. 05.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "Patkós Márton 35 éves",
+      "title": "Teljes a BIFF-re érkező filmek listája",
       "author": "Molnár Dóra",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/patkos-marton-35-eves/"
+      "category": "Mozgókép",
+      "url": "https://deszkavizio.hu/teljes-a-biff-re-erkezo-filmek-listaja/"
     },
     {
       "filename": "1.jpg",
-      "title": "Visszatér a Szöktetés a szerájból az Operaház műsorára",
+      "title": "A Magyar Állami Népi Együttes bemutatja A bor dicsérete című darabját",
       "author": "Szabó Száva Anna",
-      "category": "Opera",
-      "url": "https://deszkavizio.hu/visszater-a-szoktetes-a-szerajbol-az-operahaz-musorara/"
+      "category": "Tánc",
+      "url": "https://deszkavizio.hu/a-magyar-allami-nepi-egyuttes-bemutatja-a-bor-dicserete-cimu-darabjat/"
     },
     {
       "filename": "2.jpg",
-      "title": "Sopotnik Zoltán kapja idén a Csáth Géza-díjat",
-      "author": "Flaisz János",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/sopotnik-zoltan-kapja-iden-a-csath-geza-dijat/"
+      "title": "A LOUPE vár mindenkit a SZABADNAP 2.0-ra",
+      "author": "Malik Andrea",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/a-loupe-var-mindenkit-a-szabadnap-2-0-ra/"
     },
     {
       "filename": "3.jpg",
-      "title": "Visszatérés az Álomvilágba – Új kiadásban jelent meg a Gergő és az álomfogók",
+      "title": "Nem mindegy, melyik oldal szól – “Meghallgattuk” Janikovszky lemezeit",
       "author": "Flaisz János",
       "category": "Könyv",
-      "url": "https://deszkavizio.hu/visszateres-az-alomvilagba-uj-kiadasban-jelent-meg-a-gergo-es-az-alomfogok/"
+      "url": "https://deszkavizio.hu/nem-mindegy-melyik-oldal-szol-meghallgattuk-janikovszky-lemezeit/"
     },
     {
       "filename": "4.jpg",
-      "title": "Adománygyűjtő kampányt indított a Baltazár Színház",
+      "title": "Kiderült kik jutottak a Solti Nemzetközi Karmesterverseny középdöntőjébe",
       "author": "Malik Andrea",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/adomanygyujto-kampanyt-inditott-a-baltazar-szinhaz/"
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/kiderult-kik-jutottak-a-solti-nemzetkozi-karmesterverseny-kozepdontojebe/"
     },
     {
       "filename": "5.jpg",
-      "title": "Vajon tényleg a pokolba tartunk? – Kritika A nő, aki saját magát kereste című előadásról",
+      "title": "130 éves a Kecskeméti Katona József Nemzeti Színház",
       "author": "Molnár Dóra",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/vajon-tenyleg-a-pokolba-tartunk-kritika-a-noaki-sajat-magat-kereste-cimu-eloadasrol/"
+      "url": "https://deszkavizio.hu/130-eves-a-kecskemeti-katona-jozsef-nemzeti-szinhaz/"
     },
     {
       "filename": "6.jpg",
-      "title": "„Azt kerestük az előadásban, mit jelent ma Casanovának lenni” – interjú Fekete Patríciával",
-      "author": "Steindl Gabriella",
+      "title": "A valóság helyett új valóság – megérkezett a Játék a kastélyban a Tháliába",
+      "author": "Bánfi Benedek",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/azt-kerestuk-az-eloadasban-mit-jelent-ma-casanovanak-lenni-interju-fekete-patriciaval/"
+      "url": "https://deszkavizio.hu/a-valosag-helyett-uj-valosag-megerkezett-a-jatek-a-kastelyban-a-thaliaba/"
     }
   ]
 }
