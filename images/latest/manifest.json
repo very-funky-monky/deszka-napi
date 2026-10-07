@@ -1,54 +1,54 @@
 {
-  "target_date": "2026. 10. 05.",
+  "target_date": "2026. 10. 06.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "Teljes a BIFF-re érkező filmek listája",
-      "author": "Molnár Dóra",
-      "category": "Mozgókép",
-      "url": "https://deszkavizio.hu/teljes-a-biff-re-erkezo-filmek-listaja/"
+      "title": "Nyílt próbát tart a Radnóti",
+      "author": "Flaisz János",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/nyilt-probat-tart-a-radnoti-2/"
     },
     {
       "filename": "1.jpg",
-      "title": "A Magyar Állami Népi Együttes bemutatja A bor dicsérete című darabját",
-      "author": "Szabó Száva Anna",
-      "category": "Tánc",
-      "url": "https://deszkavizio.hu/a-magyar-allami-nepi-egyuttes-bemutatja-a-bor-dicserete-cimu-darabjat/"
+      "title": "Női sorsok kerülnek a középpontba az idei Szemrevaló Filmfesztiválon",
+      "author": "Molnár Dóra",
+      "category": "Mozgókép",
+      "url": "https://deszkavizio.hu/noi-sorsok-kerulnek-a-kozeppontba-az-idei-szemrevalo-filmfesztivalon/"
     },
     {
       "filename": "2.jpg",
-      "title": "A LOUPE vár mindenkit a SZABADNAP 2.0-ra",
-      "author": "Malik Andrea",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/a-loupe-var-mindenkit-a-szabadnap-2-0-ra/"
+      "title": "Vizuális teremtéskoncert mesterséges intelligenciával a Magyar Zene Házában",
+      "author": "Bánfi Benedek",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/vizualis-teremteskoncert-mesterseges-intelligenciaval-a-magyar-zene-hazaban/"
     },
     {
       "filename": "3.jpg",
-      "title": "Nem mindegy, melyik oldal szól – “Meghallgattuk” Janikovszky lemezeit",
-      "author": "Flaisz János",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/nem-mindegy-melyik-oldal-szol-meghallgattuk-janikovszky-lemezeit/"
+      "title": "Mától megtekinthető a METAMORPHOSIS a Capa központban",
+      "author": "Malik Andrea",
+      "category": "Képzőművészet",
+      "url": "https://deszkavizio.hu/matol-megtekintheto-a-metamorphosis-a-capa-kozpontban/"
     },
     {
       "filename": "4.jpg",
-      "title": "Kiderült kik jutottak a Solti Nemzetközi Karmesterverseny középdöntőjébe",
-      "author": "Malik Andrea",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/kiderult-kik-jutottak-a-solti-nemzetkozi-karmesterverseny-kozepdontojebe/"
+      "title": "Különleges árnyszínházi előadást mutattak be Kecskeméten",
+      "author": "Flaisz János",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/kulonleges-arnyszinhazi-eloadast-mutattak-be-kecskemeten/"
     },
     {
       "filename": "5.jpg",
-      "title": "130 éves a Kecskeméti Katona József Nemzeti Színház",
-      "author": "Molnár Dóra",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/130-eves-a-kecskemeti-katona-jozsef-nemzeti-szinhaz/"
+      "title": "Két világ között – Elolvastuk a finn Salla Simukka új könyvét",
+      "author": "Flaisz János",
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/ket-vilag-kozott-elolvastuk-a-finn-salla-simukka-uj-konyvet/"
     },
     {
       "filename": "6.jpg",
-      "title": "A valóság helyett új valóság – megérkezett a Játék a kastélyban a Tháliába",
+      "title": "„A technológia már az életünk része, ezt nem lehet egyszerűen kiiktatni” – interjú Mórocz Adrienn-nel",
       "author": "Bánfi Benedek",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/a-valosag-helyett-uj-valosag-megerkezett-a-jatek-a-kastelyban-a-thaliaba/"
+      "url": "https://deszkavizio.hu/a-technologia-mar-az-eletunk-resze-ezt-nem-lehet-egyszeruen-kiiktatni-interju-morocz-adrienn-nel/"
     }
   ]
 }
