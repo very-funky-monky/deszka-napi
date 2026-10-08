@@ -1,54 +1,61 @@
 {
-  "target_date": "2026. 10. 06.",
+  "target_date": "2026. 10. 07.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "Nyílt próbát tart a Radnóti",
-      "author": "Flaisz János",
+      "title": "Új helyszínen látható a Jurányi zenés dühmonológja",
+      "author": "Molnár Dóra",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/nyilt-probat-tart-a-radnoti-2/"
+      "url": "https://deszkavizio.hu/uj-helyszinen-lathato-a-juranyi-zenes-duhmonologja/"
     },
     {
       "filename": "1.jpg",
-      "title": "Női sorsok kerülnek a középpontba az idei Szemrevaló Filmfesztiválon",
+      "title": "Svájci–magyar film készül Carl Lutz budapesti mentőakciójáról",
       "author": "Molnár Dóra",
       "category": "Mozgókép",
-      "url": "https://deszkavizio.hu/noi-sorsok-kerulnek-a-kozeppontba-az-idei-szemrevalo-filmfesztivalon/"
+      "url": "https://deszkavizio.hu/svajci-magyar-film-keszul-carl-lutz-budapesti-mentoakciojarol/"
     },
     {
       "filename": "2.jpg",
-      "title": "Vizuális teremtéskoncert mesterséges intelligenciával a Magyar Zene Házában",
-      "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/vizualis-teremteskoncert-mesterseges-intelligenciaval-a-magyar-zene-hazaban/"
+      "title": "A Pécsi Nemzeti Színházban mutatják be a Pillangókisasszonyt",
+      "author": "Szabó Száva Anna",
+      "category": "Opera",
+      "url": "https://deszkavizio.hu/a-pecsi-nemzeti-szinhazban-mutatjak-be-a-pillangokisasszonyt/"
     },
     {
       "filename": "3.jpg",
-      "title": "Mától megtekinthető a METAMORPHOSIS a Capa központban",
-      "author": "Malik Andrea",
-      "category": "Képzőművészet",
-      "url": "https://deszkavizio.hu/matol-megtekintheto-a-metamorphosis-a-capa-kozpontban/"
+      "title": "Ökölbe szorított kézzel, sírva énekelni a refrént meg a riffeket – végre megjelent a Keo debütlemeze",
+      "author": "Bánfi Benedek",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/okolbe-szoritott-kezzel-sirva-enekelni-a-refrent-meg-a-riffeket-vegre-megjelent-a-keo-debutlemeze/"
     },
     {
       "filename": "4.jpg",
-      "title": "Különleges árnyszínházi előadást mutattak be Kecskeméten",
-      "author": "Flaisz János",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/kulonleges-arnyszinhazi-eloadast-mutattak-be-kecskemeten/"
+      "title": "Székesfehérvár története táncban kel életre Budapesten",
+      "author": "Bánfi Benedek",
+      "category": "Tánc",
+      "url": "https://deszkavizio.hu/szekesfehervar-tortenete-tancban-kel-eletre-budapesten/"
     },
     {
       "filename": "5.jpg",
-      "title": "Két világ között – Elolvastuk a finn Salla Simukka új könyvét",
-      "author": "Flaisz János",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/ket-vilag-kozott-elolvastuk-a-finn-salla-simukka-uj-konyvet/"
+      "title": "Kodály művek az OPERA októberi programjában",
+      "author": "Malik Andrea",
+      "category": "Opera",
+      "url": "https://deszkavizio.hu/kodaly-muvek-az-opera-oktoberi-programjaban/"
     },
     {
       "filename": "6.jpg",
-      "title": "„A technológia már az életünk része, ezt nem lehet egyszerűen kiiktatni” – interjú Mórocz Adrienn-nel",
-      "author": "Bánfi Benedek",
+      "title": "Megtartotta tisztújító közgyűlését a Magyar Művészeti Akadémia",
+      "author": "Malik Andrea",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/a-technologia-mar-az-eletunk-resze-ezt-nem-lehet-egyszeruen-kiiktatni-interju-morocz-adrienn-nel/"
+      "url": "https://deszkavizio.hu/megtartotta-tisztujito-kozgyuleset-a-magyar-muveszeti-akademia/"
+    },
+    {
+      "filename": "7.jpg",
+      "title": "A hét könyv – Cormac McCarthy: Isten gyermeke",
+      "author": "Flaisz János",
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/a-het-konyv-cormac-mccarthy-isten-gyermeke/"
     }
   ]
 }
