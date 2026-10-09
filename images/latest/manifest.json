@@ -1,61 +1,54 @@
 {
-  "target_date": "2026. 10. 07.",
+  "target_date": "2026. 10. 08.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "Új helyszínen látható a Jurányi zenés dühmonológja",
-      "author": "Molnár Dóra",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/uj-helyszinen-lathato-a-juranyi-zenes-duhmonologja/"
+      "title": "Negyedik alkalommal is érkezik az ART WEEKEND BUDAPEST",
+      "author": "Malik Andrea",
+      "category": "Képzőművészet",
+      "url": "https://deszkavizio.hu/negyedik-alkalommal-is-erkezik-az-art-weekend-budapest/"
     },
     {
       "filename": "1.jpg",
-      "title": "Svájci–magyar film készül Carl Lutz budapesti mentőakciójáról",
-      "author": "Molnár Dóra",
-      "category": "Mozgókép",
-      "url": "https://deszkavizio.hu/svajci-magyar-film-keszul-carl-lutz-budapesti-mentoakciojarol/"
+      "title": "„A Kaláka olyan, mint a Rolling Stones” – dzsesszben születnek újjá a Kaláka dalai",
+      "author": "Bánfi Benedek",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/a-kalaka-olyan-mint-a-rolling-stones-dzsesszben-szuletnek-ujja-a-kalaka-dalai/"
     },
     {
       "filename": "2.jpg",
-      "title": "A Pécsi Nemzeti Színházban mutatják be a Pillangókisasszonyt",
+      "title": "Vitaszínházi előadás készül Dorosz Dávid regényéből",
       "author": "Szabó Száva Anna",
-      "category": "Opera",
-      "url": "https://deszkavizio.hu/a-pecsi-nemzeti-szinhazban-mutatjak-be-a-pillangokisasszonyt/"
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/vitaszinhazi-eloadas-keszul-dorosz-david-regenyebol/"
     },
     {
       "filename": "3.jpg",
-      "title": "Ökölbe szorított kézzel, sírva énekelni a refrént meg a riffeket – végre megjelent a Keo debütlemeze",
-      "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/okolbe-szoritott-kezzel-sirva-enekelni-a-refrent-meg-a-riffeket-vegre-megjelent-a-keo-debutlemeze/"
+      "title": "Közös táncra invitál a STEREO AKT csapata",
+      "author": "Flaisz János",
+      "category": "Tánc",
+      "url": "https://deszkavizio.hu/kozos-tancra-invital-a-stereo-akt-csapata/"
     },
     {
       "filename": "4.jpg",
-      "title": "Székesfehérvár története táncban kel életre Budapesten",
-      "author": "Bánfi Benedek",
-      "category": "Tánc",
-      "url": "https://deszkavizio.hu/szekesfehervar-tortenete-tancban-kel-eletre-budapesten/"
+      "title": "Új podcastsorozat indult életünk meghatározó olvasmányairól",
+      "author": "Flaisz János",
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/uj-podcastsorozat-indult-eletunk-meghatarozo-olvasmanyairol/"
     },
     {
       "filename": "5.jpg",
-      "title": "Kodály művek az OPERA októberi programjában",
-      "author": "Malik Andrea",
-      "category": "Opera",
-      "url": "https://deszkavizio.hu/kodaly-muvek-az-opera-oktoberi-programjaban/"
+      "title": "Huszadik alkalommal rendezik meg a Román Filmnapokat",
+      "author": "Molnár Dóra",
+      "category": "Mozgókép",
+      "url": "https://deszkavizio.hu/huszadik-alkalommal-rendezik-meg-a-roman-filmnapokat/"
     },
     {
       "filename": "6.jpg",
-      "title": "Megtartotta tisztújító közgyűlését a Magyar Művészeti Akadémia",
-      "author": "Malik Andrea",
+      "title": "Egy kőszobor a kertben – kritika a Veszprémi Petőfi Színház Abigél musicaljéről",
+      "author": "Ráth Orsolya",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/megtartotta-tisztujito-kozgyuleset-a-magyar-muveszeti-akademia/"
-    },
-    {
-      "filename": "7.jpg",
-      "title": "A hét könyv – Cormac McCarthy: Isten gyermeke",
-      "author": "Flaisz János",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/a-het-konyv-cormac-mccarthy-isten-gyermeke/"
+      "url": "https://deszkavizio.hu/egy-koszobor-a-kertben-kritika-a-veszpremi-petofi-szinhaz-abigel-musicaljerol/"
     }
   ]
 }
