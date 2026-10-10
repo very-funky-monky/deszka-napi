@@ -1,54 +1,61 @@
 {
-  "target_date": "2026. 10. 08.",
+  "target_date": "2026. 10. 09.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "Negyedik alkalommal is érkezik az ART WEEKEND BUDAPEST",
-      "author": "Malik Andrea",
-      "category": "Képzőművészet",
-      "url": "https://deszkavizio.hu/negyedik-alkalommal-is-erkezik-az-art-weekend-budapest/"
+      "title": "Dóra Béla 35 éves",
+      "author": "Molnár Dóra",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/dora-bela-35-eves/"
     },
     {
       "filename": "1.jpg",
-      "title": "„A Kaláka olyan, mint a Rolling Stones” – dzsesszben születnek újjá a Kaláka dalai",
+      "title": "Filmzenei koncertre készül a Danubia Zenekar",
       "author": "Bánfi Benedek",
       "category": "Zene",
-      "url": "https://deszkavizio.hu/a-kalaka-olyan-mint-a-rolling-stones-dzsesszben-szuletnek-ujja-a-kalaka-dalai/"
+      "url": "https://deszkavizio.hu/filmzenei-koncertre-keszul-a-danubia-zenekar/"
     },
     {
       "filename": "2.jpg",
-      "title": "Vitaszínházi előadás készül Dorosz Dávid regényéből",
-      "author": "Szabó Száva Anna",
+      "title": "“Adj király kocsonyát!” – Új Paprika Jancsi-előadás debütált Miskolcon",
+      "author": "Flaisz János",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/vitaszinhazi-eloadas-keszul-dorosz-david-regenyebol/"
+      "url": "https://deszkavizio.hu/adj-kiraly-kocsonyat-uj-paprika-jancsi-eloadas-debutalt-miskolcon/"
     },
     {
       "filename": "3.jpg",
-      "title": "Közös táncra invitál a STEREO AKT csapata",
-      "author": "Flaisz János",
-      "category": "Tánc",
-      "url": "https://deszkavizio.hu/kozos-tancra-invital-a-stereo-akt-csapata/"
+      "title": "600. alkalommal szólaltatja meg József Attika verseit Hobo",
+      "author": "Malik Andrea",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/600-alkalommal-szolaltatja-meg-jozsef-attika-verseit-hobo/"
     },
     {
       "filename": "4.jpg",
-      "title": "Új podcastsorozat indult életünk meghatározó olvasmányairól",
-      "author": "Flaisz János",
+      "title": "A kanadai Anne Carson kapja idén az irodalmi Nobel-díjat",
+      "author": "Malik Andrea",
       "category": "Könyv",
-      "url": "https://deszkavizio.hu/uj-podcastsorozat-indult-eletunk-meghatarozo-olvasmanyairol/"
+      "url": "https://deszkavizio.hu/a-kanadai-anne-carson-kapja-iden-az-irodalmi-nobel-dijat/"
     },
     {
       "filename": "5.jpg",
-      "title": "Huszadik alkalommal rendezik meg a Román Filmnapokat",
-      "author": "Molnár Dóra",
-      "category": "Mozgókép",
-      "url": "https://deszkavizio.hu/huszadik-alkalommal-rendezik-meg-a-roman-filmnapokat/"
+      "title": "Megvannak a Solti Nemzetközi Karmesterverseny döntősei",
+      "author": "Malik Andrea",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/megvannak-a-solti-nemzetkozi-karmesterverseny-dontosei/"
     },
     {
       "filename": "6.jpg",
-      "title": "Egy kőszobor a kertben – kritika a Veszprémi Petőfi Színház Abigél musicaljéről",
-      "author": "Ráth Orsolya",
+      "title": "A vulkán árnyékában – Ajánló Steinunn Sigurðardóttir Izlandi Irodalmi Díjas regényéről",
+      "author": "Flaisz János",
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/a-vulkan-arnyekaban-ajanlo-steinunn-sigurdardottir-izlandi-irodalmi-dijas-regenyerol/"
+    },
+    {
+      "filename": "7.jpg",
+      "title": "“Tudtam, hogy ez egy olyan feladat, ami nagy kihívást jelent” – Interjú Keresztes Tamással",
+      "author": "Flaisz János",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/egy-koszobor-a-kertben-kritika-a-veszpremi-petofi-szinhaz-abigel-musicaljerol/"
+      "url": "https://deszkavizio.hu/tudtam-hogy-ez-egy-olyan-feladat-ami-nagy-kihivast-jelent-interju-keresztes-tamassal/"
     }
   ]
 }
