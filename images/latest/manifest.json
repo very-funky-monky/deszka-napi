@@ -1,61 +1,54 @@
 {
-  "target_date": "2026. 10. 09.",
+  "target_date": "2026. 10. 10.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "Dóra Béla 35 éves",
-      "author": "Molnár Dóra",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/dora-bela-35-eves/"
+      "title": "Prózát és lírát vegyít Szűcs Krisztián az Utazás a Kegyetlenbe koncertsorozatával",
+      "author": "Bánfi Benedek",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/prozat-es-lirat-vegyit-szucs-krisztian-az-utazas-a-kegyetlenbe-koncertsorozataval/"
     },
     {
       "filename": "1.jpg",
-      "title": "Filmzenei koncertre készül a Danubia Zenekar",
-      "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/filmzenei-koncertre-keszul-a-danubia-zenekar/"
+      "title": "Tosca az Opera IC Audiofil sorozatában",
+      "author": "Malik Andrea",
+      "category": "Opera",
+      "url": "https://deszkavizio.hu/tosca-az-opera-ic-audiofil-sorozatban/"
     },
     {
       "filename": "2.jpg",
-      "title": "“Adj király kocsonyát!” – Új Paprika Jancsi-előadás debütált Miskolcon",
+      "title": "Kötetként jelennek meg Ferenc pápa naplófeljegyzései",
       "author": "Flaisz János",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/adj-kiraly-kocsonyat-uj-paprika-jancsi-eloadas-debutalt-miskolcon/"
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/kotetkent-jelennek-meg-ferenc-papa-naplofeljegyzesei/"
     },
     {
       "filename": "3.jpg",
-      "title": "600. alkalommal szólaltatja meg József Attika verseit Hobo",
-      "author": "Malik Andrea",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/600-alkalommal-szolaltatja-meg-jozsef-attika-verseit-hobo/"
+      "title": "Hétvégi Filmklub: Reisz Gábor – Földszint (2026)",
+      "author": "Molnár Dóra",
+      "category": "Mozgókép",
+      "url": "https://deszkavizio.hu/hetvegi-filmklub-reisz-gabor-foldszint-2026/"
     },
     {
       "filename": "4.jpg",
-      "title": "A kanadai Anne Carson kapja idén az irodalmi Nobel-díjat",
-      "author": "Malik Andrea",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/a-kanadai-anne-carson-kapja-iden-az-irodalmi-nobel-dijat/"
+      "title": "The Beatles, Beton.Hofi vagy Charli XCX szóljon a margitszigeti Zenélő Szökőkútból?",
+      "author": "Bánfi Benedek",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/the-beatles-beton-hofi-vagy-charli-xcx-szoljon-a-margitszigeti-zenelo-szokokutbol/"
     },
     {
       "filename": "5.jpg",
-      "title": "Megvannak a Solti Nemzetközi Karmesterverseny döntősei",
-      "author": "Malik Andrea",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/megvannak-a-solti-nemzetkozi-karmesterverseny-dontosei/"
+      "title": "Először látható Ázsiában a Recirquel sikerelőadása",
+      "author": "Flaisz János",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/eloszor-lathato-azsiaban-a-recirquel-sikereloadasa/"
     },
     {
       "filename": "6.jpg",
-      "title": "A vulkán árnyékában – Ajánló Steinunn Sigurðardóttir Izlandi Irodalmi Díjas regényéről",
+      "title": "Barcelona sötét oldala – Elolvastuk a Gaudí hóhéra című spanyol krimit",
       "author": "Flaisz János",
       "category": "Könyv",
-      "url": "https://deszkavizio.hu/a-vulkan-arnyekaban-ajanlo-steinunn-sigurdardottir-izlandi-irodalmi-dijas-regenyerol/"
-    },
-    {
-      "filename": "7.jpg",
-      "title": "“Tudtam, hogy ez egy olyan feladat, ami nagy kihívást jelent” – Interjú Keresztes Tamással",
-      "author": "Flaisz János",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/tudtam-hogy-ez-egy-olyan-feladat-ami-nagy-kihivast-jelent-interju-keresztes-tamassal/"
+      "url": "https://deszkavizio.hu/barcelona-sotet-oldala-elolvastuk-a-gaudi-hohera-cimu-spanyol-krimit/"
     }
   ]
 }
