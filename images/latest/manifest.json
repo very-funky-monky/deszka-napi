@@ -1,54 +1,54 @@
 {
-  "target_date": "2026. 10. 10.",
+  "target_date": "2026. 10. 11.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "Prózát és lírát vegyít Szűcs Krisztián az Utazás a Kegyetlenbe koncertsorozatával",
-      "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/prozat-es-lirat-vegyit-szucs-krisztian-az-utazas-a-kegyetlenbe-koncertsorozataval/"
+      "title": "Jubileumi évadot kezdett a Káva Kulturális Műhely",
+      "author": "Flaisz János",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/jubileumi-evadot-kezdett-a-kava-kulturalis-muhely/"
     },
     {
       "filename": "1.jpg",
-      "title": "Tosca az Opera IC Audiofil sorozatában",
-      "author": "Malik Andrea",
-      "category": "Opera",
-      "url": "https://deszkavizio.hu/tosca-az-opera-ic-audiofil-sorozatban/"
+      "title": "Szakmai napot tart a megújult Nemzeti Kulturális Alap",
+      "author": "Flaisz János",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/szakmai-napot-tart-a-megujult-nemzeti-kulturalis-alap/"
     },
     {
       "filename": "2.jpg",
-      "title": "Kötetként jelennek meg Ferenc pápa naplófeljegyzései",
-      "author": "Flaisz János",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/kotetkent-jelennek-meg-ferenc-papa-naplofeljegyzesei/"
+      "title": "Teljesítette a 24 órás jótékonysági dalmaraton kihívást a Superar csapata",
+      "author": "Bánfi Benedek",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/teljesitette-a-24-oras-jotekonysagi-dalmaraton-kihivast-a-superar-csapata/"
     },
     {
       "filename": "3.jpg",
-      "title": "Hétvégi Filmklub: Reisz Gábor – Földszint (2026)",
+      "title": "Hat magyar alkotás is versenyez a 23. Verzió Nemzetközi Emberi Jogi Dokumentumfilm Fesztiválon",
       "author": "Molnár Dóra",
       "category": "Mozgókép",
-      "url": "https://deszkavizio.hu/hetvegi-filmklub-reisz-gabor-foldszint-2026/"
+      "url": "https://deszkavizio.hu/hat-magyar-alkotas-is-versenyez-a-23-verzio-nemzetkozi-emberi-jogi-dokumentumfilm-fesztivalon/"
     },
     {
       "filename": "4.jpg",
-      "title": "The Beatles, Beton.Hofi vagy Charli XCX szóljon a margitszigeti Zenélő Szökőkútból?",
-      "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/the-beatles-beton-hofi-vagy-charli-xcx-szoljon-a-margitszigeti-zenelo-szokokutbol/"
+      "title": "„A MI barátságunk ifjúsági előadás, de tükröt tart a szülőknek is” – interjú Sóvári-Fehér Annával",
+      "author": "Steindl Gabriella",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/a-mi-baratsagunk-ifjusagi-eloadas-de-tukrot-tart-a-szuloknek-is-interju-sovari-feher-annaval/"
     },
     {
       "filename": "5.jpg",
-      "title": "Először látható Ázsiában a Recirquel sikerelőadása",
-      "author": "Flaisz János",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/eloszor-lathato-azsiaban-a-recirquel-sikereloadasa/"
+      "title": "Megnyilt a Design Without Borders a Kiscelli Múzeumban",
+      "author": "Malik Andrea",
+      "category": "Képzőművészet",
+      "url": "https://deszkavizio.hu/megnyilt-a-design-without-borders-a-kiscelli-muzeumban/"
     },
     {
       "filename": "6.jpg",
-      "title": "Barcelona sötét oldala – Elolvastuk a Gaudí hóhéra című spanyol krimit",
+      "title": "Carmen másképp – Újra látható Calixto Bieito rendezése az Operaházban",
       "author": "Flaisz János",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/barcelona-sotet-oldala-elolvastuk-a-gaudi-hohera-cimu-spanyol-krimit/"
+      "category": "Opera",
+      "url": "https://deszkavizio.hu/carmen-maskepp-ujra-lathato-calixto-bieito-rendezese-az-operahazban/"
     }
   ]
 }
