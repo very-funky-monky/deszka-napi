@@ -1,54 +1,54 @@
 {
-  "target_date": "2026. 10. 11.",
+  "target_date": "2026. 10. 12.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "Jubileumi évadot kezdett a Káva Kulturális Műhely",
-      "author": "Flaisz János",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/jubileumi-evadot-kezdett-a-kava-kulturalis-muhely/"
+      "title": "A 2015-ös budapesti menekültválság ihlette Topolánszky Tamás Yvan új rövidfilmjét",
+      "author": "Molnár Dóra",
+      "category": "Mozgókép",
+      "url": "https://deszkavizio.hu/a-2015-os-budapesti-menekultvalsag-ihlette-topolanszky-tamas-yvan-uj-rovidfilmjet/"
     },
     {
       "filename": "1.jpg",
-      "title": "Szakmai napot tart a megújult Nemzeti Kulturális Alap",
-      "author": "Flaisz János",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/szakmai-napot-tart-a-megujult-nemzeti-kulturalis-alap/"
+      "title": "Újra lehet pályázni az Art Wall Café kiállítási lehetőségére",
+      "author": "Malik Andrea",
+      "category": "Képzőművészet",
+      "url": "https://deszkavizio.hu/ujra-lehet-palyazni-az-art-wall-cafe-kiallitasi-lehetosegere/"
     },
     {
       "filename": "2.jpg",
-      "title": "Teljesítette a 24 órás jótékonysági dalmaraton kihívást a Superar csapata",
+      "title": "Szegeden is lesz Jazzfesztivál – érkezik a JAZZ SZEGED",
       "author": "Bánfi Benedek",
       "category": "Zene",
-      "url": "https://deszkavizio.hu/teljesitette-a-24-oras-jotekonysagi-dalmaraton-kihivast-a-superar-csapata/"
+      "url": "https://deszkavizio.hu/szegeden-is-lesz-jazzfesztival-erkezik-a-jazz-szeged/"
     },
     {
       "filename": "3.jpg",
-      "title": "Hat magyar alkotás is versenyez a 23. Verzió Nemzetközi Emberi Jogi Dokumentumfilm Fesztiválon",
-      "author": "Molnár Dóra",
-      "category": "Mozgókép",
-      "url": "https://deszkavizio.hu/hat-magyar-alkotas-is-versenyez-a-23-verzio-nemzetkozi-emberi-jogi-dokumentumfilm-fesztivalon/"
+      "title": "Új koncepcióval mutatkozott be a magyar irodalom Frankfurtban",
+      "author": "Flaisz János",
+      "category": "Hírek",
+      "url": "https://deszkavizio.hu/uj-koncepcioval-mutatkozott-be-a-magyar-irodalom-frankfurtban/"
     },
     {
       "filename": "4.jpg",
-      "title": "„A MI barátságunk ifjúsági előadás, de tükröt tart a szülőknek is” – interjú Sóvári-Fehér Annával",
-      "author": "Steindl Gabriella",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/a-mi-baratsagunk-ifjusagi-eloadas-de-tukrot-tart-a-szuloknek-is-interju-sovari-feher-annaval/"
+      "title": "Új háromrészes sorozatot indít a Kultúrapont",
+      "author": "Flaisz János",
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/uj-haromreszes-sorozatot-indit-a-kulturapont/"
     },
     {
       "filename": "5.jpg",
-      "title": "Megnyilt a Design Without Borders a Kiscelli Múzeumban",
+      "title": "Megvannak a Solti Nemzetközi Karmesterverseny nyertesei",
       "author": "Malik Andrea",
-      "category": "Képzőművészet",
-      "url": "https://deszkavizio.hu/megnyilt-a-design-without-borders-a-kiscelli-muzeumban/"
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/megvannak-a-solti-nemzetkozi-karmesterverseny-nyertesei/"
     },
     {
       "filename": "6.jpg",
-      "title": "Carmen másképp – Újra látható Calixto Bieito rendezése az Operaházban",
+      "title": "“Casanova, az álmok téged hamarosan tönkretesznek” – Megnéztük a Thália Színház új bemutatóját",
       "author": "Flaisz János",
-      "category": "Opera",
-      "url": "https://deszkavizio.hu/carmen-maskepp-ujra-lathato-calixto-bieito-rendezese-az-operahazban/"
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/casanova-az-almok-teged-hamarosan-tonkretesznek-megneztuk-a-thalia-szinhaz-uj-bemutatojat/"
     }
   ]
 }
