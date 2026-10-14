@@ -1,54 +1,54 @@
 {
-  "target_date": "2026. 10. 12.",
+  "target_date": "2026. 10. 13.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "A 2015-ös budapesti menekültválság ihlette Topolánszky Tamás Yvan új rövidfilmjét",
-      "author": "Molnár Dóra",
-      "category": "Mozgókép",
-      "url": "https://deszkavizio.hu/a-2015-os-budapesti-menekultvalsag-ihlette-topolanszky-tamas-yvan-uj-rovidfilmjet/"
+      "title": "Egy év kihagyás után ismét megrendezik a RUSZT Fesztivált",
+      "author": "Flaisz János",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/egy-ev-kihagyas-utan-ismet-megrendezik-a-ruszt-fesztivalt/"
     },
     {
       "filename": "1.jpg",
-      "title": "Újra lehet pályázni az Art Wall Café kiállítási lehetőségére",
-      "author": "Malik Andrea",
-      "category": "Képzőművészet",
-      "url": "https://deszkavizio.hu/ujra-lehet-palyazni-az-art-wall-cafe-kiallitasi-lehetosegere/"
+      "title": "Felvásárolta a Paramount a Warner Bros. Discoveryt",
+      "author": "Molnár Dóra",
+      "category": "Mozgókép",
+      "url": "https://deszkavizio.hu/felvasarolta-a-paramount-a-warner-bros-discoveryt/"
     },
     {
       "filename": "2.jpg",
-      "title": "Szegeden is lesz Jazzfesztivál – érkezik a JAZZ SZEGED",
-      "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/szegeden-is-lesz-jazzfesztival-erkezik-a-jazz-szeged/"
+      "title": "Ott is van olvasási nehézség, ahol senki nem keresi",
+      "author": "Flaisz János",
+      "category": "Hírek",
+      "url": "https://deszkavizio.hu/ott-is-van-olvasasi-nehezseg-ahol-senki-nem-keresi/"
     },
     {
       "filename": "3.jpg",
-      "title": "Új koncepcióval mutatkozott be a magyar irodalom Frankfurtban",
-      "author": "Flaisz János",
-      "category": "Hírek",
-      "url": "https://deszkavizio.hu/uj-koncepcioval-mutatkozott-be-a-magyar-irodalom-frankfurtban/"
+      "title": "Miért énekel minden előadó a hátsó ülésekről?",
+      "author": "Bánfi Benedek",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/miert-enekel-minden-eloado-a-hatso-ulesekrol/"
     },
     {
       "filename": "4.jpg",
-      "title": "Új háromrészes sorozatot indít a Kultúrapont",
-      "author": "Flaisz János",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/uj-haromreszes-sorozatot-indit-a-kulturapont/"
+      "title": "Új megközelítés a gödöllői Sisi-tárlaton",
+      "author": "Malik Andrea",
+      "category": "Képzőművészet",
+      "url": "https://deszkavizio.hu/uj-megkozelites-a-godolloi-sisi-tarlaton/"
     },
     {
       "filename": "5.jpg",
-      "title": "Megvannak a Solti Nemzetközi Karmesterverseny nyertesei",
-      "author": "Malik Andrea",
+      "title": "AI-ellenes manifesztót adtak ki a magyar zeneipar szereplői",
+      "author": "Bánfi Benedek",
       "category": "Zene",
-      "url": "https://deszkavizio.hu/megvannak-a-solti-nemzetkozi-karmesterverseny-nyertesei/"
+      "url": "https://deszkavizio.hu/ai-ellenes-manifesztot-adtak-ki-a-magyar-zeneipar-szereploi/"
     },
     {
       "filename": "6.jpg",
-      "title": "“Casanova, az álmok téged hamarosan tönkretesznek” – Megnéztük a Thália Színház új bemutatóját",
+      "title": "Öt északi szerző a Margó Irodalmi Fesztiválon",
       "author": "Flaisz János",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/casanova-az-almok-teged-hamarosan-tonkretesznek-megneztuk-a-thalia-szinhaz-uj-bemutatojat/"
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/ot-eszaki-szerzo-a-margo-irodalmi-fesztivalon/"
     }
   ]
 }
