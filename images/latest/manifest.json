@@ -1,61 +1,47 @@
 {
-  "target_date": "2026. 10. 14.",
+  "target_date": "2026. 10. 15.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "Kustan Adam élő bluesfelvételekkel jelentkezik Lengyelországból",
-      "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/kustan-adam-elo-bluesfelvetelekkel-jelentkezik-lengyelorszagbol/"
+      "title": "Lengyel Ferenc 65 éves",
+      "author": "Flaisz János",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/lengyel-ferenc-65-eves/"
     },
     {
       "filename": "1.jpg",
-      "title": "Bűn és büntetés – magyar krimiszerzők beszélgetnek a Margón",
-      "author": "Flaisz János",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/bun-es-buntetes-magyar-krimiszerzok-beszelgetnek-a-margon/"
+      "title": "Őszi Szalon címmel várja az érdeklődőket a Bajor Gizi Színészmúzeum",
+      "author": "Szabó Száva Anna",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/oszi-szalon-cimmel-varja-az-erdeklodoket-a-bajor-gizi-szineszmuzeum/"
     },
     {
       "filename": "2.jpg",
-      "title": "Bemutatták az Összegyűjtött történeteket a Déryné Központban",
-      "author": "Szabó Száva Anna",
+      "title": "Stratégiai partnerségre lép a Telekom és a Katona József Színház",
+      "author": "Molnár Dóra",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/bemutattak-az-osszegyujtott-torteneteket-a-deryne-kozpontban/"
+      "url": "https://deszkavizio.hu/strategiai-partnersegre-lep-a-telekom-es-a-katona-jozsef-szinhaz/"
     },
     {
       "filename": "3.jpg",
-      "title": "Ingyenes koncertekkel és a Klipszemlével együtt jön idén a showcase fesztivál",
-      "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/ingyenes-koncertekkel-es-a-klipszemlevel-egyutt-jon-iden-a-showcase-fesztival/"
+      "title": "Gyerekszereplőket keres a Szegedi Nemzeti Színház",
+      "author": "Flaisz János",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/gyerekszereploket-keres-a-szegedi-nemzeti-szinhaz/"
     },
     {
       "filename": "4.jpg",
-      "title": "POPZAJLÁS Spotlight: Felső Tízezer: Éljen a diszkó!",
-      "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/popzajlas-spotlight-felso-tizezer-eljen-a-diszko/"
+      "title": "Öt dokumentumfilm és két animációs alkotás gyártását támogatja a Nemzeti Filmintézet.",
+      "author": "Molnár Dóra",
+      "category": "Mozgókép",
+      "url": "https://deszkavizio.hu/ot-dokumentumfilm-es-ket-animacios-alkotas-gyartasat-tamogatja-a-nemzeti-filmintezet/"
     },
     {
       "filename": "5.jpg",
-      "title": "Gerillaáron lehet műalkotásokat venni a Godot-ban",
-      "author": "Malik Andrea",
-      "category": "Képzőművészet",
-      "url": "https://deszkavizio.hu/gerillaaron-lehet-mualkotasokat-venni-a-godot-ban/"
-    },
-    {
-      "filename": "6.jpg",
-      "title": "Nemes Jeles László Hasfelmetsző Jack történetéből készít nemzetközi minisorozatot",
-      "author": "Molnár Dóra",
-      "category": "Mozgókép",
-      "url": "https://deszkavizio.hu/nemes-jeles-laszlo-hasfelmetszo-jack-tortenetebol-keszit-nemzetkozi-minisorozatot/"
-    },
-    {
-      "filename": "7.jpg",
-      "title": "A hét könyve – Miklya Luzsányi Mónika: Báthory Erzsébet – A vérgrófnő igazsága",
+      "title": "A boldog békeidőkben nyomoznak Zajácz D. Zoltán új krimijében",
       "author": "Flaisz János",
       "category": "Könyv",
-      "url": "https://deszkavizio.hu/a-het-konyve-miklya-luzsanyi-monika-bathory-erzsebet-a-vergrofno-igazsaga/"
+      "url": "https://deszkavizio.hu/a-boldog-bekeidokben-nyomoznak-zajacz-d-zoltan-uj-krimijeben/"
     }
   ]
 }
