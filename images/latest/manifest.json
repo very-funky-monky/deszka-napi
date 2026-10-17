@@ -1,47 +1,61 @@
 {
-  "target_date": "2026. 10. 15.",
+  "target_date": "2026. 10. 16.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "Lengyel Ferenc 65 éves",
+      "title": "Grisnik Petra 40 éves",
       "author": "Flaisz János",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/lengyel-ferenc-65-eves/"
+      "url": "https://deszkavizio.hu/grisnik-petra-40-eves/"
     },
     {
       "filename": "1.jpg",
-      "title": "Őszi Szalon címmel várja az érdeklődőket a Bajor Gizi Színészmúzeum",
-      "author": "Szabó Száva Anna",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/oszi-szalon-cimmel-varja-az-erdeklodoket-a-bajor-gizi-szineszmuzeum/"
+      "title": "Fehér Renátó nyerte idén a Margó-díjat",
+      "author": "Flaisz János",
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/feher-renato-nyerte-iden-a-margo-dijat/"
     },
     {
       "filename": "2.jpg",
-      "title": "Stratégiai partnerségre lép a Telekom és a Katona József Színház",
-      "author": "Molnár Dóra",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/strategiai-partnersegre-lep-a-telekom-es-a-katona-jozsef-szinhaz/"
+      "title": "25 fős kórus énekel a Horváth Gábor Trió és a Cheeky Kórus közös lemezén",
+      "author": "Bánfi Benedek",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/25-fos-korus-enekel-a-horvath-gabor-trio-es-a-cheeky-korus-kozos-lemezen/"
     },
     {
       "filename": "3.jpg",
-      "title": "Gyerekszereplőket keres a Szegedi Nemzeti Színház",
-      "author": "Flaisz János",
+      "title": "Bemutatja Gogol Holt lelkek című művét a Kolozsvári Állami Magyar Színház",
+      "author": "Szabó Száva Anna",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/gyerekszereploket-keres-a-szegedi-nemzeti-szinhaz/"
+      "url": "https://deszkavizio.hu/bemutatja-gogol-holt-lelkek-cimu-muvet-a-kolozsvari-allami-magyar-szinhaz/"
     },
     {
       "filename": "4.jpg",
-      "title": "Öt dokumentumfilm és két animációs alkotás gyártását támogatja a Nemzeti Filmintézet.",
-      "author": "Molnár Dóra",
-      "category": "Mozgókép",
-      "url": "https://deszkavizio.hu/ot-dokumentumfilm-es-ket-animacios-alkotas-gyartasat-tamogatja-a-nemzeti-filmintezet/"
+      "title": "Magyarországi premierre készül a Veres 1 Színház",
+      "author": "Flaisz János",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/magyarorszagi-premierre-keszul-a-veres-1-szinhaz/"
     },
     {
       "filename": "5.jpg",
-      "title": "A boldog békeidőkben nyomoznak Zajácz D. Zoltán új krimijében",
-      "author": "Flaisz János",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/a-boldog-bekeidokben-nyomoznak-zajacz-d-zoltan-uj-krimijeben/"
+      "title": "Bővül az NFI Inkubátor Programjának gyártási pályázata",
+      "author": "Molnár Dóra",
+      "category": "Mozgókép",
+      "url": "https://deszkavizio.hu/bovul-az-nfi-inkubator-programjanak-gyartasi-palyazata/"
+    },
+    {
+      "filename": "6.jpg",
+      "title": "Novemberben Drakula kísért a Vajdahunyadvárban",
+      "author": "Bánfi Benedek",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/novemberben-drakula-kisert-a-vajdahunyadvarban/"
+    },
+    {
+      "filename": "7.jpg",
+      "title": "„A fotózás nekem egy kicsit olyan, mint egy drog” – Interjú Schram Andrással",
+      "author": "Steindl Gabriella",
+      "category": "Képzőművészet",
+      "url": "https://deszkavizio.hu/a-fotozas-nekem-egy-kicsit-olyan-mint-egy-drog-interju-schram-andrassal/"
     }
   ]
 }
