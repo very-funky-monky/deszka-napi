@@ -1,61 +1,61 @@
 {
-  "target_date": "2026. 10. 16.",
+  "target_date": "2026. 10. 17.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "Grisnik Petra 40 éves",
+      "title": "A Margón mutatják be Karafiáth Orsolya új verseskötetét",
       "author": "Flaisz János",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/grisnik-petra-40-eves/"
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/a-margon-mutatjak-be-karafiath-orsolya-uj-verseskotetet/"
     },
     {
       "filename": "1.jpg",
-      "title": "Fehér Renátó nyerte idén a Margó-díjat",
-      "author": "Flaisz János",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/feher-renato-nyerte-iden-a-margo-dijat/"
+      "title": "Először nyílik fotókiállítás Szilágyi Lenke képeiből a szentendrei Ferenczy Múzeumban",
+      "author": "Bánfi Benedek",
+      "category": "Képzőművészet",
+      "url": "https://deszkavizio.hu/eloszor-nyilik-fotokiallitas-szilagyi-lenke-kepeibol-a-szentendrei-ferenczy-muzeumban/"
     },
     {
       "filename": "2.jpg",
-      "title": "25 fős kórus énekel a Horváth Gábor Trió és a Cheeky Kórus közös lemezén",
-      "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/25-fos-korus-enekel-a-horvath-gabor-trio-es-a-cheeky-korus-kozos-lemezen/"
+      "title": "Lúdas Matyi a Kolibri Színházban szolgáltat igazságot",
+      "author": "Flaisz János",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/ludas-matyi-a-kolibri-szinhazban-szolgaltat-igazsagot/"
     },
     {
       "filename": "3.jpg",
-      "title": "Bemutatja Gogol Holt lelkek című művét a Kolozsvári Állami Magyar Színház",
-      "author": "Szabó Száva Anna",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/bemutatja-gogol-holt-lelkek-cimu-muvet-a-kolozsvari-allami-magyar-szinhaz/"
+      "title": "Hétvégi Filmklub: Dylan Southern, Will Lovelace – Oasis: Don’t Look Back in Anger",
+      "author": "Molnár Dóra",
+      "category": "Mozgókép",
+      "url": "https://deszkavizio.hu/hetvegi-filmklub-dylan-southern-will-lovelace-oasis-dont-look-back-in-anger/"
     },
     {
       "filename": "4.jpg",
-      "title": "Magyarországi premierre készül a Veres 1 Színház",
+      "title": "A világ legjobb színdarabját mutatja be a Centrál Színház",
       "author": "Flaisz János",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/magyarorszagi-premierre-keszul-a-veres-1-szinhaz/"
+      "url": "https://deszkavizio.hu/a-vilag-legjobb-szindarabjat-mutatja-be-a-central-szinhaz/"
     },
     {
       "filename": "5.jpg",
-      "title": "Bővül az NFI Inkubátor Programjának gyártási pályázata",
-      "author": "Molnár Dóra",
-      "category": "Mozgókép",
-      "url": "https://deszkavizio.hu/bovul-az-nfi-inkubator-programjanak-gyartasi-palyazata/"
+      "title": "40 éves a kecskeméti Ciróka Bábszínház",
+      "author": "Flaisz János",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/40-eves-a-kecskemeti-ciroka-babszinhaz/"
     },
     {
       "filename": "6.jpg",
-      "title": "Novemberben Drakula kísért a Vajdahunyadvárban",
+      "title": "A STRAND beköltözik az MVM Dome-ba szilveszterezni",
       "author": "Bánfi Benedek",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/novemberben-drakula-kisert-a-vajdahunyadvarban/"
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/a-strand-bekoltozik-az-mvm-dome-ba-szilveszterezni/"
     },
     {
       "filename": "7.jpg",
-      "title": "„A fotózás nekem egy kicsit olyan, mint egy drog” – Interjú Schram Andrással",
-      "author": "Steindl Gabriella",
-      "category": "Képzőművészet",
-      "url": "https://deszkavizio.hu/a-fotozas-nekem-egy-kicsit-olyan-mint-egy-drog-interju-schram-andrassal/"
+      "title": "Molière, a színpad forradalmára – Kritikánk a francia musicalről",
+      "author": "Flaisz János",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/moliere-a-szinpad-forradalmara-kritika-a-latvanyos-francia-musicalrol/"
     }
   ]
 }
