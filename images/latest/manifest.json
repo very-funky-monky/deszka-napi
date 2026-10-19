@@ -1,61 +1,54 @@
 {
-  "target_date": "2026. 10. 17.",
+  "target_date": "2026. 10. 18.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "A Margón mutatják be Karafiáth Orsolya új verseskötetét",
-      "author": "Flaisz János",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/a-margon-mutatjak-be-karafiath-orsolya-uj-verseskotetet/"
+      "title": "Pink Floyd-show a Sportarénában, de Pink Floyd tagok nélkül",
+      "author": "Bánfi Benedek",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/pink-floyd-show-a-sportarenaban-de-pink-floyd-tagok-nelkul/"
     },
     {
       "filename": "1.jpg",
-      "title": "Először nyílik fotókiállítás Szilágyi Lenke képeiből a szentendrei Ferenczy Múzeumban",
-      "author": "Bánfi Benedek",
+      "title": "Új kiállítás nyílik a Merlinben",
+      "author": "Szabó Száva Anna",
       "category": "Képzőművészet",
-      "url": "https://deszkavizio.hu/eloszor-nyilik-fotokiallitas-szilagyi-lenke-kepeibol-a-szentendrei-ferenczy-muzeumban/"
+      "url": "https://deszkavizio.hu/uj-kiallitas-nyilik-a-merlinben/"
     },
     {
       "filename": "2.jpg",
-      "title": "Lúdas Matyi a Kolibri Színházban szolgáltat igazságot",
-      "author": "Flaisz János",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/ludas-matyi-a-kolibri-szinhazban-szolgaltat-igazsagot/"
+      "title": "Az autista Barbie főszereplésével készült kisfilm mutatja be a lakóotthonok világát",
+      "author": "Molnár Dóra",
+      "category": "Mozgókép",
+      "url": "https://deszkavizio.hu/az-autista-barbie-foszereplesevel-keszult-kisfilm-mutatja-be-a-lakootthonok-vilagat/"
     },
     {
       "filename": "3.jpg",
-      "title": "Hétvégi Filmklub: Dylan Southern, Will Lovelace – Oasis: Don’t Look Back in Anger",
-      "author": "Molnár Dóra",
-      "category": "Mozgókép",
-      "url": "https://deszkavizio.hu/hetvegi-filmklub-dylan-southern-will-lovelace-oasis-dont-look-back-in-anger/"
+      "title": "Ismét megrendezésre kerül a Lampion Mesefesztivál",
+      "author": "Flaisz János",
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/ismet-megrendezesre-kerul-a-lampion-mesefesztival/"
     },
     {
       "filename": "4.jpg",
-      "title": "A világ legjobb színdarabját mutatja be a Centrál Színház",
-      "author": "Flaisz János",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/a-vilag-legjobb-szindarabjat-mutatja-be-a-central-szinhaz/"
+      "title": "Novemberben érkezik az HBO első magyar true crime sorozat",
+      "author": "Molnár Dóra",
+      "category": "Mozgókép",
+      "url": "https://deszkavizio.hu/novemberben-erkezik-az-hbo-elso-magyar-true-crime-sorozat/"
     },
     {
       "filename": "5.jpg",
-      "title": "40 éves a kecskeméti Ciróka Bábszínház",
-      "author": "Flaisz János",
+      "title": "Woody Allen-világpremier a Centrál Színházban",
+      "author": "Molnár Dóra",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/40-eves-a-kecskemeti-ciroka-babszinhaz/"
+      "url": "https://deszkavizio.hu/woody-allen-vilagpremier-a-central-szinhazban/"
     },
     {
       "filename": "6.jpg",
-      "title": "A STRAND beköltözik az MVM Dome-ba szilveszterezni",
-      "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/a-strand-bekoltozik-az-mvm-dome-ba-szilveszterezni/"
-    },
-    {
-      "filename": "7.jpg",
-      "title": "Molière, a színpad forradalmára – Kritikánk a francia musicalről",
+      "title": "“Jól esik a színház részéről a bizalom, amit már évek óta megkapok” – Interjú Gáspár Sándorral",
       "author": "Flaisz János",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/moliere-a-szinpad-forradalmara-kritika-a-latvanyos-francia-musicalrol/"
+      "url": "https://deszkavizio.hu/jol-esik-a-szinhaz-reszerol-a-bizalom-amit-mar-evek-ota-megkapok-interju-gaspar-sandorral/"
     }
   ]
 }
