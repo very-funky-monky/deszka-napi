@@ -1,54 +1,54 @@
 {
-  "target_date": "2026. 10. 18.",
+  "target_date": "2026. 10. 19.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "Pink Floyd-show a Sportarénában, de Pink Floyd tagok nélkül",
-      "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/pink-floyd-show-a-sportarenaban-de-pink-floyd-tagok-nelkul/"
+      "title": "Litkai Gergely 50 éves",
+      "author": "Flaisz János",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/litkai-gergely-50-eves/"
     },
     {
       "filename": "1.jpg",
-      "title": "Új kiállítás nyílik a Merlinben",
-      "author": "Szabó Száva Anna",
-      "category": "Képzőművészet",
-      "url": "https://deszkavizio.hu/uj-kiallitas-nyilik-a-merlinben/"
+      "title": "Október végén jelenik meg Bereményi Géza új verseskötete",
+      "author": "Flaisz János",
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/oktober-vegen-jelenik-meg-beremenyi-geza-uj-verseskotete/"
     },
     {
       "filename": "2.jpg",
-      "title": "Az autista Barbie főszereplésével készült kisfilm mutatja be a lakóotthonok világát",
-      "author": "Molnár Dóra",
-      "category": "Mozgókép",
-      "url": "https://deszkavizio.hu/az-autista-barbie-foszereplesevel-keszult-kisfilm-mutatja-be-a-lakootthonok-vilagat/"
+      "title": "Feltörekvő tehetségek hódították meg Európát és a környező régiókat",
+      "author": "Bánfi Benedek",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/feltorekvo-tehetsegek-hoditottak-meg-europat-es-a-kornyezo-regiokat/"
     },
     {
       "filename": "3.jpg",
-      "title": "Ismét megrendezésre kerül a Lampion Mesefesztivál",
-      "author": "Flaisz János",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/ismet-megrendezesre-kerul-a-lampion-mesefesztival/"
+      "title": "Lábas Viki, FILO és Agócs Marci is színpadra lép három jó ügy érdekében",
+      "author": "Bánfi Benedek",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/labas-viki-filo-es-agocs-marci-is-szinpadra-lep-harom-jo-ugy-erdekeben/"
     },
     {
       "filename": "4.jpg",
-      "title": "Novemberben érkezik az HBO első magyar true crime sorozat",
-      "author": "Molnár Dóra",
-      "category": "Mozgókép",
-      "url": "https://deszkavizio.hu/novemberben-erkezik-az-hbo-elso-magyar-true-crime-sorozat/"
+      "title": "A Rolling Stones még öt új dalt hozzácsapott az idén megjelent lemezéhez",
+      "author": "Bánfi Benedek",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/a-rolling-stones-meg-ot-uj-dalt-hozzacsapott-az-iden-megjelent-lemezehez/"
     },
     {
       "filename": "5.jpg",
-      "title": "Woody Allen-világpremier a Centrál Színházban",
-      "author": "Molnár Dóra",
+      "title": "Dömötör András rendezi a LOUPE új darabját",
+      "author": "Flaisz János",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/woody-allen-vilagpremier-a-central-szinhazban/"
+      "url": "https://deszkavizio.hu/domotor-andras-rendezi-a-loupe-uj-darabjat/"
     },
     {
       "filename": "6.jpg",
-      "title": "“Jól esik a színház részéről a bizalom, amit már évek óta megkapok” – Interjú Gáspár Sándorral",
-      "author": "Flaisz János",
+      "title": "Megvan hát e rideg világnak is költészete! – Az ember tragédiája a Budapest Bábszínházban",
+      "author": "Bánfi Benedek",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/jol-esik-a-szinhaz-reszerol-a-bizalom-amit-mar-evek-ota-megkapok-interju-gaspar-sandorral/"
+      "url": "https://deszkavizio.hu/megvan-hat-e-rideg-vilagnak-is-kolteszete-az-ember-tragediaja-a-budapest-babszinhazban/"
     }
   ]
 }
