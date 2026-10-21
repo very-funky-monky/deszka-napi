@@ -1,54 +1,54 @@
 {
-  "target_date": "2026. 10. 19.",
+  "target_date": "2026. 10. 20.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "Litkai Gergely 50 éves",
-      "author": "Flaisz János",
+      "title": "Udvaros Dorottya kelti életre Karikó Katalin történetét",
+      "author": "Molnár Dóra",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/litkai-gergely-50-eves/"
+      "url": "https://deszkavizio.hu/udvaros-dorottya-kelti-eletre-kariko-katalin-tortenetet/"
     },
     {
       "filename": "1.jpg",
-      "title": "Október végén jelenik meg Bereményi Géza új verseskötete",
+      "title": "Országos rajzpályázatot hirdet a Kolibri Színház",
       "author": "Flaisz János",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/oktober-vegen-jelenik-meg-beremenyi-geza-uj-verseskotete/"
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/orszagos-rajzpalyazatot-hirdet-a-kolibri-szinhaz/"
     },
     {
       "filename": "2.jpg",
-      "title": "Feltörekvő tehetségek hódították meg Európát és a környező régiókat",
-      "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/feltorekvo-tehetsegek-hoditottak-meg-europat-es-a-kornyezo-regiokat/"
+      "title": "Szobrot avattak Fábri Zoltán tiszteletére",
+      "author": "Molnár Dóra",
+      "category": "Mozgókép",
+      "url": "https://deszkavizio.hu/szobrot-avattak-fabri-zoltan-tiszteletere/"
     },
     {
       "filename": "3.jpg",
-      "title": "Lábas Viki, FILO és Agócs Marci is színpadra lép három jó ügy érdekében",
+      "title": "Analog barátok – megérkezett A MI barátságunk ifjúsági előadás a Tháliába",
       "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/labas-viki-filo-es-agocs-marci-is-szinpadra-lep-harom-jo-ugy-erdekeben/"
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/analog-baratok-megerkezett-a-mi-baratsagunk-ifjusagi-eloadas-a-thaliaba/"
     },
     {
       "filename": "4.jpg",
-      "title": "A Rolling Stones még öt új dalt hozzácsapott az idén megjelent lemezéhez",
-      "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/a-rolling-stones-meg-ot-uj-dalt-hozzacsapott-az-iden-megjelent-lemezehez/"
+      "title": "Jelöléseket várnak Az Év Textilművésze 2026 díjra",
+      "author": "Szabó Száva Anna",
+      "category": "Képzőművészet",
+      "url": "https://deszkavizio.hu/jeloleseket-varnak-az-ev-textilmuvesze-2026-dijra/"
     },
     {
       "filename": "5.jpg",
-      "title": "Dömötör András rendezi a LOUPE új darabját",
+      "title": "A Radnótiban mutatják be az Open Books új könyvsorozatát",
       "author": "Flaisz János",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/domotor-andras-rendezi-a-loupe-uj-darabjat/"
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/a-radnotiban-mutatjak-be-az-open-books-uj-konyvsorozatat/"
     },
     {
       "filename": "6.jpg",
-      "title": "Megvan hát e rideg világnak is költészete! – Az ember tragédiája a Budapest Bábszínházban",
-      "author": "Bánfi Benedek",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/megvan-hat-e-rideg-vilagnak-is-kolteszete-az-ember-tragediaja-a-budapest-babszinhazban/"
+      "title": "Mindig a férj a tettes? – Elolvastuk Alice Feeney új pszichothrillerét",
+      "author": "Flaisz János",
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/mindig-a-ferj-a-tettes-elolvastuk-alice-feeney-uj-pszichothrilleret/"
     }
   ]
 }
