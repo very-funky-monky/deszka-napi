@@ -1,54 +1,54 @@
 {
-  "target_date": "2026. 10. 20.",
+  "target_date": "2026. 10. 21.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "Udvaros Dorottya kelti életre Karikó Katalin történetét",
-      "author": "Molnár Dóra",
+      "title": "Nádas Péter Találkozás című drámáját mutatják be Szegeden",
+      "author": "Flaisz János",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/udvaros-dorottya-kelti-eletre-kariko-katalin-tortenetet/"
+      "url": "https://deszkavizio.hu/nadas-peter-talalkozas-cimu-dramajat-mutatjak-be-szegeden/"
     },
     {
       "filename": "1.jpg",
-      "title": "Országos rajzpályázatot hirdet a Kolibri Színház",
-      "author": "Flaisz János",
+      "title": "Pályázatot írtak ki a Ferencvárosi Pinceszínház vezetésére",
+      "author": "Szabó Száva Anna",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/orszagos-rajzpalyazatot-hirdet-a-kolibri-szinhaz/"
+      "url": "https://deszkavizio.hu/palyazatot-irtak-ki-a-ferencvarosi-pinceszinhaz-vezetesere/"
     },
     {
       "filename": "2.jpg",
-      "title": "Szobrot avattak Fábri Zoltán tiszteletére",
-      "author": "Molnár Dóra",
-      "category": "Mozgókép",
-      "url": "https://deszkavizio.hu/szobrot-avattak-fabri-zoltan-tiszteletere/"
+      "title": "Új koncersorozattal készül az Anima Musicae Kamarazenekar",
+      "author": "Flaisz János",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/uj-koncersorozattal-keszul-az-anima-musicae-kamarazenekar/"
     },
     {
       "filename": "3.jpg",
-      "title": "Analog barátok – megérkezett A MI barátságunk ifjúsági előadás a Tháliába",
+      "title": "Van élet a romantika után? – itt a Fontaines D.C. Dopamine Chamberje",
       "author": "Bánfi Benedek",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/analog-baratok-megerkezett-a-mi-baratsagunk-ifjusagi-eloadas-a-thaliaba/"
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/van-elet-a-romantika-utan-itt-a-fontaines-d-c-dopamine-chamberje/"
     },
     {
       "filename": "4.jpg",
-      "title": "Jelöléseket várnak Az Év Textilművésze 2026 díjra",
-      "author": "Szabó Száva Anna",
-      "category": "Képzőművészet",
-      "url": "https://deszkavizio.hu/jeloleseket-varnak-az-ev-textilmuvesze-2026-dijra/"
+      "title": "Havi rendszerességű könyvklub indul a Katonában",
+      "author": "Flaisz János",
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/havi-rendszeressegu-konyvklub-indul-a-katonaban/"
     },
     {
       "filename": "5.jpg",
-      "title": "A Radnótiban mutatják be az Open Books új könyvsorozatát",
+      "title": "Tolnai Ottó-kötettel gazdagodhat a diákok házi könyvtára",
       "author": "Flaisz János",
       "category": "Könyv",
-      "url": "https://deszkavizio.hu/a-radnotiban-mutatjak-be-az-open-books-uj-konyvsorozatat/"
+      "url": "https://deszkavizio.hu/tolnai-otto-kotettel-gazdagodhat-a-diakok-hazi-konyvtara/"
     },
     {
       "filename": "6.jpg",
-      "title": "Mindig a férj a tettes? – Elolvastuk Alice Feeney új pszichothrillerét",
+      "title": "A hét könyve – Piergiorgio Pulixi: A Fekete Macskák Könyvesboltja",
       "author": "Flaisz János",
       "category": "Könyv",
-      "url": "https://deszkavizio.hu/mindig-a-ferj-a-tettes-elolvastuk-alice-feeney-uj-pszichothrilleret/"
+      "url": "https://deszkavizio.hu/a-het-konyve-piergiorgio-pulixi-a-fekete-macskak-konyvesboltja/"
     }
   ]
 }
