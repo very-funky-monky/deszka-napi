@@ -1,54 +1,54 @@
 {
-  "target_date": "2026. 10. 21.",
+  "target_date": "2026. 10. 22.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "Nádas Péter Találkozás című drámáját mutatják be Szegeden",
+      "title": "Nádas Péter-emlékkiállítás nyílt a Petőfi Irodalmi Múzeumban",
       "author": "Flaisz János",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/nadas-peter-talalkozas-cimu-dramajat-mutatjak-be-szegeden/"
+      "category": "Képzőművészet",
+      "url": "https://deszkavizio.hu/nadas-peter-emlekkiallitas-nyilt-a-petofi-irodalmi-muzeumban/"
     },
     {
       "filename": "1.jpg",
-      "title": "Pályázatot írtak ki a Ferencvárosi Pinceszínház vezetésére",
-      "author": "Szabó Száva Anna",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/palyazatot-irtak-ki-a-ferencvarosi-pinceszinhaz-vezetesere/"
+      "title": "Jótékonysági koncertet ad a Parno Graszt",
+      "author": "Flaisz János",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/jotekonysagi-koncertet-ad-a-parno-graszt/"
     },
     {
       "filename": "2.jpg",
-      "title": "Új koncersorozattal készül az Anima Musicae Kamarazenekar",
+      "title": "Új összművészeti programsorozatot indít a Light Art Museum",
       "author": "Flaisz János",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/uj-koncersorozattal-keszul-az-anima-musicae-kamarazenekar/"
+      "category": "Tánc",
+      "url": "https://deszkavizio.hu/uj-osszmuveszeti-programsorozatot-indit-a-light-art-museum/"
     },
     {
       "filename": "3.jpg",
-      "title": "Van élet a romantika után? – itt a Fontaines D.C. Dopamine Chamberje",
-      "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/van-elet-a-romantika-utan-itt-a-fontaines-d-c-dopamine-chamberje/"
+      "title": "Münchenben is bemutatkozott az Operettszínház A Notre Dame-i toronyőr musicalje",
+      "author": "Flaisz János",
+      "category": "Ajánlók",
+      "url": "https://deszkavizio.hu/munchenben-is-bemutatkozott-az-operettszinhaz-a-notre-dame-i-toronyor-musicalje/"
     },
     {
       "filename": "4.jpg",
-      "title": "Havi rendszerességű könyvklub indul a Katonában",
+      "title": "Újabb sikeres árverést zárt a Virág Judit Galéria",
       "author": "Flaisz János",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/havi-rendszeressegu-konyvklub-indul-a-katonaban/"
+      "category": "Képzőművészet",
+      "url": "https://deszkavizio.hu/ujabb-sikeres-arverest-zart-a-virag-judit-galeria/"
     },
     {
       "filename": "5.jpg",
-      "title": "Tolnai Ottó-kötettel gazdagodhat a diákok házi könyvtára",
-      "author": "Flaisz János",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/tolnai-otto-kotettel-gazdagodhat-a-diakok-hazi-konyvtara/"
+      "title": "A Duna gyöngye sokaknak nem elég értékes – Isolation Budapest az Akváriumban",
+      "author": "Bánfi Benedek",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/a-duna-gyongye-sokaknak-nem-eleg-ertekes-isolation-budapest-az-akvariumban/"
     },
     {
       "filename": "6.jpg",
-      "title": "A hét könyve – Piergiorgio Pulixi: A Fekete Macskák Könyvesboltja",
-      "author": "Flaisz János",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/a-het-konyve-piergiorgio-pulixi-a-fekete-macskak-konyvesboltja/"
+      "title": "“Csak akkor érdemes egy előadást csinálni, ha van mögötte egy ügy” – Interjú Kiss-Végh Emőkével",
+      "author": "Deszkavízió",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/csak-akkor-erdemes-egy-eloadast-csinalni-ha-van-mogotte-egy-ugy-interju-kiss-vegh-emokevel/"
     }
   ]
 }
