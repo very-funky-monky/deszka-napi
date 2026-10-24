@@ -1,54 +1,54 @@
 {
-  "target_date": "2026. 10. 22.",
+  "target_date": "2026. 10. 23.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "Nádas Péter-emlékkiállítás nyílt a Petőfi Irodalmi Múzeumban",
+      "title": "Mátray László 50 éves",
       "author": "Flaisz János",
-      "category": "Képzőművészet",
-      "url": "https://deszkavizio.hu/nadas-peter-emlekkiallitas-nyilt-a-petofi-irodalmi-muzeumban/"
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/matray-laszlo-50-eves/"
     },
     {
       "filename": "1.jpg",
-      "title": "Jótékonysági koncertet ad a Parno Graszt",
+      "title": "Országos összefogásra hívja az iskolákat a NEM OKÉ kampány",
       "author": "Flaisz János",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/jotekonysagi-koncertet-ad-a-parno-graszt/"
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/orszagos-osszefogasra-hivja-az-iskolakat-a-nem-oke-kampany/"
     },
     {
       "filename": "2.jpg",
-      "title": "Új összművészeti programsorozatot indít a Light Art Museum",
+      "title": "Decemberben mutatják be a Madách Musical Pályázatának különdíjas művét",
       "author": "Flaisz János",
-      "category": "Tánc",
-      "url": "https://deszkavizio.hu/uj-osszmuveszeti-programsorozatot-indit-a-light-art-museum/"
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/decemberben-mutatjak-be-a-madach-musical-palyazatanak-kulondijas-muvet/"
     },
     {
       "filename": "3.jpg",
-      "title": "Münchenben is bemutatkozott az Operettszínház A Notre Dame-i toronyőr musicalje",
+      "title": "Egy ősz, amely megváltoztatta a történelmet – Fábián Janka új kisregényéről",
       "author": "Flaisz János",
-      "category": "Ajánlók",
-      "url": "https://deszkavizio.hu/munchenben-is-bemutatkozott-az-operettszinhaz-a-notre-dame-i-toronyor-musicalje/"
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/egy-osz-amely-megvaltoztatta-a-tortenelmet-fabian-janka-uj-kisregenyerol/"
     },
     {
       "filename": "4.jpg",
-      "title": "Újabb sikeres árverést zárt a Virág Judit Galéria",
+      "title": "A János vitéz bemutatására készül a Fitos Dezső Társulat",
       "author": "Flaisz János",
-      "category": "Képzőművészet",
-      "url": "https://deszkavizio.hu/ujabb-sikeres-arverest-zart-a-virag-judit-galeria/"
+      "category": "Tánc",
+      "url": "https://deszkavizio.hu/a-janos-vitez-bemutatasara-keszul-a-fitos-dezso-tarsulat/"
     },
     {
       "filename": "5.jpg",
-      "title": "A Duna gyöngye sokaknak nem elég értékes – Isolation Budapest az Akváriumban",
+      "title": "Az analóg kultúrafogyasztásra hívja fel a figyelmet az analóg+ kulturális projekt",
       "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/a-duna-gyongye-sokaknak-nem-eleg-ertekes-isolation-budapest-az-akvariumban/"
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/az-analog-kulturafogyasztasra-hivja-fel-a-figyelmet-az-analog-kulturalis-projekt/"
     },
     {
       "filename": "6.jpg",
-      "title": "“Csak akkor érdemes egy előadást csinálni, ha van mögötte egy ügy” – Interjú Kiss-Végh Emőkével",
-      "author": "Deszkavízió",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/csak-akkor-erdemes-egy-eloadast-csinalni-ha-van-mogotte-egy-ugy-interju-kiss-vegh-emokevel/"
+      "title": "„A művészetre nevelés a missziónk” – Interjú Bada Évával, a KÉPEZŐ Galéria vezetőjével",
+      "author": "Steindl Gabriella",
+      "category": "Képzőművészet",
+      "url": "https://deszkavizio.hu/a-muveszetre-neveles-a-misszionk-interju-bada-evaval-a-kepezo-galeria-vezetojevel/"
     }
   ]
 }
