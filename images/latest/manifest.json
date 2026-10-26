@@ -1,54 +1,54 @@
 {
-  "target_date": "2026. 10. 24.",
+  "target_date": "2026. 10. 25.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "Orosz István 75 éves",
+      "title": "A rock & roll és a jóga is megfér egymás mellett Varga Livius könyvében",
       "author": "Bánfi Benedek",
-      "category": "Képzőművészet",
-      "url": "https://deszkavizio.hu/orosz-istvan-75-eves/"
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/a-rock-roll-es-a-joga-is-megfer-egymas-mellett-varga-livius-konyveben/"
     },
     {
       "filename": "1.jpg",
-      "title": "Négy színészlegenda történetét idézik meg a B32-ben",
+      "title": "Megnyílt a Hadtörténeti Intézet és Múzeum új, 1956-os kiállítása",
       "author": "Flaisz János",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/negy-szineszlegenda-tortenetet-idezik-meg-a-b32-ben/"
+      "category": "Képzőművészet",
+      "url": "https://deszkavizio.hu/megnyilt-a-hadtorteneti-intezet-es-muzeum-uj-1956-os-kiallitasa/"
     },
     {
       "filename": "2.jpg",
-      "title": "Átadták a Junior Prima Díjakat ismeretterjesztés és média kategóriában",
-      "author": "Flaisz János",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/atadtak-a-junior-prima-dijakat-ismeretterjesztes-es-media-kategoriaban/"
+      "title": "Raoul Coutard eddig nem látott fotói a BIFF kiállításán",
+      "author": "Molnár Dóra",
+      "category": "Mozgókép",
+      "url": "https://deszkavizio.hu/raoul-coutard-eddig-nem-latott-fotoi-a-biff-kiallitasan/"
     },
     {
       "filename": "3.jpg",
-      "title": "5+1 film, amire érdemes lesz odafigyelni az idei BIFF-en",
-      "author": "Molnár Dóra",
-      "category": "Mozgókép",
-      "url": "https://deszkavizio.hu/51-film-amire-erdemes-lesz-odafigyelni-az-idei-biff-en/"
+      "title": "A családi viszályoktól a háború árnyékáig",
+      "author": "Flaisz János",
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/a-csaladi-viszalyoktol-a-haboru-arnyekaig/"
     },
     {
       "filename": "4.jpg",
-      "title": "Jövő ősszel Budapestre érkezik Jean-Michel Jarre",
+      "title": "Bábszínházi előadás készült az 1956-os forradalomról",
       "author": "Flaisz János",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/jovo-osszel-budapestre-erkezik-jean-michel-jarre/"
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/babszinhazi-eloadas-keszult-az-1956-os-forradalomrol/"
     },
     {
       "filename": "5.jpg",
-      "title": "Először lesz látható az Operaházban A bahcsiszeráji szökőkút",
+      "title": "Monumentális előadás született Thomas Mann regényéből",
       "author": "Flaisz János",
-      "category": "Tánc",
-      "url": "https://deszkavizio.hu/eloszor-lesz-lathato-az-operahazban-a-bahcsiszeraji-szokokut/"
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/monumentalis-eloadas-szuletett-thomas-mann-regenyebol/"
     },
     {
       "filename": "6.jpg",
-      "title": "Harry Hole visszatért, de már nem a régi",
+      "title": "“A bizalom csak munkával épülhet ki” – Interjú Dolhai Attilával",
       "author": "Flaisz János",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/harry-hole-visszatert-de-mar-nem-a-regi/"
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/a-bizalom-csak-munkaval-epulhet-ki-interju-dolhai-attilaval/"
     }
   ]
 }
