@@ -1,54 +1,54 @@
 {
-  "target_date": "2026. 10. 25.",
+  "target_date": "2026. 10. 26.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "A rock & roll és a jóga is megfér egymás mellett Varga Livius könyvében",
-      "author": "Bánfi Benedek",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/a-rock-roll-es-a-joga-is-megfer-egymas-mellett-varga-livius-konyveben/"
+      "title": "Szakonyi Károly 95 éves",
+      "author": "Flaisz János",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/szakonyi-karoly-95-eves/"
     },
     {
       "filename": "1.jpg",
-      "title": "Megnyílt a Hadtörténeti Intézet és Múzeum új, 1956-os kiállítása",
+      "title": "Halloween a Magyar Színházban",
       "author": "Flaisz János",
-      "category": "Képzőművészet",
-      "url": "https://deszkavizio.hu/megnyilt-a-hadtorteneti-intezet-es-muzeum-uj-1956-os-kiallitasa/"
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/halloween-a-magyar-szinhazban/"
     },
     {
       "filename": "2.jpg",
-      "title": "Raoul Coutard eddig nem látott fotói a BIFF kiállításán",
-      "author": "Molnár Dóra",
-      "category": "Mozgókép",
-      "url": "https://deszkavizio.hu/raoul-coutard-eddig-nem-latott-fotoi-a-biff-kiallitasan/"
+      "title": "Megjelent a SICC Production társulat első albuma",
+      "author": "Flaisz János",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/hamarosan-megjelenik-a-sicc-production-tarsulat-elso-albuma/"
     },
     {
       "filename": "3.jpg",
-      "title": "A családi viszályoktól a háború árnyékáig",
+      "title": "Jótékonysági árverésre bocsátják a Vígszínház művészeinek alkotásait",
       "author": "Flaisz János",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/a-csaladi-viszalyoktol-a-haboru-arnyekaig/"
+      "category": "Képzőművészet",
+      "url": "https://deszkavizio.hu/jotekonysagi-arveresre-bocsatjak-a-vigszinhaz-muveszeinek-alkotasait/"
     },
     {
       "filename": "4.jpg",
-      "title": "Bábszínházi előadás készült az 1956-os forradalomról",
+      "title": "Átadták a Budapesti Operettszínház saját díjait",
       "author": "Flaisz János",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/babszinhazi-eloadas-keszult-az-1956-os-forradalomrol/"
+      "url": "https://deszkavizio.hu/atadtak-a-budapesti-operettszinhaz-sajat-dijait-2/"
     },
     {
       "filename": "5.jpg",
-      "title": "Monumentális előadás született Thomas Mann regényéből",
-      "author": "Flaisz János",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/monumentalis-eloadas-szuletett-thomas-mann-regenyebol/"
+      "title": "Két magyar film debütál a Tallini Filmfesztiválon",
+      "author": "Molnár Dóra",
+      "category": "Mozgókép",
+      "url": "https://deszkavizio.hu/ket-magyar-film-debutal-a-tallini-filmfesztivalon/"
     },
     {
       "filename": "6.jpg",
-      "title": "“A bizalom csak munkával épülhet ki” – Interjú Dolhai Attilával",
-      "author": "Flaisz János",
+      "title": "Forradalmi Rómeó és Júlia – Kritika az 56 csepp vér című musicalről",
+      "author": "Ráth Orsolya",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/a-bizalom-csak-munkaval-epulhet-ki-interju-dolhai-attilaval/"
+      "url": "https://deszkavizio.hu/forradalmi-romeo-es-julia-kritika-az-56-csepp-ver-cimu-musicalrol/"
     }
   ]
 }
