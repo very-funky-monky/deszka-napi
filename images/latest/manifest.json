@@ -1,54 +1,54 @@
 {
-  "target_date": "2026. 10. 26.",
+  "target_date": "2026. 10. 27.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "Szakonyi Károly 95 éves",
+      "title": "Szacsvay László 79 éves",
       "author": "Flaisz János",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/szakonyi-karoly-95-eves/"
+      "url": "https://deszkavizio.hu/szacsvay-laszlo-79-eves/"
     },
     {
       "filename": "1.jpg",
-      "title": "Halloween a Magyar Színházban",
-      "author": "Flaisz János",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/halloween-a-magyar-szinhazban/"
+      "title": "A Pet Shop Boys Alan Turingról írta új lemezét",
+      "author": "Bánfi Benedek",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/a-pet-shop-boys-alan-turingrol-irta-uj-lemezet/"
     },
     {
       "filename": "2.jpg",
-      "title": "Megjelent a SICC Production társulat első albuma",
+      "title": "Három alkalommal lesz látható Verdi Requiemje az Operaházban",
       "author": "Flaisz János",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/hamarosan-megjelenik-a-sicc-production-tarsulat-elso-albuma/"
+      "category": "Opera",
+      "url": "https://deszkavizio.hu/harom-alkalommal-lesz-lathato-verdi-requiemje-az-operahazban/"
     },
     {
       "filename": "3.jpg",
-      "title": "Jótékonysági árverésre bocsátják a Vígszínház művészeinek alkotásait",
-      "author": "Flaisz János",
-      "category": "Képzőművészet",
-      "url": "https://deszkavizio.hu/jotekonysagi-arveresre-bocsatjak-a-vigszinhaz-muveszeinek-alkotasait/"
+      "title": "Alföldi Róbert újraértelmezi Hauptmann drámáját a Radnóti Színházban",
+      "author": "Molnár Dóra",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/alfoldi-robert-ujraertelmezi-hauptmann-dramajat-a-radnoti-szinhazban/"
     },
     {
       "filename": "4.jpg",
-      "title": "Átadták a Budapesti Operettszínház saját díjait",
+      "title": "A csokoládén innen és túl – Elolvastuk Joanne Harris új regényét",
       "author": "Flaisz János",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/atadtak-a-budapesti-operettszinhaz-sajat-dijait-2/"
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/a-csokoladen-innen-es-tul-elolvastuk-joanne-harris-uj-regenyet/"
     },
     {
       "filename": "5.jpg",
-      "title": "Két magyar film debütál a Tallini Filmfesztiválon",
-      "author": "Molnár Dóra",
-      "category": "Mozgókép",
-      "url": "https://deszkavizio.hu/ket-magyar-film-debutal-a-tallini-filmfesztivalon/"
+      "title": "Mémes prágai elektronikától a magyar rave-ig – megérkezett a 2026-os BuSH teljes programja",
+      "author": "Bánfi Benedek",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/memes-pragai-elektronikatol-a-magyar-rave-ig-megerkezett-a-2026-os-bush-teljes-programja/"
     },
     {
       "filename": "6.jpg",
-      "title": "Forradalmi Rómeó és Júlia – Kritika az 56 csepp vér című musicalről",
-      "author": "Ráth Orsolya",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/forradalmi-romeo-es-julia-kritika-az-56-csepp-ver-cimu-musicalrol/"
+      "title": "Nemcsak fáraók, hús-vér mesterek – Az örökkévalóság megörökítése című tárlatról",
+      "author": "Deszkavízió",
+      "category": "Képzőművészet",
+      "url": "https://deszkavizio.hu/nemcsak-faraok-hus-ver-mesterek-az-orokkevalosag-megorokitese-cimu-tarlatrol/"
     }
   ]
 }
