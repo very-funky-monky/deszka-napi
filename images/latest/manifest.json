@@ -1,54 +1,54 @@
 {
-  "target_date": "2026. 10. 27.",
+  "target_date": "2026. 10. 28.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "Szacsvay László 79 éves",
+      "title": "Csikos Sándor 85 éves",
       "author": "Flaisz János",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/szacsvay-laszlo-79-eves/"
+      "url": "https://deszkavizio.hu/csikos-sandor-85-eves/"
     },
     {
       "filename": "1.jpg",
-      "title": "A Pet Shop Boys Alan Turingról írta új lemezét",
+      "title": "A Pussy Riot orosz feminista punk-aktivista csoport, jövő tavasszal a Zene Házában lép fel",
       "author": "Bánfi Benedek",
       "category": "Zene",
-      "url": "https://deszkavizio.hu/a-pet-shop-boys-alan-turingrol-irta-uj-lemezet/"
+      "url": "https://deszkavizio.hu/a-pussy-riot-orosz-feminista-punk-aktivista-csoport-jovo-tavasszal-a-zene-hazaban-lep-fel/"
     },
     {
       "filename": "2.jpg",
-      "title": "Három alkalommal lesz látható Verdi Requiemje az Operaházban",
+      "title": "NER-feldolgozó csoportot indít a Szünet Együttes",
       "author": "Flaisz János",
-      "category": "Opera",
-      "url": "https://deszkavizio.hu/harom-alkalommal-lesz-lathato-verdi-requiemje-az-operahazban/"
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/ner-feldolgozo-csoportot-indit-a-szunet-egyuttes/"
     },
     {
       "filename": "3.jpg",
-      "title": "Alföldi Róbert újraértelmezi Hauptmann drámáját a Radnóti Színházban",
-      "author": "Molnár Dóra",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/alfoldi-robert-ujraertelmezi-hauptmann-dramajat-a-radnoti-szinhazban/"
+      "title": "POPZAJLÁS Spotlight: Szabikeyz – MEGHALNI A SZÍNPADON",
+      "author": "Bánfi Benedek",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/popzajlas-spotlight-szabikeyz-meghalni-a-szinpadon/"
     },
     {
       "filename": "4.jpg",
-      "title": "A csokoládén innen és túl – Elolvastuk Joanne Harris új regényét",
+      "title": "Nagyszabású zenés előadásra készül a Zenthe Ferenc Színház",
       "author": "Flaisz János",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/a-csokoladen-innen-es-tul-elolvastuk-joanne-harris-uj-regenyet/"
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/nagyszabasu-zenes-eloadasra-keszul-a-zenthe-ferenc-szinhaz/"
     },
     {
       "filename": "5.jpg",
-      "title": "Mémes prágai elektronikától a magyar rave-ig – megérkezett a 2026-os BuSH teljes programja",
-      "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/memes-pragai-elektronikatol-a-magyar-rave-ig-megerkezett-a-2026-os-bush-teljes-programja/"
+      "title": "Negyedik alkalommal rendezik meg Óbudán a Zsidó Kulturális Napokat",
+      "author": "Flaisz János",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/negyedik-alkalommal-rendezik-meg-obudan-a-zsido-kulturalis-napokat/"
     },
     {
       "filename": "6.jpg",
-      "title": "Nemcsak fáraók, hús-vér mesterek – Az örökkévalóság megörökítése című tárlatról",
-      "author": "Deszkavízió",
-      "category": "Képzőművészet",
-      "url": "https://deszkavizio.hu/nemcsak-faraok-hus-ver-mesterek-az-orokkevalosag-megorokitese-cimu-tarlatrol/"
+      "title": "A hét könyve – James Islington: A kevesek ereje",
+      "author": "Flaisz János",
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/a-het-konyve-james-islington-a-kevesek-ereje/"
     }
   ]
 }
