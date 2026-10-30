@@ -1,54 +1,61 @@
 {
-  "target_date": "2026. 10. 28.",
+  "target_date": "2026. 10. 29.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "Csikos Sándor 85 éves",
-      "author": "Flaisz János",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/csikos-sandor-85-eves/"
+      "title": "Az amerikai indie-pop duó, a Sports az A38-on is fellép",
+      "author": "Bánfi Benedek",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/az-amerikai-indie-pop-duo-a-sports-az-a38-on-is-fellep/"
     },
     {
       "filename": "1.jpg",
-      "title": "A Pussy Riot orosz feminista punk-aktivista csoport, jövő tavasszal a Zene Házában lép fel",
-      "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/a-pussy-riot-orosz-feminista-punk-aktivista-csoport-jovo-tavasszal-a-zene-hazaban-lep-fel/"
+      "title": "Újabb kortárs magyar dráma debütált a színpadon",
+      "author": "Flaisz János",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/ujabb-kortars-magyar-drama-debutalt-a-szinpadon/"
     },
     {
       "filename": "2.jpg",
-      "title": "NER-feldolgozó csoportot indít a Szünet Együttes",
+      "title": "Újra lehet pályázni a Csoóri Sándor Programra",
       "author": "Flaisz János",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/ner-feldolgozo-csoportot-indit-a-szunet-egyuttes/"
+      "category": "Tánc",
+      "url": "https://deszkavizio.hu/ujra-lehet-palyazni-a-csoori-sandor-programra/"
     },
     {
       "filename": "3.jpg",
-      "title": "POPZAJLÁS Spotlight: Szabikeyz – MEGHALNI A SZÍNPADON",
-      "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/popzajlas-spotlight-szabikeyz-meghalni-a-szinpadon/"
+      "title": "Joe Hill szerint a sárkányok olyanok, mint a macskák – Beszámoló a Kín Király könyvbemutatójáról",
+      "author": "Flaisz János",
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/joe-hill-szerint-a-sarkanyok-olyanok-mint-a-macskak-beszamolo-a-kin-kiraly-konyvbemutatojarol/"
     },
     {
       "filename": "4.jpg",
-      "title": "Nagyszabású zenés előadásra készül a Zenthe Ferenc Színház",
+      "title": "Lunel kontra Maurepas, avagy miként zajlik egy válás francia módra",
       "author": "Flaisz János",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/nagyszabasu-zenes-eloadasra-keszul-a-zenthe-ferenc-szinhaz/"
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/lunel-kontra-maurepas-avagy-mikent-zajlik-egy-valas-francia-modra/"
     },
     {
       "filename": "5.jpg",
-      "title": "Negyedik alkalommal rendezik meg Óbudán a Zsidó Kulturális Napokat",
-      "author": "Flaisz János",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/negyedik-alkalommal-rendezik-meg-obudan-a-zsido-kulturalis-napokat/"
+      "title": "Bud Spencer előtt is tiszteleg az idei Olasz Filmfesztivál",
+      "author": "Steindl Gabriella",
+      "category": "Mozgókép",
+      "url": "https://deszkavizio.hu/bud-spencer-elott-is-tiszteleg-az-idei-olasz-filmfesztival/"
     },
     {
       "filename": "6.jpg",
-      "title": "A hét könyve – James Islington: A kevesek ereje",
+      "title": "Ismét keresik az ország legjobb mesélőit",
       "author": "Flaisz János",
       "category": "Könyv",
-      "url": "https://deszkavizio.hu/a-het-konyve-james-islington-a-kevesek-ereje/"
+      "url": "https://deszkavizio.hu/ismet-keresik-az-orszag-legjobb-meseloit/"
+    },
+    {
+      "filename": "7.jpg",
+      "title": "Hol vannak a feltörekvő zenészek a Nyugat legkeletibb, a Kelet legnyugatibb országában?",
+      "author": "Bánfi Benedek",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/hol-vannak-a-feltorekvo-zeneszek-a-nyugat-legkeletibb-a-kelet-legnyugatibb-orszagaban/"
     }
   ]
 }
