@@ -1,61 +1,54 @@
 {
-  "target_date": "2026. 10. 29.",
+  "target_date": "2026. 10. 30.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "Az amerikai indie-pop duó, a Sports az A38-on is fellép",
+      "title": "A Palo Canto képviseli Magyarországot a hollandiai ESNS showcase-en",
       "author": "Bánfi Benedek",
       "category": "Zene",
-      "url": "https://deszkavizio.hu/az-amerikai-indie-pop-duo-a-sports-az-a38-on-is-fellep/"
+      "url": "https://deszkavizio.hu/a-palo-canto-kepviseli-magyarorszagot-a-hollandiai-esns-showcase-en/"
     },
     {
       "filename": "1.jpg",
-      "title": "Újabb kortárs magyar dráma debütált a színpadon",
-      "author": "Flaisz János",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/ujabb-kortars-magyar-drama-debutalt-a-szinpadon/"
+      "title": "Már nézhető Ozzy és a Black Sabbath búcsúkoncertje a mozivásznon",
+      "author": "Bánfi Benedek",
+      "category": "Mozgókép",
+      "url": "https://deszkavizio.hu/mar-nezheto-ozzy-es-a-black-sabbath-bucsukoncertje-a-mozivasznon/"
     },
     {
       "filename": "2.jpg",
-      "title": "Újra lehet pályázni a Csoóri Sándor Programra",
-      "author": "Flaisz János",
-      "category": "Tánc",
-      "url": "https://deszkavizio.hu/ujra-lehet-palyazni-a-csoori-sandor-programra/"
+      "title": "Két különleges bemutató decemberben a Jurányiban",
+      "author": "Malik Andrea",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/ket-kulonleges-bemutato-decemberben-a-juranyiban/"
     },
     {
       "filename": "3.jpg",
-      "title": "Joe Hill szerint a sárkányok olyanok, mint a macskák – Beszámoló a Kín Király könyvbemutatójáról",
+      "title": "Andreas Schager lesz a Sztárestek zongorával következő vendége",
       "author": "Flaisz János",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/joe-hill-szerint-a-sarkanyok-olyanok-mint-a-macskak-beszamolo-a-kin-kiraly-konyvbemutatojarol/"
+      "category": "Opera",
+      "url": "https://deszkavizio.hu/andreas-schager-lesz-a-sztarestek-zongoraval-kovetkezo-vendege/"
     },
     {
       "filename": "4.jpg",
-      "title": "Lunel kontra Maurepas, avagy miként zajlik egy válás francia módra",
-      "author": "Flaisz János",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/lunel-kontra-maurepas-avagy-mikent-zajlik-egy-valas-francia-modra/"
+      "title": "Sivák Zsófia nyerte az idei Capa-nagydíjat",
+      "author": "Steindl Gabriella",
+      "category": "Képzőművészet",
+      "url": "https://deszkavizio.hu/sivak-zsofia-nyerte-az-idei-capa-nagydijat/"
     },
     {
       "filename": "5.jpg",
-      "title": "Bud Spencer előtt is tiszteleg az idei Olasz Filmfesztivál",
-      "author": "Steindl Gabriella",
-      "category": "Mozgókép",
-      "url": "https://deszkavizio.hu/bud-spencer-elott-is-tiszteleg-az-idei-olasz-filmfesztival/"
+      "title": "Ma este debütál a Pécsi Balett legújabb bemutatója a Müpában",
+      "author": "Malik Andrea",
+      "category": "Tánc",
+      "url": "https://deszkavizio.hu/ma-este-debutal-a-pecsi-balett-legujabb-bemutatoja-a-mupaban/"
     },
     {
       "filename": "6.jpg",
-      "title": "Ismét keresik az ország legjobb mesélőit",
+      "title": "Vámpírok lakják a vidéket? – Elolvastuk Mészáros Dorka új krimijét",
       "author": "Flaisz János",
       "category": "Könyv",
-      "url": "https://deszkavizio.hu/ismet-keresik-az-orszag-legjobb-meseloit/"
-    },
-    {
-      "filename": "7.jpg",
-      "title": "Hol vannak a feltörekvő zenészek a Nyugat legkeletibb, a Kelet legnyugatibb országában?",
-      "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/hol-vannak-a-feltorekvo-zeneszek-a-nyugat-legkeletibb-a-kelet-legnyugatibb-orszagaban/"
+      "url": "https://deszkavizio.hu/vampirok-lakjak-a-videket-elolvastuk-meszaros-dorka-uj-krimijet/"
     }
   ]
 }
