@@ -1,54 +1,54 @@
 {
-  "target_date": "2026. 10. 30.",
+  "target_date": "2026. 10. 31.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "A Palo Canto képviseli Magyarországot a hollandiai ESNS showcase-en",
-      "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/a-palo-canto-kepviseli-magyarorszagot-a-hollandiai-esns-showcase-en/"
+      "title": "30 éves jubileumát ünnepli a Lúdas Matyi a Madách Színházban",
+      "author": "Flaisz János",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/30-eves-jubileumat-unnepli-a-ludas-matyi-a-madach-szinhazban/"
     },
     {
       "filename": "1.jpg",
-      "title": "Már nézhető Ozzy és a Black Sabbath búcsúkoncertje a mozivásznon",
+      "title": "A Thirty Seconds to Mars jövő májusban a Budapest Sportarénában játszik",
       "author": "Bánfi Benedek",
-      "category": "Mozgókép",
-      "url": "https://deszkavizio.hu/mar-nezheto-ozzy-es-a-black-sabbath-bucsukoncertje-a-mozivasznon/"
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/a-thirty-seconds-to-mars-jovo-majusban-a-budapest-sportarenaban-jatszik/"
     },
     {
       "filename": "2.jpg",
-      "title": "Két különleges bemutató decemberben a Jurányiban",
-      "author": "Malik Andrea",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/ket-kulonleges-bemutato-decemberben-a-juranyiban/"
+      "title": "A Turnstile több mint 250 ezer dollárt gyűjtött jótékony célra",
+      "author": "Bánfi Benedek",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/a-turnstile-tobb-mint-250-ezer-dollart-gyujtott-jotekony-celra/"
     },
     {
       "filename": "3.jpg",
-      "title": "Andreas Schager lesz a Sztárestek zongorával következő vendége",
-      "author": "Flaisz János",
-      "category": "Opera",
-      "url": "https://deszkavizio.hu/andreas-schager-lesz-a-sztarestek-zongoraval-kovetkezo-vendege/"
+      "title": "Hétvégi Filmklub: Eleanor Wilson és Alex Huston Fischer – A vesszőből font férj (2026)",
+      "author": "Molnár Dóra",
+      "category": "Mozgókép",
+      "url": "https://deszkavizio.hu/hetvegi-filmklub-eleanor-wilson-es-alex-huston-fischer-a-vesszobol-font-ferj-2026/"
     },
     {
       "filename": "4.jpg",
-      "title": "Sivák Zsófia nyerte az idei Capa-nagydíjat",
-      "author": "Steindl Gabriella",
-      "category": "Képzőművészet",
-      "url": "https://deszkavizio.hu/sivak-zsofia-nyerte-az-idei-capa-nagydijat/"
+      "title": "Drámapályázatot hirdetett a Vörösmarty Színház",
+      "author": "Flaisz János",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/dramapalyazatot-hirdetett-a-vorosmarty-szinhaz/"
     },
     {
       "filename": "5.jpg",
-      "title": "Ma este debütál a Pécsi Balett legújabb bemutatója a Müpában",
-      "author": "Malik Andrea",
-      "category": "Tánc",
-      "url": "https://deszkavizio.hu/ma-este-debutal-a-pecsi-balett-legujabb-bemutatoja-a-mupaban/"
+      "title": "Új rendezésben érkezik a Csókos asszony az Operettszínházba",
+      "author": "Flaisz János",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/uj-rendezesben-erkezik-a-csokos-asszony-az-operettszinhazba/"
     },
     {
       "filename": "6.jpg",
-      "title": "Vámpírok lakják a vidéket? – Elolvastuk Mészáros Dorka új krimijét",
+      "title": "Új fejezet nyílt a Q-ügyosztály történetében – Elolvastuk a Holt lelkeket",
       "author": "Flaisz János",
       "category": "Könyv",
-      "url": "https://deszkavizio.hu/vampirok-lakjak-a-videket-elolvastuk-meszaros-dorka-uj-krimijet/"
+      "url": "https://deszkavizio.hu/uj-fejezet-nyilt-a-q-ugyosztaly-torteneteben-elolvastuk-a-holt-lelkeket/"
     }
   ]
 }
