@@ -1,54 +1,47 @@
 {
-  "target_date": "2026. 10. 31.",
+  "target_date": "2026. 11. 01.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "30 éves jubileumát ünnepli a Lúdas Matyi a Madách Színházban",
+      "title": "Andrea Bocelli jövő májusban újra Budapestre érkezik",
       "author": "Flaisz János",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/30-eves-jubileumat-unnepli-a-ludas-matyi-a-madach-szinhazban/"
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/andrea-bocelli-jovo-majusban-ujra-budapestre-erkezik/"
     },
     {
       "filename": "1.jpg",
-      "title": "A Thirty Seconds to Mars jövő májusban a Budapest Sportarénában játszik",
-      "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/a-thirty-seconds-to-mars-jovo-majusban-a-budapest-sportarenaban-jatszik/"
+      "title": "Támogatói kampányt indított a Dajer Alapítvány",
+      "author": "Flaisz János",
+      "category": "Képzőművészet",
+      "url": "https://deszkavizio.hu/tamogatoi-kampanyt-inditott-a-dajer-alapitvany/"
     },
     {
       "filename": "2.jpg",
-      "title": "A Turnstile több mint 250 ezer dollárt gyűjtött jótékony célra",
-      "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/a-turnstile-tobb-mint-250-ezer-dollart-gyujtott-jotekony-celra/"
+      "title": "Élet a tengeren – Tíz év után ismét megjelent Cserháti Éva első regénye",
+      "author": "Flaisz János",
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/elet-a-tengeren-tiz-ev-utan-ismet-megjelent-cserhati-eva-elso-regenye/"
     },
     {
       "filename": "3.jpg",
-      "title": "Hétvégi Filmklub: Eleanor Wilson és Alex Huston Fischer – A vesszőből font férj (2026)",
-      "author": "Molnár Dóra",
-      "category": "Mozgókép",
-      "url": "https://deszkavizio.hu/hetvegi-filmklub-eleanor-wilson-es-alex-huston-fischer-a-vesszobol-font-ferj-2026/"
+      "title": "Tablókiállítás az idén 85 éve született Jankovics Marcell tiszteletére",
+      "author": "Malik Andrea",
+      "category": "Képzőművészet",
+      "url": "https://deszkavizio.hu/tablokiallitas-az-iden-85-eve-szuletett-jankovics-marcell-tiszteletere/"
     },
     {
       "filename": "4.jpg",
-      "title": "Drámapályázatot hirdetett a Vörösmarty Színház",
+      "title": "Magyarországra látogat Gisèle Pelicot, a Radnótiban mutatja be kötetét",
       "author": "Flaisz János",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/dramapalyazatot-hirdetett-a-vorosmarty-szinhaz/"
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/magyarorszagra-latogat-gisele-pelicot-a-radnotiban-mutatja-be-kotetet/"
     },
     {
       "filename": "5.jpg",
-      "title": "Új rendezésben érkezik a Csókos asszony az Operettszínházba",
-      "author": "Flaisz János",
+      "title": "A hónap legjobbja – október",
+      "author": "Deszkavízió",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/uj-rendezesben-erkezik-a-csokos-asszony-az-operettszinhazba/"
-    },
-    {
-      "filename": "6.jpg",
-      "title": "Új fejezet nyílt a Q-ügyosztály történetében – Elolvastuk a Holt lelkeket",
-      "author": "Flaisz János",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/uj-fejezet-nyilt-a-q-ugyosztaly-torteneteben-elolvastuk-a-holt-lelkeket/"
+      "url": "https://deszkavizio.hu/a-honap-legjobbja-oktober-8/"
     }
   ]
 }
