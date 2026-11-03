@@ -1,47 +1,54 @@
 {
-  "target_date": "2026. 11. 01.",
+  "target_date": "2026. 11. 02.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "Andrea Bocelli jövő májusban újra Budapestre érkezik",
+      "title": "Sztarenki Dóra 35 éves",
       "author": "Flaisz János",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/andrea-bocelli-jovo-majusban-ujra-budapestre-erkezik/"
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/sztarenki-dora-35-eves/"
     },
     {
       "filename": "1.jpg",
-      "title": "Támogatói kampányt indított a Dajer Alapítvány",
-      "author": "Flaisz János",
-      "category": "Képzőművészet",
-      "url": "https://deszkavizio.hu/tamogatoi-kampanyt-inditott-a-dajer-alapitvany/"
+      "title": "Mozart és Menotti művei az Operaházban diákoknak címezve",
+      "author": "Bánfi Benedek",
+      "category": "Opera",
+      "url": "https://deszkavizio.hu/mozart-es-menotti-muvei-az-operahazban-diakoknak-cimezve/"
     },
     {
       "filename": "2.jpg",
-      "title": "Élet a tengeren – Tíz év után ismét megjelent Cserháti Éva első regénye",
-      "author": "Flaisz János",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/elet-a-tengeren-tiz-ev-utan-ismet-megjelent-cserhati-eva-elso-regenye/"
+      "title": "Új kiállítás a Czóbel Múzeumban",
+      "author": "Malik Andrea",
+      "category": "Képzőművészet",
+      "url": "https://deszkavizio.hu/uj-kiallitas-a-czobel-muzeumban/"
     },
     {
       "filename": "3.jpg",
-      "title": "Tablókiállítás az idén 85 éve született Jankovics Marcell tiszteletére",
-      "author": "Malik Andrea",
-      "category": "Képzőművészet",
-      "url": "https://deszkavizio.hu/tablokiallitas-az-iden-85-eve-szuletett-jankovics-marcell-tiszteletere/"
+      "title": "Véget ért a III. Budapest International Film Festival",
+      "author": "Molnár Dóra",
+      "category": "Mozgókép",
+      "url": "https://deszkavizio.hu/veget-ert-a-iii-budapest-international-film-festival/"
     },
     {
       "filename": "4.jpg",
-      "title": "Magyarországra látogat Gisèle Pelicot, a Radnótiban mutatja be kötetét",
-      "author": "Flaisz János",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/magyarorszagra-latogat-gisele-pelicot-a-radnotiban-mutatja-be-kotetet/"
+      "title": "Izgalmas program várja a nézőket az ArtEger Feszten",
+      "author": "Malik Andrea",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/izgalmas-program-varja-a-nezoket-az-arteger-feszten/"
     },
     {
       "filename": "5.jpg",
-      "title": "A hónap legjobbja – október",
-      "author": "Deszkavízió",
+      "title": "A koreai előadóművészet sokszínűsége Budapesten",
+      "author": "Szabó Száva Anna",
+      "category": "Tánc",
+      "url": "https://deszkavizio.hu/a-koreai-eloadomuveszet-sokszinusege-budapesten/"
+    },
+    {
+      "filename": "6.jpg",
+      "title": "Szoba kilátástalansággal – kritika a Bányavirág című előadásról",
+      "author": "Ráth Orsolya",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/a-honap-legjobbja-oktober-8/"
+      "url": "https://deszkavizio.hu/szoba-kilatastalansaggal-kritika-a-banyavirag-cimu-eloadasrol/"
     }
   ]
 }
