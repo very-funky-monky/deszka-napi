@@ -1,54 +1,54 @@
 {
-  "target_date": "2026. 11. 02.",
+  "target_date": "2026. 11. 03.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "Sztarenki Dóra 35 éves",
-      "author": "Flaisz János",
+      "title": "Újabb két különleges bemutatóra készül a Thália társulata",
+      "author": "Malik Andrea",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/sztarenki-dora-35-eves/"
+      "url": "https://deszkavizio.hu/ujabb-ket-kulonleges-bemutatora-keszul-a-thalia-tarsulata/"
     },
     {
       "filename": "1.jpg",
-      "title": "Mozart és Menotti művei az Operaházban diákoknak címezve",
+      "title": "Ensemble in Limbo – nagyszabású koncert-performansz az Arzenálban",
       "author": "Bánfi Benedek",
-      "category": "Opera",
-      "url": "https://deszkavizio.hu/mozart-es-menotti-muvei-az-operahazban-diakoknak-cimezve/"
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/ensemble-in-limbo-nagyszabasu-koncert-performansz-az-arzenalban/"
     },
     {
       "filename": "2.jpg",
-      "title": "Új kiállítás a Czóbel Múzeumban",
-      "author": "Malik Andrea",
-      "category": "Képzőművészet",
-      "url": "https://deszkavizio.hu/uj-kiallitas-a-czobel-muzeumban/"
+      "title": "Kihirdették a 9. Cinemira Nemzetközi Gyerek- és Ifjúsági Filmfesztivál nyerteseit",
+      "author": "Molnár Dóra",
+      "category": "Mozgókép",
+      "url": "https://deszkavizio.hu/kihirdettek-a-9-cinemira-nemzetkozi-gyerek-es-ifjusagi-filmfesztival-nyerteseit/"
     },
     {
       "filename": "3.jpg",
-      "title": "Véget ért a III. Budapest International Film Festival",
-      "author": "Molnár Dóra",
-      "category": "Mozgókép",
-      "url": "https://deszkavizio.hu/veget-ert-a-iii-budapest-international-film-festival/"
+      "title": "A vadnyugat árvái – Billy, a Kölyök legendája",
+      "author": "Flaisz János",
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/a-vadnyugat-arvai-billy-a-kolyok-legendaja/"
     },
     {
       "filename": "4.jpg",
-      "title": "Izgalmas program várja a nézőket az ArtEger Feszten",
-      "author": "Malik Andrea",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/izgalmas-program-varja-a-nezoket-az-arteger-feszten/"
+      "title": "Izgalmas képzőművészeti estek a KÉPEZŐ Galériában",
+      "author": "Steindl Gabriella",
+      "category": "Képzőművészet",
+      "url": "https://deszkavizio.hu/izgalmas-kepzomuveszeti-estek-a-kepezo-galeriaban/"
     },
     {
       "filename": "5.jpg",
-      "title": "A koreai előadóművészet sokszínűsége Budapesten",
-      "author": "Szabó Száva Anna",
+      "title": "Klubesttel ünnepli 75. jubileumát a Magyar Állami Népi Együttes",
+      "author": "Bánfi Benedek",
       "category": "Tánc",
-      "url": "https://deszkavizio.hu/a-koreai-eloadomuveszet-sokszinusege-budapesten/"
+      "url": "https://deszkavizio.hu/klubesttel-unnepli-75-jubileumat-a-magyar-allami-nepi-egyuttes/"
     },
     {
       "filename": "6.jpg",
-      "title": "Szoba kilátástalansággal – kritika a Bányavirág című előadásról",
-      "author": "Ráth Orsolya",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/szoba-kilatastalansaggal-kritika-a-banyavirag-cimu-eloadasrol/"
+      "title": "„Ha leszakadunk a szeretetről, eltorzul a világunk” – interjú Rideg Zsófiával",
+      "author": "Deszkavízió",
+      "category": "Tánc",
+      "url": "https://deszkavizio.hu/ha-leszakadunk-a-szeretetrol-eltorzul-a-vilagunk-interju-rideg-zsofiaval/"
     }
   ]
 }
