@@ -1,54 +1,47 @@
 {
-  "target_date": "2026. 11. 03.",
+  "target_date": "2026. 11. 04.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "Újabb két különleges bemutatóra készül a Thália társulata",
-      "author": "Malik Andrea",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/ujabb-ket-kulonleges-bemutatora-keszul-a-thalia-tarsulata/"
+      "title": "Elindult a Galeri új sorozata, a KVINT",
+      "author": "Bánfi Benedek",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/elindult-a-galeri-uj-sorozata-a-kvint/"
     },
     {
       "filename": "1.jpg",
-      "title": "Ensemble in Limbo – nagyszabású koncert-performansz az Arzenálban",
-      "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/ensemble-in-limbo-nagyszabasu-koncert-performansz-az-arzenalban/"
+      "title": "Ma kezdődik a Debreceni Irodalmi Napok programsorozata",
+      "author": "Malik Andrea",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/ma-kezdodik-a-debreceni-irodalmi-napok-programsorozata/"
     },
     {
       "filename": "2.jpg",
-      "title": "Kihirdették a 9. Cinemira Nemzetközi Gyerek- és Ifjúsági Filmfesztivál nyerteseit",
+      "title": "Colin Farrell és barátja közös kihívásáról szól az HBO új dokumentumfilmje",
       "author": "Molnár Dóra",
       "category": "Mozgókép",
-      "url": "https://deszkavizio.hu/kihirdettek-a-9-cinemira-nemzetkozi-gyerek-es-ifjusagi-filmfesztival-nyerteseit/"
+      "url": "https://deszkavizio.hu/colin-farrell-es-baratja-kozos-kihivasarol-szol-az-hbo-uj-dokumentumfilmje/"
     },
     {
       "filename": "3.jpg",
-      "title": "A vadnyugat árvái – Billy, a Kölyök legendája",
-      "author": "Flaisz János",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/a-vadnyugat-arvai-billy-a-kolyok-legendaja/"
+      "title": "A legjobb rockzenekart Prágáig kergette a Barba Negra – Fontaines D.C. Prágában",
+      "author": "Bánfi Benedek",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/a-legjobb-rockzenekart-pragaig-kergette-a-barba-negra-fontaines-d-c-pragaban/"
     },
     {
       "filename": "4.jpg",
-      "title": "Izgalmas képzőművészeti estek a KÉPEZŐ Galériában",
-      "author": "Steindl Gabriella",
-      "category": "Képzőművészet",
-      "url": "https://deszkavizio.hu/izgalmas-kepzomuveszeti-estek-a-kepezo-galeriaban/"
+      "title": "Ismét látható lesz a Nixon Kínában az Eiffel Műhelyházban",
+      "author": "Malik Andrea",
+      "category": "Opera",
+      "url": "https://deszkavizio.hu/ismet-lathato-lesz-a-nixon-kinaban-az-eiffel-muhelyhazban/"
     },
     {
       "filename": "5.jpg",
-      "title": "Klubesttel ünnepli 75. jubileumát a Magyar Állami Népi Együttes",
-      "author": "Bánfi Benedek",
-      "category": "Tánc",
-      "url": "https://deszkavizio.hu/klubesttel-unnepli-75-jubileumat-a-magyar-allami-nepi-egyuttes/"
-    },
-    {
-      "filename": "6.jpg",
-      "title": "„Ha leszakadunk a szeretetről, eltorzul a világunk” – interjú Rideg Zsófiával",
-      "author": "Deszkavízió",
-      "category": "Tánc",
-      "url": "https://deszkavizio.hu/ha-leszakadunk-a-szeretetrol-eltorzul-a-vilagunk-interju-rideg-zsofiaval/"
+      "title": "A hét könyve – R. F. Kuang: Tajpeji történet",
+      "author": "Flaisz János",
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/a-het-konyve-r-f-kuang-tajpeji-tortenet/"
     }
   ]
 }
