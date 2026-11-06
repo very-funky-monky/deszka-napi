@@ -1,47 +1,54 @@
 {
-  "target_date": "2026. 11. 04.",
+  "target_date": "2026. 11. 05.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "Elindult a Galeri új sorozata, a KVINT",
-      "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/elindult-a-galeri-uj-sorozata-a-kvint/"
+      "title": "Újra mozivásznon látható a Tünet Együttes előadása, a Sóvirág",
+      "author": "Molnár Dóra",
+      "category": "Mozgókép",
+      "url": "https://deszkavizio.hu/ujra-mozivasznon-lathato-a-tunet-egyuttes-eloadasa-a-sovirag/"
     },
     {
       "filename": "1.jpg",
-      "title": "Ma kezdődik a Debreceni Irodalmi Napok programsorozata",
-      "author": "Malik Andrea",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/ma-kezdodik-a-debreceni-irodalmi-napok-programsorozata/"
+      "title": "Hat koncerttel várja a közönséget A Hallgatás Napja",
+      "author": "Molnár Dóra",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/hat-koncerttel-varja-a-kozonseget-a-hallgatas-napja/"
     },
     {
       "filename": "2.jpg",
-      "title": "Colin Farrell és barátja közös kihívásáról szól az HBO új dokumentumfilmje",
-      "author": "Molnár Dóra",
-      "category": "Mozgókép",
-      "url": "https://deszkavizio.hu/colin-farrell-es-baratja-kozos-kihivasarol-szol-az-hbo-uj-dokumentumfilmje/"
+      "title": "A Székesfehérvári Balett Színház Diótörője egy napra a Játékszínbe vendégeskedik",
+      "author": "Bánfi Benedek",
+      "category": "Tánc",
+      "url": "https://deszkavizio.hu/a-szekesfehervari-balett-szinhaz-diotoroje-egy-napra-a-jatekszinbe-vendegeskedik/"
     },
     {
       "filename": "3.jpg",
-      "title": "A legjobb rockzenekart Prágáig kergette a Barba Negra – Fontaines D.C. Prágában",
-      "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/a-legjobb-rockzenekart-pragaig-kergette-a-barba-negra-fontaines-d-c-pragaban/"
+      "title": "Gauguin irodalmi munkásságát is megismerhetjük a Szépművészeti Múzeum programján",
+      "author": "Molnár Dóra",
+      "category": "Képzőművészet",
+      "url": "https://deszkavizio.hu/gauguin-irodalmi-munkassagat-is-megismerhetjuk-a-szepmuveszeti-muzeum-programjan/"
     },
     {
       "filename": "4.jpg",
-      "title": "Ismét látható lesz a Nixon Kínában az Eiffel Műhelyházban",
-      "author": "Malik Andrea",
-      "category": "Opera",
-      "url": "https://deszkavizio.hu/ismet-lathato-lesz-a-nixon-kinaban-az-eiffel-muhelyhazban/"
+      "title": "„Mind a hatan másképp emlékszünk” – könyv készült a Quimby 35 évéről",
+      "author": "Steindl Gabriella",
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/mind-a-hatan-maskepp-emlekszunk-konyv-keszult-a-quimby-35-everol/"
     },
     {
       "filename": "5.jpg",
-      "title": "A hét könyve – R. F. Kuang: Tajpeji történet",
-      "author": "Flaisz János",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/a-het-konyve-r-f-kuang-tajpeji-tortenet/"
+      "title": "Feketehumor, Robert Pattinson és egy Jane Austen – ezek a legizgalmasabb novemberi mozipremierek",
+      "author": "Molnár Dóra",
+      "category": "Mozgókép",
+      "url": "https://deszkavizio.hu/feketehumor-robert-pattinson-es-egy-jane-austen-ezek-a-legizgalmasabb-novemberi-mozipremierek/"
+    },
+    {
+      "filename": "6.jpg",
+      "title": "Minek is él, ha valaki hulla? – Kritika A miniszter félrelép előadásról",
+      "author": "Ráth Orsolya",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/minek-is-el-ha-valaki-hulla-kritika-a-miniszter-felrelep-eloadasrol/"
     }
   ]
 }
