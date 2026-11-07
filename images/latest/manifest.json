@@ -1,54 +1,54 @@
 {
-  "target_date": "2026. 11. 05.",
+  "target_date": "2026. 11. 06.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "Újra mozivásznon látható a Tünet Együttes előadása, a Sóvirág",
-      "author": "Molnár Dóra",
-      "category": "Mozgókép",
-      "url": "https://deszkavizio.hu/ujra-mozivasznon-lathato-a-tunet-egyuttes-eloadasa-a-sovirag/"
+      "title": "Egyetlen alkalommal lesz látható Tóth Krisztina műve a Spinozában",
+      "author": "Flaisz János",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/egyetlen-alkalommal-lesz-lathato-toth-krisztina-muve-a-spinozaban/"
     },
     {
       "filename": "1.jpg",
-      "title": "Hat koncerttel várja a közönséget A Hallgatás Napja",
-      "author": "Molnár Dóra",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/hat-koncerttel-varja-a-kozonseget-a-hallgatas-napja/"
+      "title": "Megújul a szentendrei MűvészetMalom",
+      "author": "Szabó Száva Anna",
+      "category": "Képzőművészet",
+      "url": "https://deszkavizio.hu/megujul-a-szentendrei-muveszetmalom/"
     },
     {
       "filename": "2.jpg",
-      "title": "A Székesfehérvári Balett Színház Diótörője egy napra a Játékszínbe vendégeskedik",
-      "author": "Bánfi Benedek",
-      "category": "Tánc",
-      "url": "https://deszkavizio.hu/a-szekesfehervari-balett-szinhaz-diotoroje-egy-napra-a-jatekszinbe-vendegeskedik/"
+      "title": "Carl Lutz embermentő történetét dolgozza fel az Üvegház című svájci-magyar film",
+      "author": "Molnár Dóra",
+      "category": "Mozgókép",
+      "url": "https://deszkavizio.hu/carl-lutz-embermento-tortenetet-dolgozza-fel-az-uveghaz-cimu-svajci-magyar-film/"
     },
     {
       "filename": "3.jpg",
-      "title": "Gauguin irodalmi munkásságát is megismerhetjük a Szépművészeti Múzeum programján",
-      "author": "Molnár Dóra",
-      "category": "Képzőművészet",
-      "url": "https://deszkavizio.hu/gauguin-irodalmi-munkassagat-is-megismerhetjuk-a-szepmuveszeti-muzeum-programjan/"
+      "title": "Kezdetét vette a miskolci Határtalan Napok fesztivál",
+      "author": "Flaisz János",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/kezdetet-vette-a-miskolci-hatartalan-napok-fesztival/"
     },
     {
       "filename": "4.jpg",
-      "title": "„Mind a hatan másképp emlékszünk” – könyv készült a Quimby 35 évéről",
-      "author": "Steindl Gabriella",
+      "title": "Philippe Jaenada kapta a 2026-os Goncourt-díjat",
+      "author": "Flaisz János",
       "category": "Könyv",
-      "url": "https://deszkavizio.hu/mind-a-hatan-maskepp-emlekszunk-konyv-keszult-a-quimby-35-everol/"
+      "url": "https://deszkavizio.hu/philippe-jaenada-kapta-a-2026-os-goncourt-dijat/"
     },
     {
       "filename": "5.jpg",
-      "title": "Feketehumor, Robert Pattinson és egy Jane Austen – ezek a legizgalmasabb novemberi mozipremierek",
-      "author": "Molnár Dóra",
-      "category": "Mozgókép",
-      "url": "https://deszkavizio.hu/feketehumor-robert-pattinson-es-egy-jane-austen-ezek-a-legizgalmasabb-novemberi-mozipremierek/"
+      "title": "A Fitos Dezső Társulat alkotói világát bemutató fotókiállítás nyílt a Fonóban",
+      "author": "Bánfi Benedek",
+      "category": "Tánc",
+      "url": "https://deszkavizio.hu/a-fitos-dezso-tarsulat-alkotoi-vilagat-bemutato-fotokiallitas-nyilt-a-fonoban/"
     },
     {
       "filename": "6.jpg",
-      "title": "Minek is él, ha valaki hulla? – Kritika A miniszter félrelép előadásról",
-      "author": "Ráth Orsolya",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/minek-is-el-ha-valaki-hulla-kritika-a-miniszter-felrelep-eloadasrol/"
+      "title": "Adóreformokról, a rádió szerepéről és a zeneipar jövőjéről is szó lesz a Music Hungary Konferencián",
+      "author": "Bánfi Benedek",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/adoreformokrol-a-radio-szereperol-es-a-zeneipar-jovojerol-is-szo-lesz-a-music-hungary-konferencian/"
     }
   ]
 }
