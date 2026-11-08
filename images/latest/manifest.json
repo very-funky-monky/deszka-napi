@@ -1,54 +1,61 @@
 {
-  "target_date": "2026. 11. 06.",
+  "target_date": "2026. 11. 07.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "Egyetlen alkalommal lesz látható Tóth Krisztina műve a Spinozában",
-      "author": "Flaisz János",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/egyetlen-alkalommal-lesz-lathato-toth-krisztina-muve-a-spinozaban/"
+      "title": "Különböző műfajokban jártas művészekkel indul a Müpa ZAJ című podcastje",
+      "author": "Bánfi Benedek",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/kulonbozo-mufajokban-jartas-muveszekkel-indul-a-mupa-zaj-cimu-podcastje/"
     },
     {
       "filename": "1.jpg",
-      "title": "Megújul a szentendrei MűvészetMalom",
+      "title": "Figaro házassága a Szegedi Nemzeti Színházban",
       "author": "Szabó Száva Anna",
-      "category": "Képzőművészet",
-      "url": "https://deszkavizio.hu/megujul-a-szentendrei-muveszetmalom/"
+      "category": "Opera",
+      "url": "https://deszkavizio.hu/figaro-hazassaga-a-szegedi-nemzeti-szinhazban/"
     },
     {
       "filename": "2.jpg",
-      "title": "Carl Lutz embermentő történetét dolgozza fel az Üvegház című svájci-magyar film",
+      "title": "Hétvégi filmklub: Martin McDonagh – Vadló kilenc (2026)",
       "author": "Molnár Dóra",
       "category": "Mozgókép",
-      "url": "https://deszkavizio.hu/carl-lutz-embermento-tortenetet-dolgozza-fel-az-uveghaz-cimu-svajci-magyar-film/"
+      "url": "https://deszkavizio.hu/hetvegi-filmklub-martin-mcdonagh-vadlo-kilenc-2026/"
     },
     {
       "filename": "3.jpg",
-      "title": "Kezdetét vette a miskolci Határtalan Napok fesztivál",
-      "author": "Flaisz János",
+      "title": "Erkel Ferenc szerelmi élete az Újszínházban",
+      "author": "Bánfi Benedek",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/kezdetet-vette-a-miskolci-hatartalan-napok-fesztival/"
+      "url": "https://deszkavizio.hu/erkel-ferenc-szerelmi-elete-az-ujszinhazban/"
     },
     {
       "filename": "4.jpg",
-      "title": "Philippe Jaenada kapta a 2026-os Goncourt-díjat",
+      "title": "Átadták a 2026-os Nők Lapja Irodalmi Díjakat",
       "author": "Flaisz János",
       "category": "Könyv",
-      "url": "https://deszkavizio.hu/philippe-jaenada-kapta-a-2026-os-goncourt-dijat/"
+      "url": "https://deszkavizio.hu/atadtak-a-2026-os-nok-lapja-irodalmi-dijakat/"
     },
     {
       "filename": "5.jpg",
-      "title": "A Fitos Dezső Társulat alkotói világát bemutató fotókiállítás nyílt a Fonóban",
-      "author": "Bánfi Benedek",
-      "category": "Tánc",
-      "url": "https://deszkavizio.hu/a-fitos-dezso-tarsulat-alkotoi-vilagat-bemutato-fotokiallitas-nyilt-a-fonoban/"
+      "title": "Isten hozott Chrestomanci világában! – Újból megjelent Diana Wynne Jones klasszikussa",
+      "author": "Flaisz János",
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/isten-hozott-chrestomanci-vilagaban-ujbol-megjelent-diana-wynne-jones-klasszikussa/"
     },
     {
       "filename": "6.jpg",
-      "title": "Adóreformokról, a rádió szerepéről és a zeneipar jövőjéről is szó lesz a Music Hungary Konferencián",
-      "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/adoreformokrol-a-radio-szereperol-es-a-zeneipar-jovojerol-is-szo-lesz-a-music-hungary-konferencian/"
+      "title": "Szerek és szerepek – Kritika A webáruház című darabról",
+      "author": "Ráth Orsolya",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/szerek-es-szerepek-kritika-a-webaruhaz-cimu-darabrol/"
+    },
+    {
+      "filename": "7.jpg",
+      "title": "A Nyugati téri Libri kirakatába költözik Micimackó",
+      "author": "Flaisz János",
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/a-nyugati-teri-libri-kirakataba-koltozik-micimacko/"
     }
   ]
 }
