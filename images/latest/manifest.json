@@ -1,61 +1,54 @@
 {
-  "target_date": "2026. 11. 07.",
+  "target_date": "2026. 11. 08.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "Különböző műfajokban jártas művészekkel indul a Müpa ZAJ című podcastje",
+      "title": "Frenreisz Károly 80 éves",
       "author": "Bánfi Benedek",
       "category": "Zene",
-      "url": "https://deszkavizio.hu/kulonbozo-mufajokban-jartas-muveszekkel-indul-a-mupa-zaj-cimu-podcastje/"
+      "url": "https://deszkavizio.hu/frenreisz-karoly-80-eves/"
     },
     {
       "filename": "1.jpg",
-      "title": "Figaro házassága a Szegedi Nemzeti Színházban",
-      "author": "Szabó Száva Anna",
-      "category": "Opera",
-      "url": "https://deszkavizio.hu/figaro-hazassaga-a-szegedi-nemzeti-szinhazban/"
+      "title": "Kezdődik a 20. Bukaresti Magyar Filmhét",
+      "author": "Molnár Dóra",
+      "category": "Mozgókép",
+      "url": "https://deszkavizio.hu/kezdodik-a-20-bukaresti-magyar-filmhet/"
     },
     {
       "filename": "2.jpg",
-      "title": "Hétvégi filmklub: Martin McDonagh – Vadló kilenc (2026)",
-      "author": "Molnár Dóra",
-      "category": "Mozgókép",
-      "url": "https://deszkavizio.hu/hetvegi-filmklub-martin-mcdonagh-vadlo-kilenc-2026/"
+      "title": "Újra látható az eltűntnek hitt Apolló-szobor",
+      "author": "Szabó Száva Anna",
+      "category": "Képzőművészet",
+      "url": "https://deszkavizio.hu/ujra-lathato-az-eltuntnek-hitt-apollo-szobor/"
     },
     {
       "filename": "3.jpg",
-      "title": "Erkel Ferenc szerelmi élete az Újszínházban",
-      "author": "Bánfi Benedek",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/erkel-ferenc-szerelmi-elete-az-ujszinhazban/"
+      "title": "Nemzetközi fesztiválon debütál a Sirokkó című magyar-marokkói koprodukció",
+      "author": "Molnár Dóra",
+      "category": "Mozgókép",
+      "url": "https://deszkavizio.hu/nemzetkozi-fesztivalon-debutal-a-sirokko-cimu-magyar-marokkoi-koprodukcio/"
     },
     {
       "filename": "4.jpg",
-      "title": "Átadták a 2026-os Nők Lapja Irodalmi Díjakat",
+      "title": "Ünnepi hangulat a Móricz Zsigmond Színházban",
       "author": "Flaisz János",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/atadtak-a-2026-os-nok-lapja-irodalmi-dijakat/"
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/unnepi-hangulat-a-moricz-zsigmond-szinhazban/"
     },
     {
       "filename": "5.jpg",
-      "title": "Isten hozott Chrestomanci világában! – Újból megjelent Diana Wynne Jones klasszikussa",
-      "author": "Flaisz János",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/isten-hozott-chrestomanci-vilagaban-ujbol-megjelent-diana-wynne-jones-klasszikussa/"
+      "title": "Megérkeztek a Művészetek Völgye 2027 első fellépői",
+      "author": "Bánfi Benedek",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/megerkeztek-a-muveszetek-volgye-2027-elso-fellepoi/"
     },
     {
       "filename": "6.jpg",
-      "title": "Szerek és szerepek – Kritika A webáruház című darabról",
-      "author": "Ráth Orsolya",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/szerek-es-szerepek-kritika-a-webaruhaz-cimu-darabrol/"
-    },
-    {
-      "filename": "7.jpg",
-      "title": "A Nyugati téri Libri kirakatába költözik Micimackó",
+      "title": "Hogyan lopja, majd veszíti el a karácsonyt a Grincs?",
       "author": "Flaisz János",
       "category": "Könyv",
-      "url": "https://deszkavizio.hu/a-nyugati-teri-libri-kirakataba-koltozik-micimacko/"
+      "url": "https://deszkavizio.hu/hogyan-lopja-majd-vesziti-el-a-karacsonyt-a-grincs/"
     }
   ]
 }
