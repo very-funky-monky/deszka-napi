@@ -1,54 +1,54 @@
 {
-  "target_date": "2026. 11. 09.",
+  "target_date": "2026. 11. 10.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "A Palo Canto is esélyes az idei Music Moves Europe díjára",
+      "title": "A My New Band Believe a Turbinába is érkezik",
       "author": "Bánfi Benedek",
       "category": "Zene",
-      "url": "https://deszkavizio.hu/a-palo-canto-is-eselyes-az-idei-music-moves-europe-dijara/"
+      "url": "https://deszkavizio.hu/a-my-new-band-believe-a-turbinaban-is-erkezik-a-black-midi-basszusgitarosa-budapestre-is-elhozza-szoloprojektjet/"
     },
     {
       "filename": "1.jpg",
-      "title": "Mar del Plata-i Nemzetközi Filmfesztiválon mutatkozik be a Bélyeg",
+      "title": "Indul a Virág Judit Galéria kortárs aukciója",
       "author": "Molnár Dóra",
-      "category": "Mozgókép",
-      "url": "https://deszkavizio.hu/mar-del-plata-i-nemzetkozi-filmfesztivalon-mutatkozik-be-a-belyeg/"
+      "category": "Képzőművészet",
+      "url": "https://deszkavizio.hu/indul-a-virag-judit-galeria-kortars-aukcioja/"
     },
     {
       "filename": "2.jpg",
-      "title": "Jubileumát ünnepli a kolozsvári Interferenciák Nemzetközi Színházi Fesztivál",
-      "author": "Flaisz János",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/jubileumat-unnepli-a-kolozsvari-interferenciak-nemzetkozi-szinhazi-fesztival/"
+      "title": "Vendégművészekkel kiegészülve enged betekintést készülő lemezébe az Oláh Krisztián Quartet",
+      "author": "Bánfi Benedek",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/vendegmuveszekkel-kiegeszulve-enged-betekintest-keszulo-lemezebe-az-olah-krisztian-quartet/"
     },
     {
       "filename": "3.jpg",
-      "title": "drMáriás új kiállítása a mennyországba repíti a közélet szereplőit",
-      "author": "Molnár Dóra",
-      "category": "Képzőművészet",
-      "url": "https://deszkavizio.hu/drmarias-uj-kiallitasa-a-mennyorszagba-repiti-a-kozelet-szereploit/"
+      "title": "M. John Harrison nyerte a 2026-os Booker-díjat",
+      "author": "Flaisz János",
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/m-john-harrison-nyerte-a-2026-os-booker-dijat/"
     },
     {
       "filename": "4.jpg",
-      "title": "Daróczi Csaba lett az év természetfotósa",
+      "title": "Új bemutatóra készül a Déryné Társulat",
       "author": "Flaisz János",
-      "category": "Képzőművészet",
-      "url": "https://deszkavizio.hu/daroczi-csaba-lett-az-ev-termeszetfotosa/"
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/uj-bemutatora-keszul-a-deryne-tarsulat/"
     },
     {
       "filename": "5.jpg",
-      "title": "Kalandok az ókori Egyiptom földjén – Megérkezett az Ulysses Moore-sorozat második része",
+      "title": "Budapesten is látható lesz a Zenthe Ferenc Színház új előadása",
       "author": "Flaisz János",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/kalandok-az-okori-egyiptom-foldjen-megerkezett-az-ulysses-moore-sorozat-masodik-resze/"
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/budapesten-is-lathato-lesz-a-zenthe-ferenc-szinhaz-uj-eloadasa/"
     },
     {
       "filename": "6.jpg",
-      "title": "Nem számít szentségtörésnek – Kritika a Czillei és a Hunyadiak című előadásról",
-      "author": "Ráth Orsolya",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/nem-szamit-szentsegtoresnek-kritika-a-czillei-es-a-hunyadiak-cimu-eloadasrol/"
+      "title": "Férfinak születtünk, de felnőni már nehezebb – Elolvastuk Horváth András Dezső két regényét",
+      "author": "Flaisz János",
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/ferfinak-szulettunk-de-felnoni-mar-nehezebb-elolvastuk-horvath-andras-dezso-ket-regenyet/"
     }
   ]
 }
