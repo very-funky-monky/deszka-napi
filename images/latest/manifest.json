@@ -1,54 +1,68 @@
 {
-  "target_date": "2026. 11. 10.",
+  "target_date": "2026. 11. 11.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "A My New Band Believe a Turbinába is érkezik",
-      "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/a-my-new-band-believe-a-turbinaban-is-erkezik-a-black-midi-basszusgitarosa-budapestre-is-elhozza-szoloprojektjet/"
+      "title": "Kulka János 68 éves",
+      "author": "Flaisz János",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/kulka-janos-68-eves/"
     },
     {
       "filename": "1.jpg",
-      "title": "Indul a Virág Judit Galéria kortárs aukciója",
-      "author": "Molnár Dóra",
-      "category": "Képzőművészet",
-      "url": "https://deszkavizio.hu/indul-a-virag-judit-galeria-kortars-aukcioja/"
+      "title": "Jerevánban is bemutatkozott a Szegedi Pinceszínház társulata",
+      "author": "Flaisz János",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/jerevanban-is-bemutatkozott-a-szegedi-pinceszinhaz-tarsulata/"
     },
     {
       "filename": "2.jpg",
-      "title": "Vendégművészekkel kiegészülve enged betekintést készülő lemezébe az Oláh Krisztián Quartet",
+      "title": "Palya Bea 50 éves",
       "author": "Bánfi Benedek",
       "category": "Zene",
-      "url": "https://deszkavizio.hu/vendegmuveszekkel-kiegeszulve-enged-betekintest-keszulo-lemezebe-az-olah-krisztian-quartet/"
+      "url": "https://deszkavizio.hu/palya-bea-50-eves/"
     },
     {
       "filename": "3.jpg",
-      "title": "M. John Harrison nyerte a 2026-os Booker-díjat",
+      "title": "Közönségdíjat kapott Halász Judit és Mácsai Pál",
       "author": "Flaisz János",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/m-john-harrison-nyerte-a-2026-os-booker-dijat/"
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/kozonsegdijat-kapott-halasz-judit-es-macsai-pal/"
     },
     {
       "filename": "4.jpg",
-      "title": "Új bemutatóra készül a Déryné Társulat",
+      "title": "Színházi előadás készül Babarczy Eszter könyvéből",
       "author": "Flaisz János",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/uj-bemutatora-keszul-a-deryne-tarsulat/"
+      "url": "https://deszkavizio.hu/szinhazi-eloadas-keszul-babarczy-eszter-konyvebol/"
     },
     {
       "filename": "5.jpg",
-      "title": "Budapesten is látható lesz a Zenthe Ferenc Színház új előadása",
-      "author": "Flaisz János",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/budapesten-is-lathato-lesz-a-zenthe-ferenc-szinhaz-uj-eloadasa/"
+      "title": "POPZAJLÁS Spotlight: kisbetűs ünnepnapok – Felém futnak a pókok",
+      "author": "Bánfi Benedek",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/popzajlas-spotlight-kisbetus-unnepnapok-felem-futnak-a-pokok/"
     },
     {
       "filename": "6.jpg",
-      "title": "Férfinak születtünk, de felnőni már nehezebb – Elolvastuk Horváth András Dezső két regényét",
+      "title": "A Budapest Parkban lép fel jövőre a Kuplung zenekar",
+      "author": "Flaisz János",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/a-budapest-parkban-lep-fel-jovore-a-kuplung-zenekar/"
+    },
+    {
+      "filename": "7.jpg",
+      "title": "Erős felhozatallal készül idén a Sziget",
+      "author": "Bánfi Benedek",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/eros-felhozatallal-keszul-iden-a-sziget/"
+    },
+    {
+      "filename": "8.jpg",
+      "title": "A hét könyve – Lars Fr. H. Svendsen: Hülyék, idióták és hülye idióták",
       "author": "Flaisz János",
       "category": "Könyv",
-      "url": "https://deszkavizio.hu/ferfinak-szulettunk-de-felnoni-mar-nehezebb-elolvastuk-horvath-andras-dezso-ket-regenyet/"
+      "url": "https://deszkavizio.hu/a-het-konyve-lars-fr-h-svendsen-hulyek-idiotak-es-hulye-idiotak/"
     }
   ]
 }
