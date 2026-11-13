@@ -1,68 +1,54 @@
 {
-  "target_date": "2026. 11. 11.",
+  "target_date": "2026. 11. 12.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "Kulka János 68 éves",
+      "title": "Nyílt napot tart a Liszt Ferenc Zeneművészeti Egyetem",
       "author": "Flaisz János",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/kulka-janos-68-eves/"
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/nyilt-napot-tart-a-liszt-ferenc-zenemuveszeti-egyetem/"
     },
     {
       "filename": "1.jpg",
-      "title": "Jerevánban is bemutatkozott a Szegedi Pinceszínház társulata",
-      "author": "Flaisz János",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/jerevanban-is-bemutatkozott-a-szegedi-pinceszinhaz-tarsulata/"
+      "title": "A Mr. Brightside, a Lush Life és a Bagira is erősít a margitszigeti Zenélő Szökőkút kínálatát",
+      "author": "Bánfi Benedek",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/a-mr-brightside-a-lush-life-es-a-bagira-is-erosit-a-margitszigeti-zenelo-szokokut-kinalatat/"
     },
     {
       "filename": "2.jpg",
-      "title": "Palya Bea 50 éves",
-      "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/palya-bea-50-eves/"
+      "title": "Markó Béla kapta a Romániai Írók Szövetsége Az Év Írója Nagydíját",
+      "author": "Flaisz János",
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/marko-bela-kapta-a-romaniai-irok-szovetsege-az-ev-iroja-nagydijat/"
     },
     {
       "filename": "3.jpg",
-      "title": "Közönségdíjat kapott Halász Judit és Mácsai Pál",
+      "title": "Több mint 140 millió forintot ítéltek meg a fővárosi függetleneknek",
       "author": "Flaisz János",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/kozonsegdijat-kapott-halasz-judit-es-macsai-pal/"
+      "url": "https://deszkavizio.hu/tobb-mint-140-millio-forinttal-tamogatjak-a-fovarosi-fuggetleneket/"
     },
     {
       "filename": "4.jpg",
-      "title": "Színházi előadás készül Babarczy Eszter könyvéből",
+      "title": "Táncelőadásként ismerhetjük meg Czinka Panna életét",
       "author": "Flaisz János",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/szinhazi-eloadas-keszul-babarczy-eszter-konyvebol/"
+      "category": "Tánc",
+      "url": "https://deszkavizio.hu/tanceloadaskent-ismerhetjuk-meg-czinka-panna-eletet/"
     },
     {
       "filename": "5.jpg",
-      "title": "POPZAJLÁS Spotlight: kisbetűs ünnepnapok – Felém futnak a pókok",
+      "title": "11 év után visszatér a The Neighbourhood Magyarországra",
       "author": "Bánfi Benedek",
       "category": "Zene",
-      "url": "https://deszkavizio.hu/popzajlas-spotlight-kisbetus-unnepnapok-felem-futnak-a-pokok/"
+      "url": "https://deszkavizio.hu/11-ev-utan-visszater-a-the-neighbourhood-magyarorszagra/"
     },
     {
       "filename": "6.jpg",
-      "title": "A Budapest Parkban lép fel jövőre a Kuplung zenekar",
-      "author": "Flaisz János",
+      "title": "Koncertdömping és adventi varázslat a Várkert Bazárban",
+      "author": "Molnár Dóra",
       "category": "Zene",
-      "url": "https://deszkavizio.hu/a-budapest-parkban-lep-fel-jovore-a-kuplung-zenekar/"
-    },
-    {
-      "filename": "7.jpg",
-      "title": "Erős felhozatallal készül idén a Sziget",
-      "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/eros-felhozatallal-keszul-iden-a-sziget/"
-    },
-    {
-      "filename": "8.jpg",
-      "title": "A hét könyve – Lars Fr. H. Svendsen: Hülyék, idióták és hülye idióták",
-      "author": "Flaisz János",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/a-het-konyve-lars-fr-h-svendsen-hulyek-idiotak-es-hulye-idiotak/"
+      "url": "https://deszkavizio.hu/koncertdomping-es-adventi-varazslat-a-varkert-bazarban/"
     }
   ]
 }
