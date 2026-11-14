@@ -1,54 +1,54 @@
 {
-  "target_date": "2026. 11. 12.",
+  "target_date": "2026. 11. 13.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "Nyílt napot tart a Liszt Ferenc Zeneművészeti Egyetem",
+      "title": "Holnap indul a 15. Sissi Őszi Tánchét",
       "author": "Flaisz János",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/nyilt-napot-tart-a-liszt-ferenc-zenemuveszeti-egyetem/"
+      "category": "Tánc",
+      "url": "https://deszkavizio.hu/holnap-indul-a-15-sissi-oszi-tanchet/"
     },
     {
       "filename": "1.jpg",
-      "title": "A Mr. Brightside, a Lush Life és a Bagira is erősít a margitszigeti Zenélő Szökőkút kínálatát",
-      "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/a-mr-brightside-a-lush-life-es-a-bagira-is-erosit-a-margitszigeti-zenelo-szokokut-kinalatat/"
+      "title": "Születésnapi show-műsorral ünnepel a Vörös Neon",
+      "author": "Steindl Gabriella",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/szuletesnapi-show-musorral-unnepel-a-voros-neon/"
     },
     {
       "filename": "2.jpg",
-      "title": "Markó Béla kapta a Romániai Írók Szövetsége Az Év Írója Nagydíját",
-      "author": "Flaisz János",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/marko-bela-kapta-a-romaniai-irok-szovetsege-az-ev-iroja-nagydijat/"
+      "title": "Két új kiállítás nyílt a Mai Manó Házban",
+      "author": "Steindl Gabriella",
+      "category": "Képzőművészet",
+      "url": "https://deszkavizio.hu/ket-uj-kiallitas-nyilt-a-mai-mano-hazban/"
     },
     {
       "filename": "3.jpg",
-      "title": "Több mint 140 millió forintot ítéltek meg a fővárosi függetleneknek",
+      "title": "Marilyn Monroe életét dolgozza fel a Szegedi Kortárs Balett",
       "author": "Flaisz János",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/tobb-mint-140-millio-forinttal-tamogatjak-a-fovarosi-fuggetleneket/"
+      "category": "Tánc",
+      "url": "https://deszkavizio.hu/marilyn-monroe-eletet-dolgozza-fel-a-szegedi-kortars-balett/"
     },
     {
       "filename": "4.jpg",
-      "title": "Táncelőadásként ismerhetjük meg Czinka Panna életét",
+      "title": "Két alkalommal lesz látható az Operettszínház adventi gálája",
       "author": "Flaisz János",
-      "category": "Tánc",
-      "url": "https://deszkavizio.hu/tanceloadaskent-ismerhetjuk-meg-czinka-panna-eletet/"
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/ket-alkalommal-lesz-lathato-az-operettszinhaz-adventi-galaja/"
     },
     {
       "filename": "5.jpg",
-      "title": "11 év után visszatér a The Neighbourhood Magyarországra",
-      "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/11-ev-utan-visszater-a-the-neighbourhood-magyarorszagra/"
+      "title": "Ismét Magyarországra érkezik a norvég Marie Aubert",
+      "author": "Flaisz János",
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/ismet-magyarorszagra-erkezik-a-norveg-marie-aubert/"
     },
     {
       "filename": "6.jpg",
-      "title": "Koncertdömping és adventi varázslat a Várkert Bazárban",
-      "author": "Molnár Dóra",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/koncertdomping-es-adventi-varazslat-a-varkert-bazarban/"
+      "title": "“Szeretem, ha egy darabot nem lehet egy műfajba besorolni” – Interjú Horváth Illéssel",
+      "author": "Flaisz János",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/szeretem-ha-egy-darabot-nem-lehet-egy-mufajba-besorolni-interju-horvath-illessel/"
     }
   ]
 }
