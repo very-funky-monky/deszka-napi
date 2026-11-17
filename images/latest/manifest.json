@@ -1,54 +1,47 @@
 {
-  "target_date": "2026. 11. 15.",
+  "target_date": "2026. 11. 16.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "9 éves a Deszkavízió",
-      "author": "Malik Andrea",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/9-eves-a-deszkavizio/"
+      "title": "Madarász Isti 50 éves",
+      "author": "Molnár Dóra",
+      "category": "Mozgókép",
+      "url": "https://deszkavizio.hu/madarasz-isti-50-eves/"
     },
     {
       "filename": "1.jpg",
-      "title": "A Sportarénában Máté Péter 80. születésnapját lehet ünnepelni",
-      "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/a-sportarenaban-mate-peter-80-szuletesnapjat-lehet-unnepelni/"
+      "title": "Kiderült, kik nyerték az ARTtransfer-díj idei pályázatát",
+      "author": "Malik Andrea",
+      "category": "Képzőművészet",
+      "url": "https://deszkavizio.hu/kiderult-kik-nyertek-az-arttransfer-dij-idei-palyazatat/"
     },
     {
       "filename": "2.jpg",
-      "title": "Ismét lehet pályázni a HAB Díjra",
-      "author": "Malik Andrea",
-      "category": "Képzőművészet",
-      "url": "https://deszkavizio.hu/ismet-lehet-palyazni-a-hab-dijra/"
+      "title": "A Concerto Budapest új fesztiváljának középpontjában a bécsi modernizmus áll",
+      "author": "Bánfi Benedek",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/a-concerto-budapest-uj-fesztivaljanak-kozeppontjaban-a-becsi-modernizmus-all/"
     },
     {
       "filename": "3.jpg",
-      "title": "Indul a nevezés a 46. Magyar Filmszemlére",
-      "author": "Molnár Dóra",
-      "category": "Mozgókép",
-      "url": "https://deszkavizio.hu/indul-a-nevezes-a-46-magyar-filmszemlere/"
+      "title": "Molnár Piroska és Pogány Judit a Párral szemben legutóbbi adásában",
+      "author": "Malik Andrea",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/molnar-piroska-es-pogany-judit-a-parral-szemben-legutobbi-adasaban/"
     },
     {
       "filename": "4.jpg",
-      "title": "Neuroinkluzív előadás készül a Bethlen Téri Színházban",
-      "author": "Malik Andrea",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/neuroinkluziv-eloadas-keszul-a-bethlen-teri-szinhazban/"
+      "title": "Robert Pattinson a következő 007-es ügynök",
+      "author": "Molnár Dóra",
+      "category": "Mozgókép",
+      "url": "https://deszkavizio.hu/robert-pattinson-a-kovetkezo-007-es-ugynok/"
     },
     {
       "filename": "5.jpg",
-      "title": "Két évtized, három nap, hét koncert – Jazz Showcase a MÜPA szervezésében",
-      "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/ket-evtized-harom-nap-het-koncert-jazz-showcase-a-mupa-szervezeseben/"
-    },
-    {
-      "filename": "6.jpg",
-      "title": "„Minden találkozás magában hordozza a búcsút” – Egerházi Attila az élet megismételhetetlen pillanatairól",
-      "author": "Malik Andrea",
-      "category": "Tánc",
-      "url": "https://deszkavizio.hu/minden-talalkozas-magaban-hordozza-a-bucsut-egerhazi-attila-az-elet-megismetelhetetlen-pillanatairol/"
+      "title": "Háború senkiföldjén – Elolvastuk Szczepan Twardoch új regényét",
+      "author": "Flaisz János",
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/haboru-senkifoldjen-elolvastuk-szczepan-twardoch-uj-regenyet/"
     }
   ]
 }
