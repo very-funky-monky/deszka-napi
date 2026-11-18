@@ -1,47 +1,54 @@
 {
-  "target_date": "2026. 11. 16.",
+  "target_date": "2026. 11. 17.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "Madarász Isti 50 éves",
-      "author": "Molnár Dóra",
-      "category": "Mozgókép",
-      "url": "https://deszkavizio.hu/madarasz-isti-50-eves/"
+      "title": "Új szervezőkkel, de visszatér a Bánkitó Fesztivál",
+      "author": "Bánfi Benedek",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/uj-szervezokkel-de-visszater-a-bankito-fesztival/"
     },
     {
       "filename": "1.jpg",
-      "title": "Kiderült, kik nyerték az ARTtransfer-díj idei pályázatát",
-      "author": "Malik Andrea",
-      "category": "Képzőművészet",
-      "url": "https://deszkavizio.hu/kiderult-kik-nyertek-az-arttransfer-dij-idei-palyazatat/"
+      "title": "Ingyenes beszélgetéssorozat indul a Stranger Caféban",
+      "author": "Molnár Dóra",
+      "category": "Mozgókép",
+      "url": "https://deszkavizio.hu/ingyenes-beszelgetessorozat-indul-a-stranger-cafeban/"
     },
     {
       "filename": "2.jpg",
-      "title": "A Concerto Budapest új fesztiváljának középpontjában a bécsi modernizmus áll",
-      "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/a-concerto-budapest-uj-fesztivaljanak-kozeppontjaban-a-becsi-modernizmus-all/"
+      "title": "Rita Ernst-kiállítás a Vasarely Múzeumban",
+      "author": "Malik Andrea",
+      "category": "Képzőművészet",
+      "url": "https://deszkavizio.hu/rita-ernst-kiallitas-a-vasarely-muzeumban/"
     },
     {
       "filename": "3.jpg",
-      "title": "Molnár Piroska és Pogány Judit a Párral szemben legutóbbi adásában",
-      "author": "Malik Andrea",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/molnar-piroska-es-pogany-judit-a-parral-szemben-legutobbi-adasaban/"
+      "title": "Irodalmi díjat alapítottak Domonkos István költő és prózaíró emlékére",
+      "author": "Flaisz János",
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/irodalmi-dijat-alapitottak-domonkos-istvan-kolto-es-prozairo-emlekere/"
     },
     {
       "filename": "4.jpg",
-      "title": "Robert Pattinson a következő 007-es ügynök",
-      "author": "Molnár Dóra",
-      "category": "Mozgókép",
-      "url": "https://deszkavizio.hu/robert-pattinson-a-kovetkezo-007-es-ugynok/"
+      "title": "November 27-től várja az érdeklődőket az óbudai advent programsorozat",
+      "author": "Bánfi Benedek",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/november-27-tol-varja-az-erdeklodoket-az-obudai-advent-programsorozat/"
     },
     {
       "filename": "5.jpg",
-      "title": "Háború senkiföldjén – Elolvastuk Szczepan Twardoch új regényét",
+      "title": "Ott ér véget, ahol elkezdődött – Lezárult a Blackwater-saga",
       "author": "Flaisz János",
       "category": "Könyv",
-      "url": "https://deszkavizio.hu/haboru-senkifoldjen-elolvastuk-szczepan-twardoch-uj-regenyet/"
+      "url": "https://deszkavizio.hu/ott-er-veget-ahol-elkezdodott-lezarult-a-blackwater-saga/"
+    },
+    {
+      "filename": "6.jpg",
+      "title": "„Érdemes nyitottnak lenni az új élményekre” – Interjú Ugrai Istvánnal",
+      "author": "Steindl Gabriella",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/erdemes-nyitottnak-lenni-az-uj-elmenyekre-interju-ugrai-istvannal/"
     }
   ]
 }
