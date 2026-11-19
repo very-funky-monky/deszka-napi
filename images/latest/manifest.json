@@ -1,54 +1,54 @@
 {
-  "target_date": "2026. 11. 17.",
+  "target_date": "2026. 11. 18.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "Új szervezőkkel, de visszatér a Bánkitó Fesztivál",
-      "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/uj-szervezokkel-de-visszater-a-bankito-fesztival/"
+      "title": "Öt elsőfilmes alkotó projektje folytatódhat a Nemzeti Filmintézet támogatásával",
+      "author": "Molnár Dóra",
+      "category": "Mozgókép",
+      "url": "https://deszkavizio.hu/ot-elsofilmes-alkoto-projektje-folytatodhat-a-nemzeti-filmintezet-tamogatasaval/"
     },
     {
       "filename": "1.jpg",
-      "title": "Ingyenes beszélgetéssorozat indul a Stranger Caféban",
-      "author": "Molnár Dóra",
-      "category": "Mozgókép",
-      "url": "https://deszkavizio.hu/ingyenes-beszelgetessorozat-indul-a-stranger-cafeban/"
+      "title": "Hamarosan megnyílik a Sarolta Szalon – kiállítás és sétaszínház várja a nézőket",
+      "author": "Flaisz János",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/hamarosan-megnyilik-a-sarolta-szalon-kiallitas-es-setaszinhaz-varja-a-nezoket/"
     },
     {
       "filename": "2.jpg",
-      "title": "Rita Ernst-kiállítás a Vasarely Múzeumban",
-      "author": "Malik Andrea",
-      "category": "Képzőművészet",
-      "url": "https://deszkavizio.hu/rita-ernst-kiallitas-a-vasarely-muzeumban/"
+      "title": "Érkezik a Generali Freeze Fesztivál a Városligeti Műjégpályára",
+      "author": "Bánfi Benedek",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/erkezik-a-generali-freeze-fesztival-a-varosligeti-mujegpalyara/"
     },
     {
       "filename": "3.jpg",
-      "title": "Irodalmi díjat alapítottak Domonkos István költő és prózaíró emlékére",
-      "author": "Flaisz János",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/irodalmi-dijat-alapitottak-domonkos-istvan-kolto-es-prozairo-emlekere/"
+      "title": "A pop felfalta a gitárzenét vacsorára – a Sziget előadóinak vizsgálata három évtizeden keresztül",
+      "author": "Bánfi Benedek",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/a-pop-felfalta-a-gitarzenet-vacsorara-a-sziget-eloadoinak-vizsgalata-harom-evtizeden-keresztul/"
     },
     {
       "filename": "4.jpg",
-      "title": "November 27-től várja az érdeklődőket az óbudai advent programsorozat",
-      "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/november-27-tol-varja-az-erdeklodoket-az-obudai-advent-programsorozat/"
+      "title": "Szakmai délutánt rendez a Ludwig Kader ATTIA részvételével",
+      "author": "Malik Andrea",
+      "category": "Képzőművészet",
+      "url": "https://deszkavizio.hu/szakmai-delutant-rendez-a-ludwig-kader-attia-reszvetelevel/"
     },
     {
       "filename": "5.jpg",
-      "title": "Ott ér véget, ahol elkezdődött – Lezárult a Blackwater-saga",
-      "author": "Flaisz János",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/ott-er-veget-ahol-elkezdodott-lezarult-a-blackwater-saga/"
+      "title": "Tényleg minden jobb lesz? – Kritika a Kasimir és Karoline című előadásról",
+      "author": "Molnár Dóra",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/tenyleg-minden-jobb-lesz-kritika-a-kasimir-es-karoline-cimu-eloadasrol/"
     },
     {
       "filename": "6.jpg",
-      "title": "„Érdemes nyitottnak lenni az új élményekre” – Interjú Ugrai Istvánnal",
-      "author": "Steindl Gabriella",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/erdemes-nyitottnak-lenni-az-uj-elmenyekre-interju-ugrai-istvannal/"
+      "title": "A hét könyve – Han Kang: Nem válunk szét",
+      "author": "Flaisz János",
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/a-het-konyve-han-kang-nem-valunk-szet/"
     }
   ]
 }
