@@ -1,54 +1,61 @@
 {
-  "target_date": "2026. 11. 18.",
+  "target_date": "2026. 11. 19.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "Öt elsőfilmes alkotó projektje folytatódhat a Nemzeti Filmintézet támogatásával",
+      "title": "Jön a 11. Európai Art Mozi Nap az Urániába",
       "author": "Molnár Dóra",
       "category": "Mozgókép",
-      "url": "https://deszkavizio.hu/ot-elsofilmes-alkoto-projektje-folytatodhat-a-nemzeti-filmintezet-tamogatasaval/"
+      "url": "https://deszkavizio.hu/jon-a-11-europai-art-mozi-nap-az-uraniaba/"
     },
     {
       "filename": "1.jpg",
-      "title": "Hamarosan megnyílik a Sarolta Szalon – kiállítás és sétaszínház várja a nézőket",
-      "author": "Flaisz János",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/hamarosan-megnyilik-a-sarolta-szalon-kiallitas-es-setaszinhaz-varja-a-nezoket/"
+      "title": "Anders Engman-kiállítás a Nemzeti Múzeum kertjében",
+      "author": "Malik Andrea",
+      "category": "Képzőművészet",
+      "url": "https://deszkavizio.hu/anders-engman-kiallitas-a-nemzeti-muzeum-kertjeben/"
     },
     {
       "filename": "2.jpg",
-      "title": "Érkezik a Generali Freeze Fesztivál a Városligeti Műjégpályára",
-      "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/erkezik-a-generali-freeze-fesztival-a-varosligeti-mujegpalyara/"
+      "title": "Rég nem látott sikerdarabok térnek vissza az Operettszínházba",
+      "author": "Flaisz János",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/reg-nem-latott-sikerdarabok-ternek-vissza-az-operettszinhazba/"
     },
     {
       "filename": "3.jpg",
-      "title": "A pop felfalta a gitárzenét vacsorára – a Sziget előadóinak vizsgálata három évtizeden keresztül",
-      "author": "Bánfi Benedek",
+      "title": "Frida Khalo a Zeneakadémián",
+      "author": "Malik Andrea",
       "category": "Zene",
-      "url": "https://deszkavizio.hu/a-pop-felfalta-a-gitarzenet-vacsorara-a-sziget-eloadoinak-vizsgalata-harom-evtizeden-keresztul/"
+      "url": "https://deszkavizio.hu/frida-khalo-a-zeneakademian/"
     },
     {
       "filename": "4.jpg",
-      "title": "Szakmai délutánt rendez a Ludwig Kader ATTIA részvételével",
-      "author": "Malik Andrea",
-      "category": "Képzőművészet",
-      "url": "https://deszkavizio.hu/szakmai-delutant-rendez-a-ludwig-kader-attia-reszvetelevel/"
+      "title": "Tavasszal visszatér a Csinibaba Táncdalfesztivál a Budapest Parkba",
+      "author": "Bánfi Benedek",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/tavasszal-visszater-a-csinibaba-tancdalfesztival-a-budapest-parkba/"
     },
     {
       "filename": "5.jpg",
-      "title": "Tényleg minden jobb lesz? – Kritika a Kasimir és Karoline című előadásról",
-      "author": "Molnár Dóra",
+      "title": "Schneider Zoltán Jutalomjátéka a Karinthy Színházban",
+      "author": "Steindl Gabriella",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/tenyleg-minden-jobb-lesz-kritika-a-kasimir-es-karoline-cimu-eloadasrol/"
+      "url": "https://deszkavizio.hu/schneider-zoltan-jutalomjateka-a-karinthy-szinhazban/"
     },
     {
       "filename": "6.jpg",
-      "title": "A hét könyve – Han Kang: Nem válunk szét",
-      "author": "Flaisz János",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/a-het-konyve-han-kang-nem-valunk-szet/"
+      "title": "Rádiójáték idézi fel Ervin Gábor vértanú pap tevékenységét",
+      "author": "Molnár Dóra",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/radiojatek-idezi-fel-ervin-gabor-vertanu-pap-tevekenyseget/"
+    },
+    {
+      "filename": "7.jpg",
+      "title": "Kibogozni – kritika a Magyar Copperfieldről",
+      "author": "Bánfi Benedek",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/kibogozni-kritika-a-magyar-copperfieldrol/"
     }
   ]
 }
