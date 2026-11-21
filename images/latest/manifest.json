@@ -1,61 +1,54 @@
 {
-  "target_date": "2026. 11. 19.",
+  "target_date": "2026. 11. 20.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "Jön a 11. Európai Art Mozi Nap az Urániába",
-      "author": "Molnár Dóra",
-      "category": "Mozgókép",
-      "url": "https://deszkavizio.hu/jon-a-11-europai-art-mozi-nap-az-uraniaba/"
+      "title": "Megérkezett GAB második nagylemeze",
+      "author": "Bánfi Benedek",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/megerkezett-gab-masodik-nagylemeze/"
     },
     {
       "filename": "1.jpg",
-      "title": "Anders Engman-kiállítás a Nemzeti Múzeum kertjében",
+      "title": "Láthatatlan frontvonalak a budapesti metróvonalakon",
       "author": "Malik Andrea",
       "category": "Képzőművészet",
-      "url": "https://deszkavizio.hu/anders-engman-kiallitas-a-nemzeti-muzeum-kertjeben/"
+      "url": "https://deszkavizio.hu/lathatatlan-frontvonalak-a-budapesti-metrovonalakon/"
     },
     {
       "filename": "2.jpg",
-      "title": "Rég nem látott sikerdarabok térnek vissza az Operettszínházba",
-      "author": "Flaisz János",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/reg-nem-latott-sikerdarabok-ternek-vissza-az-operettszinhazba/"
+      "title": "Holland DJ-vel és a hazai zenei élet népszerű előadóival nyitja a 2027-es névsort a SZIN",
+      "author": "Bánfi Benedek",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/holland-dj-vel-es-a-hazai-zenei-elet-nepszeru-eloadoival-nyitja-a-2027-es-nevsort-a-szin/"
     },
     {
       "filename": "3.jpg",
-      "title": "Frida Khalo a Zeneakadémián",
-      "author": "Malik Andrea",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/frida-khalo-a-zeneakademian/"
+      "title": "A gyerekkor elveszett dallamai – Karin Smirnoff új regényében sem kíméli az olvasót",
+      "author": "Flaisz János",
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/a-gyerekkor-elveszett-dallamai-karin-smirnoff-uj-regenyeben-sem-kimeli-az-olvasot/"
     },
     {
       "filename": "4.jpg",
-      "title": "Tavasszal visszatér a Csinibaba Táncdalfesztivál a Budapest Parkba",
-      "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/tavasszal-visszater-a-csinibaba-tancdalfesztival-a-budapest-parkba/"
+      "title": "Január közepéig lehet jelentkezni a Barangoló Drámaírói Műhelybe",
+      "author": "Flaisz János",
+      "category": "Hírek",
+      "url": "https://deszkavizio.hu/januar-kozepeig-lehet-jelentkezni-a-barangolo-dramairoi-muhelybe/"
     },
     {
       "filename": "5.jpg",
-      "title": "Schneider Zoltán Jutalomjátéka a Karinthy Színházban",
-      "author": "Steindl Gabriella",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/schneider-zoltan-jutalomjateka-a-karinthy-szinhazban/"
+      "title": "Dokumentumfilm készül Pogány Indulóról",
+      "author": "Molnár Dóra",
+      "category": "Mozgókép",
+      "url": "https://deszkavizio.hu/dokumentumfilm-keszul-pogany-indulorol/"
     },
     {
       "filename": "6.jpg",
-      "title": "Rádiójáték idézi fel Ervin Gábor vértanú pap tevékenységét",
-      "author": "Molnár Dóra",
+      "title": "“Ritka, hogy egy ilyen eposzi jellegű hőssé válást élőben láthassunk” – Interjú Szervét Tiborral",
+      "author": "Flaisz János",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/radiojatek-idezi-fel-ervin-gabor-vertanu-pap-tevekenyseget/"
-    },
-    {
-      "filename": "7.jpg",
-      "title": "Kibogozni – kritika a Magyar Copperfieldről",
-      "author": "Bánfi Benedek",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/kibogozni-kritika-a-magyar-copperfieldrol/"
+      "url": "https://deszkavizio.hu/ritka-hogy-egy-ilyen-eposzi-jellegu-hosse-valast-eloben-lathassunk-interju-szervet-tiborral/"
     }
   ]
 }
