@@ -1,54 +1,54 @@
 {
-  "target_date": "2026. 11. 20.",
+  "target_date": "2026. 11. 21.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "Megérkezett GAB második nagylemeze",
-      "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/megerkezett-gab-masodik-nagylemeze/"
+      "title": "Az ország több pontján is látható lesz a Volt egyszer egy… NEW YORK",
+      "author": "Flaisz János",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/az-orszag-tobb-pontjan-is-lathato-lesz-a-volt-egyszer-egy-new-york/"
     },
     {
       "filename": "1.jpg",
-      "title": "Láthatatlan frontvonalak a budapesti metróvonalakon",
+      "title": "Drozdik Orshi-kiállítás a Magyar Képzőművészeti Egyetemen",
       "author": "Malik Andrea",
       "category": "Képzőművészet",
-      "url": "https://deszkavizio.hu/lathatatlan-frontvonalak-a-budapesti-metrovonalakon/"
+      "url": "https://deszkavizio.hu/drozdik-orshi-kiallitas-a-magyar-kepzomuveszeti-egyetemen/"
     },
     {
       "filename": "2.jpg",
-      "title": "Holland DJ-vel és a hazai zenei élet népszerű előadóival nyitja a 2027-es névsort a SZIN",
+      "title": "49 előadással tér vissza A diótörő a Magyar Állami Operaházba",
       "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/holland-dj-vel-es-a-hazai-zenei-elet-nepszeru-eloadoival-nyitja-a-2027-es-nevsort-a-szin/"
+      "category": "Tánc",
+      "url": "https://deszkavizio.hu/49-eloadassal-ter-vissza-a-diotoro-a-magyar-allami-operahazba/"
     },
     {
       "filename": "3.jpg",
-      "title": "A gyerekkor elveszett dallamai – Karin Smirnoff új regényében sem kíméli az olvasót",
-      "author": "Flaisz János",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/a-gyerekkor-elveszett-dallamai-karin-smirnoff-uj-regenyeben-sem-kimeli-az-olvasot/"
+      "title": "Hétvégi Filmklub: Lance Oppenheim – Primetime – Vadászidő (2026)",
+      "author": "Molnár Dóra",
+      "category": "Mozgókép",
+      "url": "https://deszkavizio.hu/hetvegi-filmklub-lance-oppenheim-primetime-vadaszido-2026/"
     },
     {
       "filename": "4.jpg",
-      "title": "Január közepéig lehet jelentkezni a Barangoló Drámaírói Műhelybe",
+      "title": "Magyar költő és dél-koreai műfordító kapja 2027-ben a Balassi-kardot",
       "author": "Flaisz János",
-      "category": "Hírek",
-      "url": "https://deszkavizio.hu/januar-kozepeig-lehet-jelentkezni-a-barangolo-dramairoi-muhelybe/"
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/magyar-kolto-es-del-koreai-mufordito-kapja-2027-ben-a-balassi-kardot/"
     },
     {
       "filename": "5.jpg",
-      "title": "Dokumentumfilm készül Pogány Indulóról",
-      "author": "Molnár Dóra",
-      "category": "Mozgókép",
-      "url": "https://deszkavizio.hu/dokumentumfilm-keszul-pogany-indulorol/"
+      "title": "Eric Clapton jövőre visszatér Budapestre",
+      "author": "Bánfi Benedek",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/eric-clapton-jovore-visszater-budapestre/"
     },
     {
       "filename": "6.jpg",
-      "title": "“Ritka, hogy egy ilyen eposzi jellegű hőssé válást élőben láthassunk” – Interjú Szervét Tiborral",
+      "title": "Szabadság és szenvedély a szekérkerekek árnyékában – Megnéztük az Esthajnalt",
       "author": "Flaisz János",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/ritka-hogy-egy-ilyen-eposzi-jellegu-hosse-valast-eloben-lathassunk-interju-szervet-tiborral/"
+      "url": "https://deszkavizio.hu/szabadsag-es-szenvedely-a-szekerkerekek-arnyekaban-megneztuk-az-esthajnalt/"
     }
   ]
 }
