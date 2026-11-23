@@ -1,54 +1,54 @@
 {
-  "target_date": "2026. 11. 21.",
+  "target_date": "2026. 11. 22.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "Az ország több pontján is látható lesz a Volt egyszer egy… NEW YORK",
+      "title": "Különleges esttel ünneplik a 100 éves Micimackót",
       "author": "Flaisz János",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/az-orszag-tobb-pontjan-is-lathato-lesz-a-volt-egyszer-egy-new-york/"
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/kulonleges-esttel-unneplik-a-100-eves-micimackot/"
     },
     {
       "filename": "1.jpg",
-      "title": "Drozdik Orshi-kiállítás a Magyar Képzőművészeti Egyetemen",
-      "author": "Malik Andrea",
-      "category": "Képzőművészet",
-      "url": "https://deszkavizio.hu/drozdik-orshi-kiallitas-a-magyar-kepzomuveszeti-egyetemen/"
+      "title": "A forradalom győri hőseinek állít emléket egy új dokumentumfilm",
+      "author": "Molnár Dóra",
+      "category": "Mozgókép",
+      "url": "https://deszkavizio.hu/a-forradalom-gyori-hoseinek-allit-emleket-egy-uj-dokumentumfilm/"
     },
     {
       "filename": "2.jpg",
-      "title": "49 előadással tér vissza A diótörő a Magyar Állami Operaházba",
+      "title": "Népzenei, világzenei és kortárs zenei műfajok találkoznak a Fonóban",
       "author": "Bánfi Benedek",
-      "category": "Tánc",
-      "url": "https://deszkavizio.hu/49-eloadassal-ter-vissza-a-diotoro-a-magyar-allami-operahazba/"
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/nepzenei-vilagzenei-es-kortars-zenei-mufajok-talalkoznak-a-fonoban/"
     },
     {
       "filename": "3.jpg",
-      "title": "Hétvégi Filmklub: Lance Oppenheim – Primetime – Vadászidő (2026)",
-      "author": "Molnár Dóra",
-      "category": "Mozgókép",
-      "url": "https://deszkavizio.hu/hetvegi-filmklub-lance-oppenheim-primetime-vadaszido-2026/"
+      "title": "Hamarosan jön a 14. FALRA FEL!",
+      "author": "Malik Andrea",
+      "category": "Képzőművészet",
+      "url": "https://deszkavizio.hu/hamarosan-jon-a-14-falra-fel/"
     },
     {
       "filename": "4.jpg",
-      "title": "Magyar költő és dél-koreai műfordító kapja 2027-ben a Balassi-kardot",
+      "title": "Megjelent Dragomán György új novelláskötete",
       "author": "Flaisz János",
       "category": "Könyv",
-      "url": "https://deszkavizio.hu/magyar-kolto-es-del-koreai-mufordito-kapja-2027-ben-a-balassi-kardot/"
+      "url": "https://deszkavizio.hu/megjelent-dragoman-gyorgy-uj-novellaskotete/"
     },
     {
       "filename": "5.jpg",
-      "title": "Eric Clapton jövőre visszatér Budapestre",
+      "title": "Verdi Rigolettóját mutatják be jövőre a Szentmargitbányai Kőfejtő szabadtéri színpadán",
       "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/eric-clapton-jovore-visszater-budapestre/"
+      "category": "Opera",
+      "url": "https://deszkavizio.hu/verdi-rigolettojat-mutatjak-be-jovore-a-szentmargitbanyai-kofejto-szabadteri-szinpadan/"
     },
     {
       "filename": "6.jpg",
-      "title": "Szabadság és szenvedély a szekérkerekek árnyékában – Megnéztük az Esthajnalt",
-      "author": "Flaisz János",
+      "title": "„Nem csak toljuk a hülyeséget, az előadásnak erős emberi vonala is van” – interjú Szabó Győzővel",
+      "author": "Steindl Gabriella",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/szabadsag-es-szenvedely-a-szekerkerekek-arnyekaban-megneztuk-az-esthajnalt/"
+      "url": "https://deszkavizio.hu/nem-csak-toljuk-a-hulyeseget-az-eloadasnak-eros-emberi-vonala-is-van-interju-szabo-gyozovel/"
     }
   ]
 }
