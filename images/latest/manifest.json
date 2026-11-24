@@ -1,54 +1,54 @@
 {
-  "target_date": "2026. 11. 22.",
+  "target_date": "2026. 11. 23.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "Különleges esttel ünneplik a 100 éves Micimackót",
+      "title": "Pokorny Lia 55 éves",
       "author": "Flaisz János",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/kulonleges-esttel-unneplik-a-100-eves-micimackot/"
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/pokorny-lia-55-eves/"
     },
     {
       "filename": "1.jpg",
-      "title": "A forradalom győri hőseinek állít emléket egy új dokumentumfilm",
+      "title": "A cannes-i filmfesztivál kiállt Dzsafar Panahi iráni rendező mellett",
       "author": "Molnár Dóra",
       "category": "Mozgókép",
-      "url": "https://deszkavizio.hu/a-forradalom-gyori-hoseinek-allit-emleket-egy-uj-dokumentumfilm/"
+      "url": "https://deszkavizio.hu/a-cannes-i-filmfesztival-kiallt-dzsafar-panahi-irani-rendezo-mellett/"
     },
     {
       "filename": "2.jpg",
-      "title": "Népzenei, világzenei és kortárs zenei műfajok találkoznak a Fonóban",
-      "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/nepzenei-vilagzenei-es-kortars-zenei-mufajok-talalkoznak-a-fonoban/"
+      "title": "Hamarosan nyílik az Ad Absurdum című kiállítás a PATIKÁ-ban",
+      "author": "Malik Andrea",
+      "category": "Képzőművészet",
+      "url": "https://deszkavizio.hu/hamarosan-nyilik-az-ad-absurdum-cimu-kiallitas-a-patika-ban/"
     },
     {
       "filename": "3.jpg",
-      "title": "Hamarosan jön a 14. FALRA FEL!",
-      "author": "Malik Andrea",
-      "category": "Képzőművészet",
-      "url": "https://deszkavizio.hu/hamarosan-jon-a-14-falra-fel/"
+      "title": "Házasság, válás, és ami utána jön – Elolvastuk Belle Burden rendhagyó memoárját",
+      "author": "Flaisz János",
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/hazassag-valas-es-ami-utana-jon-elolvastuk-belle-burden-rendhagyo-memoarjat/"
     },
     {
       "filename": "4.jpg",
-      "title": "Megjelent Dragomán György új novelláskötete",
-      "author": "Flaisz János",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/megjelent-dragoman-gyorgy-uj-novellaskotete/"
+      "title": "Molière a 21. században – MIZANTRÓP 26 az Akvárium Klubban",
+      "author": "Szabó Száva Anna",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/moliere-a-21-szazadban-mizantrop-26-az-akvarium-klubban/"
     },
     {
       "filename": "5.jpg",
-      "title": "Verdi Rigolettóját mutatják be jövőre a Szentmargitbányai Kőfejtő szabadtéri színpadán",
-      "author": "Bánfi Benedek",
-      "category": "Opera",
-      "url": "https://deszkavizio.hu/verdi-rigolettojat-mutatjak-be-jovore-a-szentmargitbanyai-kofejto-szabadteri-szinpadan/"
+      "title": "Nyilvánossá vált a We Will Rock You szegedi szereposztása",
+      "author": "Flaisz János",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/nyilvanossa-valt-a-we-will-rock-you-szegedi-szereposztasa/"
     },
     {
       "filename": "6.jpg",
-      "title": "„Nem csak toljuk a hülyeséget, az előadásnak erős emberi vonala is van” – interjú Szabó Győzővel",
-      "author": "Steindl Gabriella",
+      "title": "Naná, hogy nem hajlik giccsbe! – kritika az Esőember című előadásról",
+      "author": "Ráth Orsolya",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/nem-csak-toljuk-a-hulyeseget-az-eloadasnak-eros-emberi-vonala-is-van-interju-szabo-gyozovel/"
+      "url": "https://deszkavizio.hu/nana-hogy-nem-hajlik-giccsbe-kritika-az-esoember-cimu-eloadasrol/"
     }
   ]
 }
