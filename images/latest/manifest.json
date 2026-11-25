@@ -1,54 +1,54 @@
 {
-  "target_date": "2026. 11. 23.",
+  "target_date": "2026. 11. 24.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "Pokorny Lia 55 éves",
-      "author": "Flaisz János",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/pokorny-lia-55-eves/"
+      "title": "10 napig lehet bulizni Kőbánya pincerendszerében",
+      "author": "Bánfi Benedek",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/10-napig-lehet-bulizni-kobanya-pincerendszereben/"
     },
     {
       "filename": "1.jpg",
-      "title": "A cannes-i filmfesztivál kiállt Dzsafar Panahi iráni rendező mellett",
+      "title": "Emlékkötettel és reklámversennyel tisztelegnek Sas István előtt a METU-n",
       "author": "Molnár Dóra",
       "category": "Mozgókép",
-      "url": "https://deszkavizio.hu/a-cannes-i-filmfesztival-kiallt-dzsafar-panahi-irani-rendezo-mellett/"
+      "url": "https://deszkavizio.hu/emlekkotettel-es-reklamversennyel-tisztelegnek-sas-istvan-elott-a-metu-n/"
     },
     {
       "filename": "2.jpg",
-      "title": "Hamarosan nyílik az Ad Absurdum című kiállítás a PATIKÁ-ban",
+      "title": "Éder Vera-kiállítás Verőcén",
       "author": "Malik Andrea",
       "category": "Képzőművészet",
-      "url": "https://deszkavizio.hu/hamarosan-nyilik-az-ad-absurdum-cimu-kiallitas-a-patika-ban/"
+      "url": "https://deszkavizio.hu/eder-vera-kiallitas-verocen/"
     },
     {
       "filename": "3.jpg",
-      "title": "Házasság, válás, és ami utána jön – Elolvastuk Belle Burden rendhagyó memoárját",
+      "title": "A világ legjobb kutyája – Tizennégy sikerszerző vall saját kedvencéről",
       "author": "Flaisz János",
       "category": "Könyv",
-      "url": "https://deszkavizio.hu/hazassag-valas-es-ami-utana-jon-elolvastuk-belle-burden-rendhagyo-memoarjat/"
+      "url": "https://deszkavizio.hu/a-vilag-legjobb-kutyaja-tizennegy-sikerszerzo-vall-sajat-kedvencerol/"
     },
     {
       "filename": "4.jpg",
-      "title": "Molière a 21. században – MIZANTRÓP 26 az Akvárium Klubban",
-      "author": "Szabó Száva Anna",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/moliere-a-21-szazadban-mizantrop-26-az-akvarium-klubban/"
+      "title": "A független könyvkiadók előtt nyit új lehetőségeket a Libri",
+      "author": "Flaisz János",
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/a-fuggetlen-konyvkiadok-elott-nyit-uj-lehetosegeket-a-libri/"
     },
     {
       "filename": "5.jpg",
-      "title": "Nyilvánossá vált a We Will Rock You szegedi szereposztása",
-      "author": "Flaisz János",
+      "title": "Alkotópályázatot hirdet a Magyar Színház",
+      "author": "Bánfi Benedek",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/nyilvanossa-valt-a-we-will-rock-you-szegedi-szereposztasa/"
+      "url": "https://deszkavizio.hu/alkotopalyazatot-hirdet-a-magyar-szinhaz/"
     },
     {
       "filename": "6.jpg",
-      "title": "Naná, hogy nem hajlik giccsbe! – kritika az Esőember című előadásról",
-      "author": "Ráth Orsolya",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/nana-hogy-nem-hajlik-giccsbe-kritika-az-esoember-cimu-eloadasrol/"
+      "title": "Közös előadást tart a Magyar Állami Népi Együttes, a Bagossy Brothers Company és a Parno Graszt",
+      "author": "Bánfi Benedek",
+      "category": "Tánc",
+      "url": "https://deszkavizio.hu/kozos-eloadast-tart-a-magyar-allami-nepi-egyuttes-a-bagossy-brothers-company-es-a-parno-graszt/"
     }
   ]
 }
