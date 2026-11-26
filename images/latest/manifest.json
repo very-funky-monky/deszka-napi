@@ -1,54 +1,54 @@
 {
-  "target_date": "2026. 11. 24.",
+  "target_date": "2026. 11. 25.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "10 napig lehet bulizni Kőbánya pincerendszerében",
-      "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/10-napig-lehet-bulizni-kobanya-pincerendszereben/"
+      "title": "DJ Palotai emléke előtt tiszteleg Szabó Márton István első nagyjátékfilmje",
+      "author": "Molnár Dóra",
+      "category": "Mozgókép",
+      "url": "https://deszkavizio.hu/dj-palotai-emleke-elott-tiszteleg-szabo-marton-istvan-elso-nagyjatekfilmje/"
     },
     {
       "filename": "1.jpg",
-      "title": "Emlékkötettel és reklámversennyel tisztelegnek Sas István előtt a METU-n",
-      "author": "Molnár Dóra",
-      "category": "Mozgókép",
-      "url": "https://deszkavizio.hu/emlekkotettel-es-reklamversennyel-tisztelegnek-sas-istvan-elott-a-metu-n/"
+      "title": "Új időszaki kiállítás az Osztrák Kulturális Fórumban",
+      "author": "Malik Andrea",
+      "category": "Képzőművészet",
+      "url": "https://deszkavizio.hu/uj-idoszaki-kiallitas-az-osztrak-kulturalis-forumban/"
     },
     {
       "filename": "2.jpg",
-      "title": "Éder Vera-kiállítás Verőcén",
-      "author": "Malik Andrea",
-      "category": "Képzőművészet",
-      "url": "https://deszkavizio.hu/eder-vera-kiallitas-verocen/"
+      "title": "Megjelent BRENKA és Gently Da Spittah’ közös dala",
+      "author": "Bánfi Benedek",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/megjelent-brenka-es-gently-da-spittah-kozos-dala/"
     },
     {
       "filename": "3.jpg",
-      "title": "A világ legjobb kutyája – Tizennégy sikerszerző vall saját kedvencéről",
-      "author": "Flaisz János",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/a-vilag-legjobb-kutyaja-tizennegy-sikerszerzo-vall-sajat-kedvencerol/"
+      "title": "POPZAJLÁS Spotlight: Lil 404 x Corneus: NEM ALHATOK",
+      "author": "Bánfi Benedek",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/popzajlas-spotlight-lil-404-x-corneus-nem-alhatok/"
     },
     {
       "filename": "4.jpg",
-      "title": "A független könyvkiadók előtt nyit új lehetőségeket a Libri",
-      "author": "Flaisz János",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/a-fuggetlen-konyvkiadok-elott-nyit-uj-lehetosegeket-a-libri/"
+      "title": "Bemutatták a Miskolci Balett Diótörőjét",
+      "author": "Malik Andrea",
+      "category": "Tánc",
+      "url": "https://deszkavizio.hu/bemutattak-a-miskolci-balett-diotorojet/"
     },
     {
       "filename": "5.jpg",
-      "title": "Alkotópályázatot hirdet a Magyar Színház",
-      "author": "Bánfi Benedek",
+      "title": "Három új bemutatóval készül az Örkény Színház az év végére",
+      "author": "Molnár Dóra",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/alkotopalyazatot-hirdet-a-magyar-szinhaz/"
+      "url": "https://deszkavizio.hu/harom-uj-bemutatoval-keszul-az-orkeny-szinhaz-az-ev-vegere/"
     },
     {
       "filename": "6.jpg",
-      "title": "Közös előadást tart a Magyar Állami Népi Együttes, a Bagossy Brothers Company és a Parno Graszt",
-      "author": "Bánfi Benedek",
-      "category": "Tánc",
-      "url": "https://deszkavizio.hu/kozos-eloadast-tart-a-magyar-allami-nepi-egyuttes-a-bagossy-brothers-company-es-a-parno-graszt/"
+      "title": "A hét könyve – Trude Marstein: Saját gyerekek",
+      "author": "Flaisz János",
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/a-het-konyve-trude-marstein-sajat-gyerekek/"
     }
   ]
 }
