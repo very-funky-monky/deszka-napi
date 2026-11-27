@@ -1,54 +1,54 @@
 {
-  "target_date": "2026. 11. 25.",
+  "target_date": "2026. 11. 26.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "DJ Palotai emléke előtt tiszteleg Szabó Márton István első nagyjátékfilmje",
-      "author": "Molnár Dóra",
-      "category": "Mozgókép",
-      "url": "https://deszkavizio.hu/dj-palotai-emleke-elott-tiszteleg-szabo-marton-istvan-elso-nagyjatekfilmje/"
+      "title": "Grandiózus szólókiadvánnyal jelentkezett Presser Gábor",
+      "author": "Flaisz János",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/grandiozus-szolokiadvannyal-jelentkezett-presser-gabor/"
     },
     {
       "filename": "1.jpg",
-      "title": "Új időszaki kiállítás az Osztrák Kulturális Fórumban",
-      "author": "Malik Andrea",
-      "category": "Képzőművészet",
-      "url": "https://deszkavizio.hu/uj-idoszaki-kiallitas-az-osztrak-kulturalis-forumban/"
+      "title": "Megvannak a 23. Verzió legjobb dokumentumfilmjei",
+      "author": "Molnár Dóra",
+      "category": "Mozgókép",
+      "url": "https://deszkavizio.hu/megvannak-a-23-verzio-legjobb-dokumentumfilmjei/"
     },
     {
       "filename": "2.jpg",
-      "title": "Megjelent BRENKA és Gently Da Spittah’ közös dala",
-      "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/megjelent-brenka-es-gently-da-spittah-kozos-dala/"
+      "title": "Új Bukowski-novelláskötettel gazdagodott a hazai életmű",
+      "author": "Flaisz János",
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/uj-bukowski-novellaskotettel-gazdagodott-a-hazai-eletmu/"
     },
     {
       "filename": "3.jpg",
-      "title": "POPZAJLÁS Spotlight: Lil 404 x Corneus: NEM ALHATOK",
-      "author": "Bánfi Benedek",
-      "category": "Zene",
-      "url": "https://deszkavizio.hu/popzajlas-spotlight-lil-404-x-corneus-nem-alhatok/"
+      "title": "15 otthon, 15 történet – egy könyv, amit öröm kézbe venni",
+      "author": "Steindl Gabriella",
+      "category": "Könyv",
+      "url": "https://deszkavizio.hu/15-otthon-15-tortenet-egy-konyv-amit-orom-kezbe-venni/"
     },
     {
       "filename": "4.jpg",
-      "title": "Bemutatták a Miskolci Balett Diótörőjét",
-      "author": "Malik Andrea",
-      "category": "Tánc",
-      "url": "https://deszkavizio.hu/bemutattak-a-miskolci-balett-diotorojet/"
+      "title": "Formabontó monodrámát játszik Jánosi Ferenc",
+      "author": "Flaisz János",
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/formabonto-monodramat-jatszik-janosi-ferenc/"
     },
     {
       "filename": "5.jpg",
-      "title": "Három új bemutatóval készül az Örkény Színház az év végére",
-      "author": "Molnár Dóra",
+      "title": "Domján Edit és Kaló Flórián emléke előtt tiszteleg az OSZMI új kiállítása",
+      "author": "Flaisz János",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/harom-uj-bemutatoval-keszul-az-orkeny-szinhaz-az-ev-vegere/"
+      "url": "https://deszkavizio.hu/domjan-edit-es-kalo-florian-emleke-elott-tiszteleg-az-oszmi-uj-kiallitasa/"
     },
     {
       "filename": "6.jpg",
-      "title": "A hét könyve – Trude Marstein: Saját gyerekek",
+      "title": "Nyomozzatok békében! – Elolvastuk a K.É.Z. sorozat utolsó regényét",
       "author": "Flaisz János",
       "category": "Könyv",
-      "url": "https://deszkavizio.hu/a-het-konyve-trude-marstein-sajat-gyerekek/"
+      "url": "https://deszkavizio.hu/nyomozzatok-bekeben-elolvastuk-a-k-e-z-sorozat-utolso-regenyet/"
     }
   ]
 }
