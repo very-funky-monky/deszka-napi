@@ -1,54 +1,61 @@
 {
-  "target_date": "2026. 11. 26.",
+  "target_date": "2026. 11. 27.",
   "items": [
     {
       "filename": "0.jpg",
-      "title": "Grandiózus szólókiadvánnyal jelentkezett Presser Gábor",
-      "author": "Flaisz János",
+      "title": "Megjelent Barabás Lőrinc új lemeze",
+      "author": "Malik Andrea",
       "category": "Zene",
-      "url": "https://deszkavizio.hu/grandiozus-szolokiadvannyal-jelentkezett-presser-gabor/"
+      "url": "https://deszkavizio.hu/megjelent-barabas-lorinc-uj-lemeze/"
     },
     {
       "filename": "1.jpg",
-      "title": "Megvannak a 23. Verzió legjobb dokumentumfilmjei",
-      "author": "Molnár Dóra",
-      "category": "Mozgókép",
-      "url": "https://deszkavizio.hu/megvannak-a-23-verzio-legjobb-dokumentumfilmjei/"
+      "title": "Ritkán látható klasszikus mesterművek a HAB-ban",
+      "author": "Malik Andrea",
+      "category": "Képzőművészet",
+      "url": "https://deszkavizio.hu/ritkan-lathato-klasszikus-mestermuvek-a-hab-ban/"
     },
     {
       "filename": "2.jpg",
-      "title": "Új Bukowski-novelláskötettel gazdagodott a hazai életmű",
+      "title": "Ingyenes családi napot tart a Fővárosi Szabó Ervin Könyvtár",
       "author": "Flaisz János",
       "category": "Könyv",
-      "url": "https://deszkavizio.hu/uj-bukowski-novellaskotettel-gazdagodott-a-hazai-eletmu/"
+      "url": "https://deszkavizio.hu/ingyenes-csaladi-napot-tart-a-fovarosi-szabo-ervin-konyvtar/"
     },
     {
       "filename": "3.jpg",
-      "title": "15 otthon, 15 történet – egy könyv, amit öröm kézbe venni",
-      "author": "Steindl Gabriella",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/15-otthon-15-tortenet-egy-konyv-amit-orom-kezbe-venni/"
+      "title": "Új lemezzel és turnéval jelentkezik a Public Image Ltd.",
+      "author": "Bánfi Benedek",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/uj-lemezzel-es-turneval-jelentkezik-a-public-image-ltd/"
     },
     {
       "filename": "4.jpg",
-      "title": "Formabontó monodrámát játszik Jánosi Ferenc",
-      "author": "Flaisz János",
-      "category": "Színház",
-      "url": "https://deszkavizio.hu/formabonto-monodramat-jatszik-janosi-ferenc/"
+      "title": "Öt tajvani dokumentumfilm érkezik a Corvin Moziba a 10. Taiwan Dox keretében",
+      "author": "Molnár Dóra",
+      "category": "Mozgókép",
+      "url": "https://deszkavizio.hu/ot-tajvani-dokumentumfilm-erkezik-a-corvin-moziba-a-10-taiwan-dox-kereteben/"
     },
     {
       "filename": "5.jpg",
-      "title": "Domján Edit és Kaló Flórián emléke előtt tiszteleg az OSZMI új kiállítása",
-      "author": "Flaisz János",
+      "title": "Ma kezdődött a TRUST-szimpózium az Örkényben",
+      "author": "Malik Andrea",
       "category": "Színház",
-      "url": "https://deszkavizio.hu/domjan-edit-es-kalo-florian-emleke-elott-tiszteleg-az-oszmi-uj-kiallitasa/"
+      "url": "https://deszkavizio.hu/ma-kezdodott-a-trust-szimpozium-az-orkenyben/"
     },
     {
       "filename": "6.jpg",
-      "title": "Nyomozzatok békében! – Elolvastuk a K.É.Z. sorozat utolsó regényét",
+      "title": "Design karácsonyi vásárral és zenés, táncos programokkal várja az érdeklődőket a Fonó a hétvégén",
+      "author": "Bánfi Benedek",
+      "category": "Zene",
+      "url": "https://deszkavizio.hu/design-karacsonyi-vasarral-es-zenes-tancos-programokkal-varja-az-erdeklodoket-a-fono-a-hetvegen/"
+    },
+    {
+      "filename": "7.jpg",
+      "title": "“Igazán elementáris élményt akarok nyújtani az olvasóknak” – Interjú Stefan Ahnhemmel",
       "author": "Flaisz János",
-      "category": "Könyv",
-      "url": "https://deszkavizio.hu/nyomozzatok-bekeben-elolvastuk-a-k-e-z-sorozat-utolso-regenyet/"
+      "category": "Színház",
+      "url": "https://deszkavizio.hu/igazan-elementaris-elmenyt-akarok-nyujtani-az-olvasoknak-interju-stefan-ahnhemmel/"
     }
   ]
 }
